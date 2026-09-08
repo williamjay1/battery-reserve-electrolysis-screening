@@ -15,4 +15,4 @@ This is an engineering comparison of energy allocation under frequency reserve a
 
 **Public-data boundary:** this release includes Belgian and GB derived data. German native observations and lossless daily caches are not redistributed. Fetch those records from Netztransparenz and rebuild the caches for the full German analysis. A DOI for this release would identify exactly these materials, not an unrestricted copy of every original input.
 
-Version: 1.0.0. The Zenodo DOI is pending verification and is not invented here. The release is a data/code archive, not journal submission or acceptance. No manuscript or author-information document is included.
+Version: 1.0.0. The published Zenodo version DOI is https://doi.org/10.5281/zenodo.22659529 (v1.0.0). It resolves to the public record. The archived v1.0.0 snapshot predates this DOI-link documentation update; its computations and datasets are unchanged. The release is a data/code archive, not journal submission or acceptance. No manuscript or author-information document is included.
