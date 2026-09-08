@@ -1,0 +1,12 @@
+{
+  "source_url": "https://opendata.elia.be/api/explore/v2.1/catalog/datasets/ods127",
+  "raw_file": "E:\\AcademicData\\06\\raw\\submission_revision_20260908\\ods127_definition_audit.json",
+  "sha256": "fbdda060097abc4fb59ec5cb03b2aa0412f5f64ee8f0a52f10b4bf253e3e480c",
+  "affected_fields": [
+    "afrrvolumeup",
+    "afrrvolumedown",
+    "qualitystatus"
+  ],
+  "numerical_data_changed": false,
+  "manuscript_qualification_added": true
+}

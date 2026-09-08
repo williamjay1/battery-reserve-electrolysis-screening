@@ -1,0 +1,68 @@
+{
+  "scale_mw": 1039.8310100000015,
+  "capacities_mwh": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "eta_horizon_factors": [
+    [
+      0.9,
+      1.0
+    ],
+    [
+      0.98,
+      1.0
+    ],
+    [
+      1.0,
+      1.0
+    ],
+    [
+      0.94,
+      0.25
+    ],
+    [
+      0.94,
+      4.0
+    ]
+  ],
+  "feedback": [
+    "modeled",
+    "measured"
+  ],
+  "reserve_mw": 0.75,
+  "supply_mw": 0.5,
+  "models": [
+    [
+      "native",
+      1,
+      0
+    ],
+    [
+      "minute",
+      60,
+      0
+    ],
+    [
+      "5minute",
+      300,
+      0
+    ],
+    [
+      "quarter",
+      900,
+      0
+    ],
+    [
+      "gross",
+      900,
+      1
+    ],
+    [
+      "envelope",
+      900,
+      2
+    ]
+  ]
+}

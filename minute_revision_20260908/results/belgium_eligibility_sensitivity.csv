@@ -1,0 +1,9 @@
+endpoint_tolerance_mw,quality_policy,quarters,fraction,complete_96quarter_days,days_at_least_90pct
+1.0,retain_reported_flags,36359,0.656643369272724,0,10
+1.0,exclude_DataIssue,2150,0.038828989904462624,0,0
+2.0,retain_reported_flags,49400,0.8921637680374203,13,366
+2.0,exclude_DataIssue,2961,0.053475646096332013,0,0
+5.0,retain_reported_flags,52301,0.9445558144154883,174,491
+5.0,exclude_DataIssue,3118,0.05631106535912301,0,0
+10.0,retain_reported_flags,52720,0.9521229524480324,179,500
+10.0,exclude_DataIssue,3121,0.05636524534503621,0,0

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "rows": 270,
+  "same_initial_inventory": true,
+  "terminal_condition": "unconstrained for both causal and oracle in classification",
+  "same_metric": "zero AC tracking deficit within 1e-7 MWh tolerance",
+  "lower_bound_exceeds_actual_cases": 0
+}

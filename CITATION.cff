@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the archived version of these reproducibility materials."
+title: "Conservative distribution screening of battery reserve energy for electrolysis: code, derived data and results"
+authors:
+  - family-names: Zhang
+    given-names: Junjie
+    orcid: "https://orcid.org/0009-0004-8821-4018"
+version: 1.0.0
+license: CC-BY-4.0
+repository-code: "https://github.com/williamjay1/battery-reserve-electrolysis-screening"

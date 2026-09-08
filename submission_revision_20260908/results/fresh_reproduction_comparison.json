@@ -1,0 +1,1184 @@
+{
+  "status": "PASS",
+  "scope": "Fresh numerical reproduction from included caches; excludes raw-source re-download, scientific validity, source attribution, author approval, journal compliance and PDF layout.",
+  "checks": [
+    {
+      "artifact": "control_classification",
+      "column": "source",
+      "passed": true
+    },
+    {
+      "artifact": "control_classification",
+      "column": "capacity_mwh",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "control_classification",
+      "column": "supply_mw",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "control_classification",
+      "column": "tau_hours",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "control_classification",
+      "column": "oracle_zero_deficit",
+      "passed": true
+    },
+    {
+      "artifact": "control_classification",
+      "column": "causal_zero_deficit",
+      "passed": true
+    },
+    {
+      "artifact": "control_classification",
+      "column": "classification",
+      "passed": true
+    },
+    {
+      "artifact": "control_classification",
+      "column": "causal_deficit_pct",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "control_classification",
+      "column": "causal_deficit_mwh",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "control_classification",
+      "column": "terminal_mwh",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "control_classification",
+      "column": "hydrogen_input_mwh",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "control_classification",
+      "column": "upward_deficit_mwh",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "control_classification",
+      "column": "downward_deficit_mwh",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "control_classification",
+      "column": "drawdown_mwh",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "control_classification",
+      "column": "unavoidable_deficit_lower_mwh",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "control_classification",
+      "column": "deficit_lower_pct",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "control_classification",
+      "column": "witness_start_index",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "control_classification",
+      "column": "witness_end_index",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "oracle_frontier",
+      "column": "source",
+      "passed": true
+    },
+    {
+      "artifact": "oracle_frontier",
+      "column": "capacity_mwh",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "oracle_frontier",
+      "column": "terminal_at_least_initial",
+      "passed": true
+    },
+    {
+      "artifact": "oracle_frontier",
+      "column": "days",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "oracle_frontier",
+      "column": "hours",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "oracle_frontier",
+      "column": "feasible_in_range",
+      "passed": true
+    },
+    {
+      "artifact": "oracle_frontier",
+      "column": "supply_lower_mw",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "oracle_frontier",
+      "column": "supply_upper_mw",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "oracle_frontier",
+      "column": "bracket_width_mw",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "oracle_frontier",
+      "column": "witness_supply_mw",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "oracle_frontier",
+      "column": "witness_hydrogen_input_mwh",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "oracle_frontier",
+      "column": "terminal_mwh",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "oracle_frontier",
+      "column": "maximum_witness_error",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "monthly_oracle",
+      "column": "source",
+      "passed": true
+    },
+    {
+      "artifact": "monthly_oracle",
+      "column": "month",
+      "passed": true
+    },
+    {
+      "artifact": "monthly_oracle",
+      "column": "capacity_mwh",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "monthly_oracle",
+      "column": "status",
+      "passed": true
+    },
+    {
+      "artifact": "monthly_oracle",
+      "column": "observed_days",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "monthly_oracle",
+      "column": "supply_lower_mw",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "monthly_oracle",
+      "column": "supply_upper_mw",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "monthly_oracle",
+      "column": "witness_error",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "hydrogen_matrix",
+      "column": "source",
+      "passed": true
+    },
+    {
+      "artifact": "hydrogen_matrix",
+      "column": "capacity_mwh",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "hydrogen_matrix",
+      "column": "supply_mw",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "hydrogen_matrix",
+      "column": "cyclic_zero_deficit_feasible",
+      "passed": true
+    },
+    {
+      "artifact": "hydrogen_matrix",
+      "column": "hours",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "hydrogen_matrix",
+      "column": "hydrogen_lower_mwh",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "hydrogen_matrix",
+      "column": "hydrogen_upper_mwh",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "hydrogen_matrix",
+      "column": "bound_gap_pct",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "hydrogen_matrix",
+      "column": "witness_error",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "hydrogen_matrix",
+      "column": "no_reserve_input_mwh",
+      "passed": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 0,
+      "column": "upper_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 0,
+      "column": "dual_cost",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 0,
+      "column": "multiplier",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 0,
+      "column": "relaxed_inventory_residual",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 0,
+      "column": "numerical_margin_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 0,
+      "column": "lossless_energy_identity",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 0,
+      "column": "eta",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 0,
+      "column": "amplitude",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 0,
+      "column": "supply_mw",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 0,
+      "column": "no_reserve_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 0,
+      "column": "native_cyclic_feasible",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 0,
+      "column": "capacity_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 0,
+      "column": "native_feasible_input_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 0,
+      "column": "native_witness_error",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 0,
+      "column": "quarter_feasible",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 0,
+      "column": "quarter_optimum_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 1,
+      "column": "upper_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 1,
+      "column": "dual_cost",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 1,
+      "column": "multiplier",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 1,
+      "column": "relaxed_inventory_residual",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 1,
+      "column": "numerical_margin_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 1,
+      "column": "lossless_energy_identity",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 1,
+      "column": "eta",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 1,
+      "column": "amplitude",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 1,
+      "column": "supply_mw",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 1,
+      "column": "no_reserve_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 1,
+      "column": "native_cyclic_feasible",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 1,
+      "column": "capacity_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 1,
+      "column": "native_feasible_input_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 1,
+      "column": "native_witness_error",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 1,
+      "column": "quarter_feasible",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 1,
+      "column": "quarter_optimum_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 2,
+      "column": "upper_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 2,
+      "column": "dual_cost",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 2,
+      "column": "multiplier",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 2,
+      "column": "relaxed_inventory_residual",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 2,
+      "column": "numerical_margin_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 2,
+      "column": "lossless_energy_identity",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 2,
+      "column": "eta",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 2,
+      "column": "amplitude",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 2,
+      "column": "supply_mw",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 2,
+      "column": "no_reserve_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 2,
+      "column": "native_cyclic_feasible",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 2,
+      "column": "capacity_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 2,
+      "column": "native_feasible_input_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 2,
+      "column": "native_witness_error",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 2,
+      "column": "quarter_feasible",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 2,
+      "column": "quarter_optimum_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 3,
+      "column": "upper_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 3,
+      "column": "dual_cost",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 3,
+      "column": "multiplier",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 3,
+      "column": "relaxed_inventory_residual",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 3,
+      "column": "numerical_margin_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 3,
+      "column": "lossless_energy_identity",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 3,
+      "column": "eta",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 3,
+      "column": "amplitude",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 3,
+      "column": "supply_mw",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 3,
+      "column": "no_reserve_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 3,
+      "column": "native_cyclic_feasible",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 3,
+      "column": "capacity_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 3,
+      "column": "native_feasible_input_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 3,
+      "column": "native_witness_error",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 3,
+      "column": "quarter_feasible",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 3,
+      "column": "quarter_optimum_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 4,
+      "column": "upper_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 4,
+      "column": "dual_cost",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 4,
+      "column": "multiplier",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 4,
+      "column": "relaxed_inventory_residual",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 4,
+      "column": "numerical_margin_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 4,
+      "column": "lossless_energy_identity",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 4,
+      "column": "eta",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 4,
+      "column": "amplitude",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 4,
+      "column": "supply_mw",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 4,
+      "column": "no_reserve_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 4,
+      "column": "native_cyclic_feasible",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 4,
+      "column": "capacity_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 4,
+      "column": "native_feasible_input_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 4,
+      "column": "native_witness_error",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 4,
+      "column": "quarter_feasible",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 4,
+      "column": "quarter_optimum_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 5,
+      "column": "upper_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 5,
+      "column": "lossless_energy_identity",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 5,
+      "column": "eta",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 5,
+      "column": "amplitude",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 5,
+      "column": "supply_mw",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 5,
+      "column": "no_reserve_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 5,
+      "column": "native_cyclic_feasible",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 5,
+      "column": "capacity_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 5,
+      "column": "native_feasible_input_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 5,
+      "column": "native_witness_error",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 5,
+      "column": "quarter_feasible",
+      "passed": true
+    },
+    {
+      "artifact": "energy_challenge",
+      "case": 5,
+      "column": "quarter_optimum_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 0,
+      "column": "upper_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 0,
+      "column": "dual_cost",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 0,
+      "column": "multiplier",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 0,
+      "column": "relaxed_inventory_residual",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 0,
+      "column": "numerical_margin_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 0,
+      "column": "lossless_energy_identity",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 0,
+      "column": "eta",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 0,
+      "column": "amplitude",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 0,
+      "column": "supply_mw",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 0,
+      "column": "no_reserve_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 1,
+      "column": "upper_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 1,
+      "column": "dual_cost",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 1,
+      "column": "multiplier",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 1,
+      "column": "relaxed_inventory_residual",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 1,
+      "column": "numerical_margin_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 1,
+      "column": "lossless_energy_identity",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 1,
+      "column": "eta",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 1,
+      "column": "amplitude",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 1,
+      "column": "supply_mw",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 1,
+      "column": "no_reserve_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 2,
+      "column": "upper_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 2,
+      "column": "dual_cost",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 2,
+      "column": "multiplier",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 2,
+      "column": "relaxed_inventory_residual",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 2,
+      "column": "numerical_margin_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 2,
+      "column": "lossless_energy_identity",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 2,
+      "column": "eta",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 2,
+      "column": "amplitude",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 2,
+      "column": "supply_mw",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 2,
+      "column": "no_reserve_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 3,
+      "column": "upper_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 3,
+      "column": "dual_cost",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 3,
+      "column": "multiplier",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 3,
+      "column": "relaxed_inventory_residual",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 3,
+      "column": "numerical_margin_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 3,
+      "column": "lossless_energy_identity",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 3,
+      "column": "eta",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 3,
+      "column": "amplitude",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 3,
+      "column": "supply_mw",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 3,
+      "column": "no_reserve_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 4,
+      "column": "upper_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 4,
+      "column": "dual_cost",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 4,
+      "column": "multiplier",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 4,
+      "column": "relaxed_inventory_residual",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 4,
+      "column": "numerical_margin_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 4,
+      "column": "lossless_energy_identity",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 4,
+      "column": "eta",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 4,
+      "column": "amplitude",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 4,
+      "column": "supply_mw",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 4,
+      "column": "no_reserve_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 5,
+      "column": "upper_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 5,
+      "column": "lossless_energy_identity",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 5,
+      "column": "eta",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 5,
+      "column": "amplitude",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 5,
+      "column": "supply_mw",
+      "passed": true
+    },
+    {
+      "artifact": "cyclic_energy_dual_challenge",
+      "case": 5,
+      "column": "no_reserve_mwh",
+      "passed": true
+    },
+    {
+      "artifact": "native_evaluation.npy",
+      "passed": true,
+      "reference_sha256": "0a664312a5bdbb5b7bf3b12dc8e203c932f1b07b7e029abf887e9599efc91163",
+      "fresh_sha256": "0a664312a5bdbb5b7bf3b12dc8e203c932f1b07b7e029abf887e9599efc91163"
+    }
+  ],
+  "reference": "D:\\MLWork\\06\\submission_revision_20260908",
+  "fresh": "D:\\MLWork\\06\\fresh_analysis_check_20260908\\submission_revision_20260908"
+}

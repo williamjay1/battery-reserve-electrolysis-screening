@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "comparisons": 858,
+  "rows": 78,
+  "scope": "Independent-directory execution; nondeterministic timings excluded"
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "success": true,
+    "hydrogen_input_mwh": 161.15473951854892,
+    "maximum_equation_residual": 7.216449660063518e-16,
+    "maximum_replay_violation": 2.6645352591003757e-15,
+    "iterations": 6348,
+    "capacity_mwh": 4.0,
+    "supply_mw": 0.2,
+    "seconds": 0.3022208000184037
+  },
+  {
+    "success": true,
+    "hydrogen_input_mwh": 84.42482959597001,
+    "maximum_equation_residual": 1.3851766955674805e-15,
+    "maximum_replay_violation": 7.105427357601002e-15,
+    "iterations": 5684,
+    "capacity_mwh": 8.0,
+    "supply_mw": 0.1,
+    "seconds": 0.30212700000265613
+  },
+  {
+    "success": true,
+    "hydrogen_input_mwh": 161.15473951854892,
+    "maximum_equation_residual": 1.6132928326584306e-15,
+    "maximum_replay_violation": 5.329070518200751e-15,
+    "iterations": 6424,
+    "capacity_mwh": 8.0,
+    "supply_mw": 0.2,
+    "seconds": 0.36733219999587163
+  }
+]

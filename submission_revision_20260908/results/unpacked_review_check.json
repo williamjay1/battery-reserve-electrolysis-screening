@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "unpacked_directory": "D:\\MLWork\\06\\submission_revision_20260908\\temp\\unpack_check_735bb22b",
+  "checks": [
+    "archive path containment",
+    "unpacked numeric certificate audit",
+    "unpacked independent optimization checks",
+    "native cache reconstructed from included daily files"
+  ],
+  "scope": "Does not rerun the entire45-case matrix or replace publication review."
+}

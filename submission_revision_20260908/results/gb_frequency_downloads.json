@@ -1,0 +1,51 @@
+[
+  {
+    "month": "2026-01",
+    "url": "https://api.neso.energy/dataset/cb1cc925-ecd8-4406-b021-3a3f368196e1/resource/dbc3d95b-57f2-4e12-9281-44aad0667e6e/download/fnew-2026-1.csv",
+    "path": "E:\\AcademicData\\06\\raw\\submission_revision_20260908\\neso_frequency_2026-01.csv",
+    "bytes": 74693958,
+    "sha256": "91c50b26014087f1c37d8449a467a501e10987ba5c8fd15cf969977ab834dfec"
+  },
+  {
+    "month": "2026-02",
+    "url": "https://api.neso.energy/dataset/cb1cc925-ecd8-4406-b021-3a3f368196e1/resource/7f5364d6-5a06-4d34-bd60-6c4348cd892e/download/fnew-2026-2.csv",
+    "path": "E:\\AcademicData\\06\\raw\\submission_revision_20260908\\neso_frequency_2026-02.csv",
+    "bytes": 67466174,
+    "sha256": "3afe6fb8e3526377dfb8f813958ff2517b159c2974dcd82eb53b85b3b3e9ea58"
+  },
+  {
+    "month": "2026-03",
+    "url": "https://api.neso.energy/dataset/cb1cc925-ecd8-4406-b021-3a3f368196e1/resource/e7023794-d9f8-43ed-bfee-31c6f36a87f2/download/fnew-2026-3.csv",
+    "path": "E:\\AcademicData\\06\\raw\\submission_revision_20260908\\neso_frequency_2026-03.csv",
+    "bytes": 74695562,
+    "sha256": "e7592d058f2df0531987298b8c43ebba641615a36b798c76de38b370e9536df7"
+  },
+  {
+    "month": "2026-04",
+    "url": "https://api.neso.energy/dataset/cb1cc925-ecd8-4406-b021-3a3f368196e1/resource/41b25b04-a824-402e-a3eb-2a0eeb348293/download/fnew-2026-4.csv",
+    "path": "E:\\AcademicData\\06\\raw\\submission_revision_20260908\\neso_frequency_2026-04.csv",
+    "bytes": 72286570,
+    "sha256": "799bd9f78f85d953e6fbf48030742b7a6a558a1451a1241c3657a96d26d3c3ce"
+  },
+  {
+    "month": "2026-05",
+    "url": "https://api.neso.energy/dataset/cb1cc925-ecd8-4406-b021-3a3f368196e1/resource/06315187-afcf-4fe2-8439-0eacc3f7bc35/download/fnew-2026-5.csv",
+    "path": "E:\\AcademicData\\06\\raw\\submission_revision_20260908\\neso_frequency_2026-05_attempt1.csv",
+    "bytes": 74695783,
+    "sha256": "c3677df5b38f9681651d38cbce0b82f4fc1a2a3810a8f13bf1bb11e0de59e315"
+  },
+  {
+    "month": "2026-06",
+    "url": "https://api.neso.energy/dataset/cb1cc925-ecd8-4406-b021-3a3f368196e1/resource/dc7c5468-08a1-4586-bcdd-77ced39a5067/download/fnew-2026-6.csv",
+    "path": "E:\\AcademicData\\06\\raw\\submission_revision_20260908\\neso_frequency_2026-06_attempt1.csv",
+    "bytes": 72288522,
+    "sha256": "400105c258a73532cd212c9d55d95df16434a28ce01379168be7bd49554326c9"
+  },
+  {
+    "month": "2026-07",
+    "url": "https://api.neso.energy/dataset/cb1cc925-ecd8-4406-b021-3a3f368196e1/resource/027227d0-7c70-4497-bdc4-a80cff7726f8/download/fnew-2026-7.csv",
+    "path": "E:\\AcademicData\\06\\raw\\submission_revision_20260908\\neso_frequency_2026-07_attempt1.csv",
+    "bytes": 74696963,
+    "sha256": "1ca3e9e995c32928b475a2914a2dea1b1ddc738d39942f579931d38aec3b3964"
+  }
+]

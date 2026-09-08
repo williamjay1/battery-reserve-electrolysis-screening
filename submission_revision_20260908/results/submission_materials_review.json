@@ -1,0 +1,14 @@
+{
+  "status": "PASS_FOR_CONTENT_AND_HIGHLIGHTS_LAYOUT",
+  "scope": "Local cover-letter/highlights consistency; not journal compliance, exclusive submission, author approval or scientific certification.",
+  "highlights_characters": [
+    70,
+    73,
+    73,
+    73
+  ],
+  "docx_sha256": "a36c458e9f5f48190cbd59f9598c36c941679d112a2bede0fc57b9ed5e4d2879",
+  "layout": "One rendered page inspected after removing default title border; no overlap or clipping.",
+  "source": "https://www.elsevier.com/researcher/author/tools-and-resources/highlights",
+  "venue_specific_requirements_verified": false
+}

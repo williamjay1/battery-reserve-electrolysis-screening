@@ -1,0 +1,115 @@
+[
+  {
+    "file": "SRL_Soll_20250101_20250131.csv.zip",
+    "status": "existing",
+    "bytes": 10131038
+  },
+  {
+    "file": "SRL_Soll_20250201_20250228.csv.zip",
+    "file_id": "a7867495-bbe9-4758-a125-b3b75686697b",
+    "status": "downloaded",
+    "bytes": 9000006
+  },
+  {
+    "file": "SRL_Soll_20250301_20250331.csv.zip",
+    "file_id": "de6c3e0d-395a-483f-b118-f86ef97f7bc8",
+    "status": "downloaded",
+    "bytes": 9957773
+  },
+  {
+    "file": "SRL_Soll_20250401_20250430.csv.zip",
+    "file_id": "f583d6c7-3cd9-40f7-8f8c-e9d2c5139eb8",
+    "status": "downloaded",
+    "bytes": 9545638
+  },
+  {
+    "file": "SRL_Soll_20250501_20250531.csv.zip",
+    "file_id": "c63dfd96-4ebb-4647-949a-e0b5e28b427e",
+    "status": "downloaded",
+    "bytes": 9576122
+  },
+  {
+    "file": "SRL_Soll_20250601_20250630.csv.zip",
+    "file_id": "92ad22e9-9ab8-43d0-b3f1-b3854d03983f",
+    "status": "downloaded",
+    "bytes": 9828788
+  },
+  {
+    "file": "SRL_Soll_20250701_20250731.csv.zip",
+    "file_id": "9da6f391-02b7-40a0-a362-416e1c866a25",
+    "status": "downloaded",
+    "bytes": 9888413
+  },
+  {
+    "file": "SRL_Soll_20250801_20250831.csv.zip",
+    "file_id": "82e77d83-a295-45bf-99ef-77bbe266da4a",
+    "status": "downloaded",
+    "bytes": 9942461
+  },
+  {
+    "file": "SRL_Soll_20250901_20250930.csv.zip",
+    "file_id": "738211cb-f266-4e30-9a93-78a9403ca13e",
+    "status": "downloaded",
+    "bytes": 10100637
+  },
+  {
+    "file": "SRL_Soll_20251001_20251031.csv.zip",
+    "file_id": "9f4065d4-749e-4f9d-ac43-542d97eab1f5",
+    "status": "downloaded",
+    "bytes": 10574298
+  },
+  {
+    "file": "SRL_Soll_20251101_20251130.csv.zip",
+    "file_id": "39bc962a-0322-4b17-84e1-7d174d184c47",
+    "status": "downloaded",
+    "bytes": 10293991
+  },
+  {
+    "file": "SRL_Soll_20251201_20251231.csv.zip",
+    "file_id": "5bb52887-2b6b-4be5-b3c6-6c308ac26890",
+    "status": "downloaded",
+    "bytes": 10395961
+  },
+  {
+    "file": "SRL_Soll_20250101_20251231.csv.zip",
+    "file_id": "af5d6c85-b537-464d-9dcf-92e988dc7257",
+    "status": "downloaded",
+    "bytes": 119226999
+  },
+  {
+    "file": "SRL_Soll_20260101_20260131.csv.zip",
+    "status": "existing",
+    "bytes": 10689048
+  },
+  {
+    "file": "SRL_Soll_20260201_20260228.csv.zip",
+    "status": "existing",
+    "bytes": 9678389
+  },
+  {
+    "file": "SRL_Soll_20260301_20260331.csv.zip",
+    "status": "existing",
+    "bytes": 10741480
+  },
+  {
+    "file": "SRL_Soll_20260401_20260430.csv.zip",
+    "status": "existing",
+    "bytes": 10639126
+  },
+  {
+    "file": "SRL_Soll_20260501_20260531.csv.zip",
+    "status": "existing",
+    "bytes": 10841434
+  },
+  {
+    "file": "SRL_Soll_20260601_20260630.csv.zip",
+    "status": "existing",
+    "bytes": 10628433
+  },
+  {
+    "file": "SRL_Soll_20260701_20260731.csv.zip",
+    "file_id": "ad769e75-0f18-4459-84b9-28fd7543305f",
+    "status": "downloaded",
+    "bytes": 10971082
+  }
+]

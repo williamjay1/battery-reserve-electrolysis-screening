@@ -1,0 +1,9 @@
+{
+  "days": 577,
+  "complete_validated_days": 574,
+  "calibration_quantile": 0.995,
+  "scale_mw": 322.40612500000003,
+  "source": "ODS127 satisfied demand, not domestic activation or asset dispatch",
+  "native_resolution_seconds": 900,
+  "utc_days": true
+}

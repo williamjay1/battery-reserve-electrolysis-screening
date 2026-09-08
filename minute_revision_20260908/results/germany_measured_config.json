@@ -1,0 +1,70 @@
+{
+  "stage": "measured-state feedback sensitivity",
+  "coverage": [
+    "2025-01-01",
+    "2026-07-31"
+  ],
+  "normalization": "2025 H1 absolute 99.5 percentile; clipped signed setpoint",
+  "scale_mw": 1039.8310100000015,
+  "eta": 0.94,
+  "horizon_hours": 1.0,
+  "capacity_mwh": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "reserve_mw": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "scheduled_supply_mw": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "inverter_mw": 1.0,
+  "electrolyzer_mw": 1.0,
+  "models": [
+    [
+      "native",
+      1,
+      0
+    ],
+    [
+      "minute",
+      60,
+      0
+    ],
+    [
+      "5minute",
+      300,
+      0
+    ],
+    [
+      "quarter",
+      900,
+      0
+    ],
+    [
+      "gross",
+      900,
+      1
+    ],
+    [
+      "envelope",
+      900,
+      2
+    ]
+  ],
+  "reliability_thresholds": [
+    0.001,
+    0.005,
+    0.01
+  ],
+  "primary_threshold": 0.005,
+  "uncertainty": "paired calendar 7-day block bootstrap; 3/14-day sensitivity",
+  "interpretation": "system signal stress replay, not participant activation or qualification"
+}

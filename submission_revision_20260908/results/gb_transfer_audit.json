@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "raw_transform_and_time_checks": [
+    {
+      "month": "2026-01",
+      "seconds": 2678400,
+      "quarter_start_checks": 2976,
+      "max_activation_error": 0.0
+    },
+    {
+      "month": "2026-02",
+      "seconds": 2419200,
+      "quarter_start_checks": 2688,
+      "max_activation_error": 0.0
+    },
+    {
+      "month": "2026-03",
+      "seconds": 2678400,
+      "quarter_start_checks": 2976,
+      "max_activation_error": 0.0
+    },
+    {
+      "month": "2026-04",
+      "seconds": 2592000,
+      "quarter_start_checks": 2880,
+      "max_activation_error": 0.0
+    },
+    {
+      "month": "2026-05",
+      "seconds": 2678400,
+      "quarter_start_checks": 2976,
+      "max_activation_error": 0.0
+    },
+    {
+      "month": "2026-06",
+      "seconds": 2592000,
+      "quarter_start_checks": 2880,
+      "max_activation_error": 0.0
+    },
+    {
+      "month": "2026-07",
+      "seconds": 2678400,
+      "quarter_start_checks": 2976,
+      "max_activation_error": 0.0
+    }
+  ],
+  "envelopes": 42,
+  "independent_result_comparisons": 504,
+  "fresh_directory": "D:\\MLWork\\06\\gb_transfer_independent_20260908"
+}

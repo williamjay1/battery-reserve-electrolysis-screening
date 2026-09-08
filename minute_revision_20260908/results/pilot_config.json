@@ -1,0 +1,13 @@
+{
+  "status": "pilot only",
+  "days": 31,
+  "scale_mw": 1134.497,
+  "scale_quantile": 0.995,
+  "reserve_mw": 0.75,
+  "eta": 0.94,
+  "baseline_mw": [
+    -0.25,
+    0,
+    0.25
+  ]
+}

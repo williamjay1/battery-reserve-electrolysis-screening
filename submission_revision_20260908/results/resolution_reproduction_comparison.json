@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "checks": 410,
+  "scope": "Two separately regenerated extension tables and all 22 saved schedules; runtime excluded. Previous 198-check production comparison remains separate."
+}

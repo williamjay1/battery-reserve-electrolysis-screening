@@ -1,0 +1,35 @@
+{
+  "capacities": [
+    2,
+    4,
+    8
+  ],
+  "supply": [
+    0.025,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "minimum_load_dwell_quarters": [
+    [
+      0,
+      0
+    ],
+    [
+      0.05,
+      4
+    ],
+    [
+      0.1,
+      4
+    ],
+    [
+      0.2,
+      4
+    ]
+  ],
+  "reserve": 0.75,
+  "eta": 0.94,
+  "horizon_hours": 1,
+  "interpretation": "engineering sensitivities, not manufacturer-specific plant parameters"
+}

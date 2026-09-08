@@ -1,0 +1,97 @@
+[
+  {
+    "file": "SRL_Soll_20250101_20250131.csv.zip",
+    "bytes": 10131038,
+    "sha256": "60c062d9cdb01ebbc98e2f23ed02304ad0fa0d20bc1dc29064d66ebedd922676"
+  },
+  {
+    "file": "SRL_Soll_20250201_20250228.csv.zip",
+    "bytes": 9000006,
+    "sha256": "83714822218ee9d87428b970e0162531176b4b2e39a9411010a89fc50bdd4895"
+  },
+  {
+    "file": "SRL_Soll_20250301_20250331.csv.zip",
+    "bytes": 9957773,
+    "sha256": "2cd94fd4c49cfe2821c8a5c318748b5aeb1cc6f6f24171ddefb80e30fb907635"
+  },
+  {
+    "file": "SRL_Soll_20250401_20250430.csv.zip",
+    "bytes": 9545638,
+    "sha256": "7abb637ede3655a454108fb01ea9e08cd62b4ceaf78bd95f041b6f41ba0e5a57"
+  },
+  {
+    "file": "SRL_Soll_20250501_20250531.csv.zip",
+    "bytes": 9576122,
+    "sha256": "8250639ba93884bac0bdf1c491b649e53b995332c2b0410b829fee3100b85104"
+  },
+  {
+    "file": "SRL_Soll_20250601_20250630.csv.zip",
+    "bytes": 9828788,
+    "sha256": "9eb9cd317bb75ffda27b57df04b9b50bf117726908856d3f28214fad0018ee5d"
+  },
+  {
+    "file": "SRL_Soll_20250701_20250731.csv.zip",
+    "bytes": 9888413,
+    "sha256": "1a1463439b852ce66f34f5d89c7306ed9cd6356eaea1abe87fb31040b1e67538"
+  },
+  {
+    "file": "SRL_Soll_20250801_20250831.csv.zip",
+    "bytes": 9942461,
+    "sha256": "c592b990ddf615af35603446629d515366d1fc3f289516300998b93cdc8fdc63"
+  },
+  {
+    "file": "SRL_Soll_20250901_20250930.csv.zip",
+    "bytes": 10100637,
+    "sha256": "595f096eafbb932797a1eb7eb8cffbf43f71119be4f71b2fb61a88d6195b8252"
+  },
+  {
+    "file": "SRL_Soll_20251001_20251031.csv.zip",
+    "bytes": 10574298,
+    "sha256": "1e44e3980684e8805fb3b92cfc5434e0686daff57cd61df474172cee9bdb3b4f"
+  },
+  {
+    "file": "SRL_Soll_20251101_20251130.csv.zip",
+    "bytes": 10293991,
+    "sha256": "7d5bb1aff1fb5c3bb16a6e67728d1e7f63af113dc191565a30a2bb562fc5862e"
+  },
+  {
+    "file": "SRL_Soll_20251201_20251231.csv.zip",
+    "bytes": 10395961,
+    "sha256": "dae46b7301bc3336a599a783530f26083f8a70b1896b87161c90a37f82248dec"
+  },
+  {
+    "file": "SRL_Soll_20260101_20260131.csv.zip",
+    "bytes": 10689048,
+    "sha256": "ad58d4aba5d4204406632021cba3e9d216c74e9764139707503aabed84d592a0"
+  },
+  {
+    "file": "SRL_Soll_20260201_20260228.csv.zip",
+    "bytes": 9678389,
+    "sha256": "8b3b166c80289c12997a1b61e67ad78b623d022aaec065988fb254248660af83"
+  },
+  {
+    "file": "SRL_Soll_20260301_20260331.csv.zip",
+    "bytes": 10741480,
+    "sha256": "e6e7a39ee865f73fe6f2a7ad03a473ca73e1628817880bd2ebce1b52421df569"
+  },
+  {
+    "file": "SRL_Soll_20260401_20260430.csv.zip",
+    "bytes": 10639126,
+    "sha256": "538de70790738f3e585f76cc1084bbaf9837bbaf595ebc7c90ce592b6c9f4fcb"
+  },
+  {
+    "file": "SRL_Soll_20260501_20260531.csv.zip",
+    "bytes": 10841434,
+    "sha256": "6a3979bfdfb9b84f22d041ef744d38b0bfdfa8c2ac25231c7a2c07939b417ee1"
+  },
+  {
+    "file": "SRL_Soll_20260601_20260630.csv.zip",
+    "bytes": 10628433,
+    "sha256": "e4374964e1fc73677b7d54010a8b0b7481673c2b969c242e591a7181f11eab95"
+  },
+  {
+    "file": "SRL_Soll_20260701_20260731.csv.zip",
+    "bytes": 10971082,
+    "sha256": "7e60696bf1745f1be726a1c9d012129690a2cb73eef976775a78d5b84b0d915b"
+  }
+]

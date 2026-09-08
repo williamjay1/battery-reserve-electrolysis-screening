@@ -1,0 +1,13 @@
+{
+  "days": 577,
+  "configurations": 270,
+  "rows": 155790,
+  "elapsed_seconds": 297.51218719998724,
+  "native_envelope_max_errors": {
+    "actual_state_mwh": 3.011657589979677e-11,
+    "native_deficit_mwh": 1.1922962617205712e-12,
+    "baseline_charge_mwh": 1.941613536615705e-12,
+    "hydrogen_energy_mwh": 1.9468870959826745e-12
+  },
+  "status": "PASS"
+}

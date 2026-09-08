@@ -1,0 +1,16 @@
+model,block_days,estimate_percentage_points,ci_low,ci_high
+minute,3,0.0,0.0,0.0
+minute,7,0.0,0.0,0.0
+minute,14,0.0,0.0,0.0
+5minute,3,0.0,0.0,0.0
+5minute,7,0.0,0.0,0.0
+5minute,14,0.0,0.0,0.0
+quarter,3,0.0,0.0,0.0
+quarter,7,0.0,0.0,0.0
+quarter,14,0.0,0.0,0.0
+gross,3,0.0,0.0,0.0
+gross,7,0.0,0.0,0.0
+gross,14,0.0,0.0,0.0
+envelope,3,0.0,0.0,0.0
+envelope,7,0.0,0.0,0.0
+envelope,14,0.0,0.0,0.0

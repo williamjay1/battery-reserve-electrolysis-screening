@@ -1,0 +1,10 @@
+{
+  "python": "3.12.10",
+  "numpy": "2.5.1",
+  "timing_repeats": 3,
+  "cpu": "AMD Ryzen 9 8945HS w/ Radeon 780M Graphics",
+  "physical_cores": 8,
+  "logical_processors": 16,
+  "platform": "Windows",
+  "timing_note": "Wall times, no resource exclusivity; file loading excluded; three sequential query repeats."
+}

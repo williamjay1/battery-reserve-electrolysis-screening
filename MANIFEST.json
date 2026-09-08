@@ -1,0 +1,4142 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 9,
+    "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 86,
+    "sha256": "c1a7b5c38838a9f280a25c6f361e9af959dfdc8bf1ce14b3d556c0ba67f154ed"
+  },
+  {
+    "path": ".zenodo.json",
+    "bytes": 1352,
+    "sha256": "cbc06d92c37639ed9930142f232eeaff550a598760ed5a7b053a3fe452dcc441"
+  },
+  {
+    "path": "CITATION.cff",
+    "bytes": 460,
+    "sha256": "0a784173b62435dcd1214c67043c3388604a8a7456bc2188a1e586555311d8ec"
+  },
+  {
+    "path": "DATA_SOURCES.md",
+    "bytes": 2522,
+    "sha256": "7980863cb7c34eb6080a3a2ef3bec8fcb7f498e623590313d085750fd20841f5"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 431,
+    "sha256": "94131f26db7a9f6720fbb4a9f5ec633c08a8d15be4969caa1fecf004406216e9"
+  },
+  {
+    "path": "minute_revision_20260908/code/audit_elia_minutes.py",
+    "bytes": 2355,
+    "sha256": "f16a793b4bd41fd62acd94cb15fdbc6ea2736dbaec939ae35f7efde245c46c84"
+  },
+  {
+    "path": "minute_revision_20260908/code/belgium_eligibility.py",
+    "bytes": 1054,
+    "sha256": "b58bb3b286137e30b6fec3f8fbe7fe76b5fc58c80a6578ecc87b6558f16717a6"
+  },
+  {
+    "path": "minute_revision_20260908/code/build_research_figures.py",
+    "bytes": 3891,
+    "sha256": "68e3fb9d8f83810e6e41304f43b8b3596bc2751891f64627c15c64e407c69316"
+  },
+  {
+    "path": "minute_revision_20260908/code/cache_belgium_validated.py",
+    "bytes": 1622,
+    "sha256": "449da1247727241eb80f598b6ea3ac1fa81477c496389b1c270898020ba66a38"
+  },
+  {
+    "path": "minute_revision_20260908/code/cache_germany.py",
+    "bytes": 3339,
+    "sha256": "015d591d52f54669281f93941b2b1b78d485364a40905b5fd5a6f2f833433186"
+  },
+  {
+    "path": "minute_revision_20260908/code/discover_data.py",
+    "bytes": 1127,
+    "sha256": "ff29c5b00d0c95857c2c6e6d38d5898cd92c2ad98555a1964ae753a6371cb788"
+  },
+  {
+    "path": "minute_revision_20260908/code/discover_more.py",
+    "bytes": 1465,
+    "sha256": "f31f11ff0296eb50581674bf4752fbf9f3f30e7ff2988ea3bd4d346aa933fc37"
+  },
+  {
+    "path": "minute_revision_20260908/code/download_elia.py",
+    "bytes": 1823,
+    "sha256": "a438fe482e9f7891041cfaa14b3f407bd93e1da6aa5e86da8b36a461fbd55e70"
+  },
+  {
+    "path": "minute_revision_20260908/code/download_germany.py",
+    "bytes": 2579,
+    "sha256": "a479979b69f032f3b221b4162a1d690c6dcf6fd7566efe7410c386ce17f0da5b"
+  },
+  {
+    "path": "minute_revision_20260908/code/electrolyzer_constraints.py",
+    "bytes": 1927,
+    "sha256": "db4db821ce5ffd3da6427ecdf2564f3b6a592ebe3561b7ca07a7f759a68d5b75"
+  },
+  {
+    "path": "minute_revision_20260908/code/envelope_core.py",
+    "bytes": 1112,
+    "sha256": "472e27e307e8c3287d2c852b2a9142a4df66f5e3ea9a185a741f2d466d7792f6"
+  },
+  {
+    "path": "minute_revision_20260908/code/frontier_uncertainty.py",
+    "bytes": 1409,
+    "sha256": "23dbc7643dc17c1fd6662d322a9127dc303ad9b3e17f7ffb46a0c55ad1373884"
+  },
+  {
+    "path": "minute_revision_20260908/code/integrated_replay.py",
+    "bytes": 1937,
+    "sha256": "37870c7b9ff66fb9d83609cc6592e9d1c1529adc93565cdc0b425ed4ed294908"
+  },
+  {
+    "path": "minute_revision_20260908/code/netz_discovery.py",
+    "bytes": 1007,
+    "sha256": "8b040f08962df802a4c80ae1f3834c31edd3fd626d044ef4954a88f057cfcad6"
+  },
+  {
+    "path": "minute_revision_20260908/code/netz_download_test.py",
+    "bytes": 1163,
+    "sha256": "6688ff78144a3055044adb8d01a96f5ed12e10f47c9e8217e6253b40fbb5b9fb"
+  },
+  {
+    "path": "minute_revision_20260908/code/netz_probe.py",
+    "bytes": 1372,
+    "sha256": "29239a606b266caea7fc2211b25196954cc553ce538210a0b4f8668b64c44217"
+  },
+  {
+    "path": "minute_revision_20260908/code/pilot_resolution.py",
+    "bytes": 2400,
+    "sha256": "059b26a9fe38890aeb711b28c875a793ecad583cb1ca418ed3e815833021b8b4"
+  },
+  {
+    "path": "minute_revision_20260908/code/run_cross_source.py",
+    "bytes": 2517,
+    "sha256": "c8d12beab5d7edf1ae3a8e429b08a9a73eed05435e08f4b454d73b9856047f74"
+  },
+  {
+    "path": "minute_revision_20260908/code/run_electrolyzer_constraints.py",
+    "bytes": 2388,
+    "sha256": "83692374c59bf008eccc2cfef9ac6356d2fcbc2114d94bbb0fd51c577bd5f22a"
+  },
+  {
+    "path": "minute_revision_20260908/code/run_germany_main.py",
+    "bytes": 3187,
+    "sha256": "b1ad8894b473562183bf5c7bef7100b95edc9cf554d925e8c0ae32bea46ba9a3"
+  },
+  {
+    "path": "minute_revision_20260908/code/run_germany_measured.py",
+    "bytes": 3237,
+    "sha256": "1f423d06892c97068aad74c6c4189df0c90930a6d45afa64100336c07b96a564"
+  },
+  {
+    "path": "minute_revision_20260908/code/run_integrated_pilot.py",
+    "bytes": 1530,
+    "sha256": "d96ab109eb1b298172132d82d2929bce7aa08ebd985f762a1fd8489f4ab57d76"
+  },
+  {
+    "path": "minute_revision_20260908/code/run_local.py",
+    "bytes": 552,
+    "sha256": "11eec4958beabb96b9062b1e7680a71059bcd68dc7d91637cd6884d068152a13"
+  },
+  {
+    "path": "minute_revision_20260908/code/run_recovery_scarcity.py",
+    "bytes": 1676,
+    "sha256": "a17ddc14c849ce2252b4886b7d061c81bb7be3b9c8da003c3302e0a9773a9ee1"
+  },
+  {
+    "path": "minute_revision_20260908/code/run_robustness.py",
+    "bytes": 2364,
+    "sha256": "35cf04dc195e01c8ed9fe2c47db75a7eb8452f743410c0b7329f007c6d19726c"
+  },
+  {
+    "path": "minute_revision_20260908/code/run_scarcity_challenges.py",
+    "bytes": 2649,
+    "sha256": "0e0a8fc127aa6e3f70d6fa49a2eac3c316f60fcab6b8c4198ac31b138c4b1d10"
+  },
+  {
+    "path": "minute_revision_20260908/code/summarize_challenges.py",
+    "bytes": 1592,
+    "sha256": "301834b844ba340bf437bac130e7572c4e203946558d711a976f74daf1a46e1f"
+  },
+  {
+    "path": "minute_revision_20260908/code/summarize_electrolyzer.py",
+    "bytes": 1466,
+    "sha256": "98e147d6c7c56d1986fc07ec55c7cd4f79c566aefe8bf6d15094e08eb1d6f3ae"
+  },
+  {
+    "path": "minute_revision_20260908/code/summarize_main.py",
+    "bytes": 3591,
+    "sha256": "3128f4516b97cb0872a143157c935cf9d82de6cbaf09bbdaccd15b5161c86f07"
+  },
+  {
+    "path": "minute_revision_20260908/code/summarize_measured.py",
+    "bytes": 3619,
+    "sha256": "3379da037425d06b8913f9e344036ef465fa2ed301c672b18a0fc7a357d3e642"
+  },
+  {
+    "path": "minute_revision_20260908/code/verify_envelopes.py",
+    "bytes": 1648,
+    "sha256": "f59fa8d343add35874c7ae02fff0182d0b3ff575e16461a5969c824e0dd2612c"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-01.npz",
+    "bytes": 846,
+    "sha256": "e8c3a46d6253d0e8db4c41912e74d0b32b92fdf4350c439346e12378180e18bb"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-02.npz",
+    "bytes": 847,
+    "sha256": "900875bc0f44a35754df0bfc9fe4758b0970d449c53247e3d250a428d4462361"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-03.npz",
+    "bytes": 846,
+    "sha256": "0665864bdfbfa0c94a0e36d2aa1dc939e1ddaf7cb02ed7fd5c2093ce3983c397"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-04.npz",
+    "bytes": 838,
+    "sha256": "eae31e8346a98ffbfb833178eca2c8c425b1ceca6210b679113f6086dbf7ee78"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-05.npz",
+    "bytes": 849,
+    "sha256": "33f3ef6d121c2bf403066e1fd7e00c51471a19e6d050a0fa5d1db92117fe756a"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-06.npz",
+    "bytes": 851,
+    "sha256": "c1a28d5efc5513819278f9f8517966137f3e4227f607e0fa13c159e1ce695a73"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-07.npz",
+    "bytes": 849,
+    "sha256": "82d970c312263e7e3635194b8281c0ca92c3d63d1cef4561632174dac847bac7"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-08.npz",
+    "bytes": 850,
+    "sha256": "0c4169c10c8c278cad99b4df4b266f7699b5bae3b5c643972ed1e8ca0af152a5"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-09.npz",
+    "bytes": 833,
+    "sha256": "f8df90fe6939f0d8615a3584186edeb213e4f79358f5b1409a871ad1f590aedf"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-10.npz",
+    "bytes": 850,
+    "sha256": "0b0a8b65f64c1875f7b4453064873ddbaf60921bd25e6bab36484ce4355c14ba"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-11.npz",
+    "bytes": 835,
+    "sha256": "6178f92b841c38a105b642442155b9c98034b4c144a282bce526e3c0045e96a3"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-12.npz",
+    "bytes": 832,
+    "sha256": "618afcf586967c7df433c8923efbecc4bc2a9d796940bed74bfa8df18a5ba846"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-13.npz",
+    "bytes": 833,
+    "sha256": "cc18d0231e394dc736e154d69e72f576f4207571c557837d7bb62f383903a633"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-14.npz",
+    "bytes": 841,
+    "sha256": "d6e0595f6e9b66fd1e98cb286f1b8ae6fca23c2fc9bea5b730675be07b2de909"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-15.npz",
+    "bytes": 837,
+    "sha256": "b0907b9ead5fc0112405bd99e391812d94280afee8c7ddd2ba5d7d8790274c20"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-16.npz",
+    "bytes": 848,
+    "sha256": "197d47976549ee4ae70b50ea1c1b732f052c49b6c07ddb5761a62d80f0d6768a"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-17.npz",
+    "bytes": 835,
+    "sha256": "efdabb51caf9ad0f5857bd3a69165ad6b5f1c67304a5635618e2bd488b0920dc"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-18.npz",
+    "bytes": 861,
+    "sha256": "b90394b19af97430d25a9c10b232ab91fc80c11693e9dede85a07013be4a5251"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-19.npz",
+    "bytes": 837,
+    "sha256": "223b4d271e565f6b81d2d7f9746fa7dc5c2330a682a992cc2941d7f7c7461ca2"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-20.npz",
+    "bytes": 854,
+    "sha256": "8288b650da3f78b5bb44c9ff55f54ca0da752e19eeb50e85fb0fcba7364d8647"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-21.npz",
+    "bytes": 819,
+    "sha256": "25271398d71fc4cac1cb45a663a4fb6db25a12ca81fa5ad79ff049572610e53f"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-22.npz",
+    "bytes": 836,
+    "sha256": "efd3d32bfa5cb8c8a7093c90d86ae2cbfe194f9047f06c6772cb98d27641714e"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-23.npz",
+    "bytes": 854,
+    "sha256": "37baeba8aa9ef5a000518e990d9c0c0480b2bdbb432d0b62d11b441bdb9dd399"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-24.npz",
+    "bytes": 845,
+    "sha256": "f16d9b6047c91e13c0ead0af5c92efbb85965ce23fb0839e3c22d9849684c7f4"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-25.npz",
+    "bytes": 833,
+    "sha256": "c76da473aa4c63f294ceed43294a799ef6ebfc2efa7a607ff3873a30909547e3"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-26.npz",
+    "bytes": 836,
+    "sha256": "6c401513cf53346e2a0098d5a3b8b49e7ac499376284c5504b41ead6a6c25287"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-27.npz",
+    "bytes": 838,
+    "sha256": "23cb598a7090a61d14707b9d6576fd29be5c9be36b1bd9e2d11a90c6098db070"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-28.npz",
+    "bytes": 834,
+    "sha256": "c8e2ef96e299a5b0b69f12d72ef626dc047e6ea3a32c85eef02dea0c7abf796e"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-29.npz",
+    "bytes": 829,
+    "sha256": "8c8f507541503344b01c1d2adb6551ed25cf2bbfccd9c9fa0c59931e6404a50b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-30.npz",
+    "bytes": 839,
+    "sha256": "0f94d7c91530e1d3617407b357aec200caa6648d2460165879b3d4768a031ab3"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-01-31.npz",
+    "bytes": 842,
+    "sha256": "631a921c6ec5a2d3ada3c243d44862a0a8368dd3fde76f8170d73c80bed9e5b2"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-01.npz",
+    "bytes": 849,
+    "sha256": "dc31e4f02753643e6d09a8a4fb6300f8c868bdf3afe2f1023c58b46c711560e6"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-02.npz",
+    "bytes": 837,
+    "sha256": "439fbff76e6ee924e2e977b61c311be8d6dd8478f567e7eb508efa687531c3ea"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-03.npz",
+    "bytes": 838,
+    "sha256": "b19a0d3abbfd8ff2d3656ad3a56455e2095dc6e82766827d76a98527f7c91c36"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-04.npz",
+    "bytes": 835,
+    "sha256": "a13d1fa8432ad075315b5455ccbaa97b037acd31c090754600f2d59ef3179442"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-05.npz",
+    "bytes": 837,
+    "sha256": "da5244f4b96bf77ee44faeee059cf97fcf0130bde92431bc95d0cf5c64207104"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-06.npz",
+    "bytes": 839,
+    "sha256": "53262d64b1997999e2e2406bd66fc7d2faecd31adfb08a18b73e39dd55fd2907"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-07.npz",
+    "bytes": 845,
+    "sha256": "01d75314bd242e453c6f6c00884b09b54a5bcca938c11c68efec94a4a2fc7b33"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-08.npz",
+    "bytes": 832,
+    "sha256": "843cd82a87ce4668b7fb82ee06f4657cb142aa18cae10f163bccaf4683091807"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-09.npz",
+    "bytes": 836,
+    "sha256": "e24f6764bd55f12111528cbaceb222af0971cea5ce590ba998af6d35bf81862c"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-10.npz",
+    "bytes": 825,
+    "sha256": "9e003f211c32ad20ccd489b42549423875ee69840f46976025f18098fe493da5"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-11.npz",
+    "bytes": 851,
+    "sha256": "41ecb4b6f1b53ffd54b99165c492c036b45bc6c7da593b6dce0fabb7cefe5255"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-12.npz",
+    "bytes": 825,
+    "sha256": "2abaef5b9be8f9d9dcf5670daca9515fabf28b340ad5d4483007547261f35649"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-13.npz",
+    "bytes": 852,
+    "sha256": "c09e52b82a7d1a682d9e45343c8846aa9989a1b4e063307e7188d981abbce7a5"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-14.npz",
+    "bytes": 842,
+    "sha256": "236357be5daaff9b7e093ac4907c37e11a3d07e6cfcbadc49dc8571dcdb663e0"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-15.npz",
+    "bytes": 840,
+    "sha256": "95d3db4c1c127fa676627a17b2849b41fedb88962a9039e3b1a8f023b77bf631"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-16.npz",
+    "bytes": 833,
+    "sha256": "2a38dc3fc55998c2dc64e2e06a006399f30c6c526396b3e858f246b2ba4c661c"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-17.npz",
+    "bytes": 843,
+    "sha256": "17cbca35a5d39ac69e7c31c837830cf6c43d77a20d078337c4c15a7798076a7b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-18.npz",
+    "bytes": 838,
+    "sha256": "1a20e6407bf29ad29a6807fcc6e52defb6777f601bfd319563b9385f10e74c7f"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-19.npz",
+    "bytes": 830,
+    "sha256": "10b07b26929b462d063d24ba22def04fa38390123e5efe72f53706e18a409229"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-20.npz",
+    "bytes": 851,
+    "sha256": "63a7b3ca40567095343911b43c077f24eed7abd78e8079fb236d296de24c21ec"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-21.npz",
+    "bytes": 834,
+    "sha256": "6242e4f2c6ff6879b81111a5dafd7e070fa14958d52106a2e3b1391ce950f202"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-22.npz",
+    "bytes": 847,
+    "sha256": "1aef89200f5224aa973691bcaf5c8b8181e9145a6b876309c63f0aee4ef03593"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-23.npz",
+    "bytes": 846,
+    "sha256": "1af9bd16f41e2f09e5f9fac49d5e00d55f1870cb441f0d8391845f0a1ad20550"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-24.npz",
+    "bytes": 831,
+    "sha256": "66754824f4de73d771242e969377e30980c1f1f135ad1ac5e89bfac04a76a467"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-25.npz",
+    "bytes": 841,
+    "sha256": "7bedaa6f70f6bf1dc63bf0d82fe1e0e336438148020bfad8112d2f4784933e16"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-26.npz",
+    "bytes": 836,
+    "sha256": "778e787a5bc149861be777d43f39ac2c39118d72fd3d7ed9486b42b9e456db2f"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-27.npz",
+    "bytes": 853,
+    "sha256": "57cb5f5be00a39b9c7e453615e9504276780b75d64ac467e6ae9ef887018c5a6"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-02-28.npz",
+    "bytes": 840,
+    "sha256": "35ed3c723b6046979e2c3bcc1f55e2b8c64269c068989a24c0f1d0ff3dc034ca"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-01.npz",
+    "bytes": 846,
+    "sha256": "d7f3c0bd9d56a3c39602241c780dabf298bafcfe9d72194463f9e8986e453c22"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-02.npz",
+    "bytes": 833,
+    "sha256": "85ff9dc95e765b1e6e6f74dfe80c23cefb7075ffa2be2ef143807eba4a0bbe49"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-03.npz",
+    "bytes": 843,
+    "sha256": "bb51504199245a77e3000f5c3780081aa62198ca6ba7ff3d8befbb18301eff1d"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-04.npz",
+    "bytes": 833,
+    "sha256": "fbb44dafb3dfd18731125fb76d2c7d89920605ad1ebbaaa62000931fefdfd368"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-05.npz",
+    "bytes": 839,
+    "sha256": "e11862dc8bf56ed0dd522c81e75b14cc09adf88629adfd20e14e66e9623e10f9"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-06.npz",
+    "bytes": 850,
+    "sha256": "4e66b7ff4367751a877296e4e799593cbd7ac1914e3f3260f6f6367d232701ea"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-07.npz",
+    "bytes": 836,
+    "sha256": "a82ed9b96c1a0ab28fdba12facedf8517b7cf3cdce61ae7ea17ff3752eba7458"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-08.npz",
+    "bytes": 837,
+    "sha256": "3ec831f4a53d0d5bbf05f8575866923e6544f8302fe274f7d53dcf9ccf1ff33b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-09.npz",
+    "bytes": 836,
+    "sha256": "870ad3899b38045cd0451c2afb3125c02d73691d67798f4e8efc6625311f4312"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-10.npz",
+    "bytes": 834,
+    "sha256": "df00a89eb855247fc2b63b93b6bd0b79a7f0b89cf2fa73e88d7c58861baec5d6"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-11.npz",
+    "bytes": 834,
+    "sha256": "4be20bf1eabcc2b36de787b7b653858279989789edd95560e71fe5a3e0dd65ab"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-12.npz",
+    "bytes": 834,
+    "sha256": "f885bff1fa55eea85ae0d7ef4997ffe8a0103daf06ccb4a46b4b175999c3eac4"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-13.npz",
+    "bytes": 848,
+    "sha256": "7a3d6e52b0908fd53ac89963903021abae77c94a9e91f91eb962a364e297c614"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-14.npz",
+    "bytes": 841,
+    "sha256": "70bda141c78e3512756fb623c5019d93f25e3df65a0521bb27fe6c2689bd5a14"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-15.npz",
+    "bytes": 833,
+    "sha256": "6663a42dee30b39f4af7a5ac87d549b665b63b0cafd2e2cdd77412ce1a98ecf2"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-16.npz",
+    "bytes": 841,
+    "sha256": "c00eab412c7a6dd82e6f18141dc9b8ea8372b2d5d9942e4ea914688f7b804702"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-17.npz",
+    "bytes": 839,
+    "sha256": "08e44871075bba204d48afdf8e2866727efa495f5567c9266674d33812febcdb"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-18.npz",
+    "bytes": 851,
+    "sha256": "fea07e7a22f5b1b0a0884ecac1d0ba576099698ac58857fe82c080fae3f2b96c"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-19.npz",
+    "bytes": 858,
+    "sha256": "d89ff3aed4aeaac895bff3a8ad77b5c480b998eaca92e17189d744fc4e0ad00f"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-20.npz",
+    "bytes": 844,
+    "sha256": "a89a3dd02dbcfee12ffe9a427535379122541ad61db69c98792c9fa9a31b71fa"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-21.npz",
+    "bytes": 854,
+    "sha256": "ea827c1e89b1258b97aa96432500efdcdf0c161f2e933c4083da920a171aece5"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-22.npz",
+    "bytes": 841,
+    "sha256": "03887e136ca6818eda4d2738986d985a75ba129c94e06396a34daa2b08527e4d"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-23.npz",
+    "bytes": 844,
+    "sha256": "760ed1251c4012a13fefd2ae315a7fce2d41124b141220aaa5777af40670adda"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-24.npz",
+    "bytes": 846,
+    "sha256": "a527ad53f71493cf622362ca1892cae1dc5da17bedfdef84c2856de2c994e5ba"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-25.npz",
+    "bytes": 841,
+    "sha256": "86b38d5ef99a368040b55d02f581a615ff6cf8d43795261fa30cdfadda0f1c73"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-26.npz",
+    "bytes": 841,
+    "sha256": "442d9cbc9e9e6c89695a6ffa2ccd8178ac7062fbc56583a51597211f0b435640"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-27.npz",
+    "bytes": 841,
+    "sha256": "e3bc2fd0f6c8ff17cd5c862f8e36936779b1e4456eb611cc4ea715a687688005"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-28.npz",
+    "bytes": 850,
+    "sha256": "f6480a206090152b38684fe92949af1afacc69a3e8e61ee8d25093ae5de7a975"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-29.npz",
+    "bytes": 855,
+    "sha256": "82fe99a065ca3d8a3d4dff7651e651de71bc63bce84f8dacd1295a023cb128ec"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-30.npz",
+    "bytes": 852,
+    "sha256": "1b7669012709589b0495a0c219d5e6cc3d358fba688dedf0b56f376c2dd9fdea"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-03-31.npz",
+    "bytes": 839,
+    "sha256": "9f5966571354ab10e3edea4a115f248cac5960b56418d5529fd68cc377636d39"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-01.npz",
+    "bytes": 838,
+    "sha256": "576a1afea85fc7ab78f5dc3e911e0244135ede2f3ae5a0fceb80a15788b73141"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-02.npz",
+    "bytes": 837,
+    "sha256": "f946faafe5f4391c1e848e5d9d83f2477909fb420d0d4a57f2ded7e729969871"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-03.npz",
+    "bytes": 841,
+    "sha256": "71038b93412ae5296a93b03a647b69b7f2657c242ff87f041e2283f8cdafb47a"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-04.npz",
+    "bytes": 835,
+    "sha256": "807a34f52ef47fb13cf9c85d870483aa24d95a4466c91acd88dfe74c257a74fb"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-05.npz",
+    "bytes": 846,
+    "sha256": "711c8b90856b2284cab511fe6ead981e33f54d509c7b6fa9ff2ab6aa745e5f61"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-06.npz",
+    "bytes": 848,
+    "sha256": "452603c0f531ffffc88aac9ca930411cb39d4c3ae8abcc2c3335046b32931bbe"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-07.npz",
+    "bytes": 850,
+    "sha256": "aaef4474c865e1d3d182d7946c67ac0142bd56ecc5f2ce46849a66b9c5a5e99f"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-08.npz",
+    "bytes": 843,
+    "sha256": "d650928c95e6cce7fd9cf058412be79bc8bd1a856fd18fe3c9a81834f6ad9926"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-09.npz",
+    "bytes": 837,
+    "sha256": "70a53cf125b8b4d44e48ff4ffa2545c358b57be19d1ebaf7f4de2e427f64bbac"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-10.npz",
+    "bytes": 847,
+    "sha256": "5ce85913d5f3527baf3afeee8e8043e9c14d3777990acaffebae2cfbd5878880"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-11.npz",
+    "bytes": 841,
+    "sha256": "844ac78ec1798777b330678bcc1e07ec1067393833ea27e9b14290b7560fa3f0"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-12.npz",
+    "bytes": 845,
+    "sha256": "53249abc19d89dbed3dc6a38d9e669b7dc39dd51c9191c92f9a8a9ea02d125c9"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-13.npz",
+    "bytes": 848,
+    "sha256": "758581dbeab23ae9a78b556e7db3b80069b318cf729aa24cc058e2c02ca63e7c"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-14.npz",
+    "bytes": 841,
+    "sha256": "0ba14e4c645a8400ff3acdf0f32b5758609c6bb448c8b8cb3225b1a7d127bc44"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-15.npz",
+    "bytes": 849,
+    "sha256": "d9748f47924cd1f98a4569b3f8f4840b8ba1185c45c6df392f86ae85db53abe9"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-16.npz",
+    "bytes": 849,
+    "sha256": "0dc4c860a8bfa01cf97ce44e514399c66294123e321aac7c60ac33fcdbdf7f5b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-17.npz",
+    "bytes": 829,
+    "sha256": "baa7341e3c6d1dbaa6c4a8c1d5f14d7b40315b51ba8bae02331226e15d6290fe"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-18.npz",
+    "bytes": 835,
+    "sha256": "633f0cf0354bbf907641d6afc9b56b9107fac80097d0e7a9eb3ac336415f103e"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-19.npz",
+    "bytes": 841,
+    "sha256": "599b8ab04fee12b83d0b3189f8feda673f377cbe858300cb62c1587211040f21"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-20.npz",
+    "bytes": 845,
+    "sha256": "558a11b866ec7d6e5e9679b6cbba2cf9334cec03108e31c8de9092ce7b7235fc"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-21.npz",
+    "bytes": 845,
+    "sha256": "13da9f4123d97ee3f2bda0780fc835bccb8e27f9b5f55aa65e88f6d4fef28c05"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-22.npz",
+    "bytes": 831,
+    "sha256": "3fc6f56e7b0e6f7eedd291e22ae72ea0c40e01eadf0470279b7b013573c60d93"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-23.npz",
+    "bytes": 848,
+    "sha256": "2a7a3cb700185745bfc509aadf75d9da96a0b1c401cf4bb686ff2008290ac06c"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-24.npz",
+    "bytes": 824,
+    "sha256": "bdc5834db9c0eca041c831230815c10322004d2926674e452542fa8f74dd1202"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-25.npz",
+    "bytes": 839,
+    "sha256": "c77edf9d430e3580dd847682743fd04602edbf99c5d9b4dacb6a04c9c97f5f33"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-26.npz",
+    "bytes": 845,
+    "sha256": "9d704cc6ee23c8821d36ff5c91b9c5ebeddad85ef5722de5e994d8b68ac8579b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-27.npz",
+    "bytes": 845,
+    "sha256": "15b3e164feb62c97f3d90dcd6976b74013da97087de0d05f86e769d65e754d09"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-28.npz",
+    "bytes": 832,
+    "sha256": "089c946c445fdf9be72bf201cfa2f016078f73d69a2290d20c066ae4891571a7"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-29.npz",
+    "bytes": 834,
+    "sha256": "2711c9838935169ae410a13583a2e8ecf0b14836b3e7b449372a7901862c2597"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-04-30.npz",
+    "bytes": 835,
+    "sha256": "e1defb7887ea81d3a95960b5de6648a24961f2cbe61dd2cbaf48b894dee3c1a7"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-01.npz",
+    "bytes": 836,
+    "sha256": "53e64adfd57de74ffe323526cb908f69b974c7a244be00364eb31eaf7107ac3c"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-02.npz",
+    "bytes": 848,
+    "sha256": "c9cc49c86c7ac1467dc6b8a0267d12b36d497571a003bdbd420d40ba399489a5"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-03.npz",
+    "bytes": 846,
+    "sha256": "0de7c6867e37f65c2ad29e34a40d3118975484ec0ae8c100f8e53ab742361933"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-04.npz",
+    "bytes": 835,
+    "sha256": "29f410ecfe7ac3c9bc2335f5125c8624fe10126a9772119ef0e473df5d217837"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-05.npz",
+    "bytes": 841,
+    "sha256": "fb8d7dac4b7841296a79c38d17908f91a2edc433743d296ee55f3a43673dafa6"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-06.npz",
+    "bytes": 850,
+    "sha256": "6b203ae97f6c5a6f9863e05ca42eb22ac527214b4b6599710fc42dc45683a4d4"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-07.npz",
+    "bytes": 842,
+    "sha256": "e02e898504e314a786398d8692dedb661df89a64fb96f04c7b1489ce73a2148b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-08.npz",
+    "bytes": 836,
+    "sha256": "4c46c9ab89a722ebf6f93bc5fd6f1183e3ebc5dcaa0ca948e5098027838a1f98"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-09.npz",
+    "bytes": 842,
+    "sha256": "814dddad73a24a77a16f5142ddefe1e2459a9e6bfd1d4461068dad6ff4e03870"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-10.npz",
+    "bytes": 859,
+    "sha256": "d1d917e7c657d9c83bfddbf8722ae24f69b69c4a869eeeeb69ce53cd1aab0aec"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-11.npz",
+    "bytes": 836,
+    "sha256": "5f685458fae83e788379e2034ee3ec16c0a6b82c33c3e3073c49126ef6e43a0b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-12.npz",
+    "bytes": 857,
+    "sha256": "445029a04f927da85caa8a6e8e3deeec066c0dcec1f79b4380dbc9d1bbddc905"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-13.npz",
+    "bytes": 840,
+    "sha256": "bb8a5bd2dcb475b322cf1c4080d8b353539de4c14fdddadcb0b0a0d26019ac4f"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-14.npz",
+    "bytes": 852,
+    "sha256": "bbd3357420d8325a00056773ccb3221aee0df890d6442331a35a18569e2466e5"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-15.npz",
+    "bytes": 846,
+    "sha256": "9e429c8aacf1d9478077bf1b21f689b09a639a891998730a319f438474c43700"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-16.npz",
+    "bytes": 839,
+    "sha256": "8fbea089ae4ca41cdb5a49ecae7f8b49b69d4d3404a113e7b59eec31334fa779"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-17.npz",
+    "bytes": 845,
+    "sha256": "a54ca762cc60d4f75120c7205a30f99f7824de635f239789f2fb301710d5ba53"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-18.npz",
+    "bytes": 846,
+    "sha256": "991be9f8624cbbf9ad3bd60c76c0a15a5aa2f6d3526b0df19df6f20caa01f9c9"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-19.npz",
+    "bytes": 842,
+    "sha256": "85dc0ee457174440c81a514ced5409a66827fdd17eb5930a340f2c712699dc18"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-20.npz",
+    "bytes": 844,
+    "sha256": "620afcde8550d5451c44f6e532a2766c45cb35ee9afc497ebaecdc2487ee6431"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-21.npz",
+    "bytes": 828,
+    "sha256": "0bf58aeb7a536fe3072654d89266c77ecf021b380828a6293856a8de7ebf6106"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-22.npz",
+    "bytes": 830,
+    "sha256": "770591a7bfbbfc383af5074875e2f7497b5b30855f5ff1f97efaf50d290a3f07"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-23.npz",
+    "bytes": 841,
+    "sha256": "cd42ae0b9f2e31d56608280858d033489a66943df699b65f627ba4722cdf95e2"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-24.npz",
+    "bytes": 843,
+    "sha256": "ae3665c803b5f62692bd97d133acdcff4d745b9f8c22f074950970f89dfe0231"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-25.npz",
+    "bytes": 848,
+    "sha256": "fb89bafa4e1344964d6b90e7f37685e6e0c0fc5d2bb8724f26c2c39527bd75af"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-26.npz",
+    "bytes": 836,
+    "sha256": "8a80cffddbd0eba4801d7f931a5f066eedf80cf3da5713dcd23dbd1479169050"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-27.npz",
+    "bytes": 844,
+    "sha256": "eb3e375653194c66dad4fceae3505016180730f527f2a9b3c481255650d3ea82"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-28.npz",
+    "bytes": 848,
+    "sha256": "16b659fe2eb22171165b3c252821516b0c875dea59b7fe6bd8b3dc92bb8f89ae"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-29.npz",
+    "bytes": 853,
+    "sha256": "375ca2a2a69edcdacb1916cbe1e9a87414641b81169052104d970682477bc0e2"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-30.npz",
+    "bytes": 843,
+    "sha256": "38c219697c18f5f04e83fada272442b768fbc533f63660489bd0443b4c31a7e8"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-05-31.npz",
+    "bytes": 820,
+    "sha256": "49806746bdfb4037c130f396f70a3920cc50fb93298a50752b8c14c23fe7c949"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-01.npz",
+    "bytes": 845,
+    "sha256": "2b04c8ec674bf2f05bbcd874d9698261c847ceef4b7b3e49786662c8a73a198a"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-02.npz",
+    "bytes": 852,
+    "sha256": "8b2f367d626a5be6c87bbbf677ed273a22ac4474b7a5c8e4f571e7f9e7727aef"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-03.npz",
+    "bytes": 848,
+    "sha256": "3a1c524794498c484b2045f4bfd1dc8cdcb66f0fca0227d8c7861862eda2e7b1"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-04.npz",
+    "bytes": 864,
+    "sha256": "bc1458f9a499f74cf9feb2ee0aa05c79b41514c36348162dcd9ef4073a5fbc72"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-05.npz",
+    "bytes": 838,
+    "sha256": "938b09ca83666c3e0dd75b2c8b4cd0e46b9037c02ebbbaaffbb6f9fecd2728d8"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-06.npz",
+    "bytes": 843,
+    "sha256": "f6c0fb32bb43926a1f66294736e9e695a1fb4521f412295cebf116628c28f50f"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-07.npz",
+    "bytes": 835,
+    "sha256": "78c84b5f67eb7f7043be1912baa75c07406694197a06657c6585093596a35794"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-08.npz",
+    "bytes": 832,
+    "sha256": "8d9b2ca3c62c2b34224e1790f0a6fdb499b9e3058d09945c37e2b2f0222e3432"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-09.npz",
+    "bytes": 862,
+    "sha256": "bcfccf7c21eb480fb671a7400cba34d1b3c9744819ac5e497c948dbcd7de1818"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-10.npz",
+    "bytes": 842,
+    "sha256": "ced29b7cecb9c9ddf13fd1d20ae7e79bd882635fd57d9c118dc1ba2be4f67ac6"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-11.npz",
+    "bytes": 850,
+    "sha256": "388a9c09a4284e9eab73cf26767c849c8b018d391107082e53e94004638ee001"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-12.npz",
+    "bytes": 833,
+    "sha256": "46a5373a51ab839162e16178410ace8acb67e0e346f4f1797bacbc1d32f8cdc1"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-13.npz",
+    "bytes": 849,
+    "sha256": "62ee9506f7adc025dcf9599f3d806f7fbae27612abe762872416aecd3576e523"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-14.npz",
+    "bytes": 826,
+    "sha256": "3ce082aa2d67c926f92aee973be1b3891f29359716f92c848932611fe4fc04ff"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-15.npz",
+    "bytes": 848,
+    "sha256": "9956b0efaa957380ed7715f29c8607208873bdc9a71dfe5e1e0a500592bb78a7"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-16.npz",
+    "bytes": 830,
+    "sha256": "02407129aefdf74e0f04cbb48a01aa82392c6afe2ae7b08e76b8f6d3aacb404e"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-17.npz",
+    "bytes": 835,
+    "sha256": "25c898ec11926408fe5407118f4a69aae67a4ff7b67c9d4f5d18462ae23d7a4a"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-18.npz",
+    "bytes": 847,
+    "sha256": "93295622044b92a6c6aefba9809fcbd5864d96ee453fa7dbfae6aa225de47417"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-19.npz",
+    "bytes": 844,
+    "sha256": "0cc801c973b25d2a392038730e603e0f9784870c1e15b5ee601bbfd4c5c29194"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-20.npz",
+    "bytes": 845,
+    "sha256": "1f151f2707af12e01cf83ca737161fbbee3f76d4b76a924614ecdf8e7819ea1d"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-21.npz",
+    "bytes": 835,
+    "sha256": "91635dde98c8790c06ac19e5a941e10713d7b6cc7e2da3ce4bdb32023ce3e313"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-22.npz",
+    "bytes": 845,
+    "sha256": "eb56224efccd0995c39606f4cc02b974050afb02bf38ee925ef5b8a73cffc462"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-23.npz",
+    "bytes": 831,
+    "sha256": "8b36c90a0b06a47373522d5a72787b0b5e96a961a89345a5b6b92e89e48ca8c6"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-24.npz",
+    "bytes": 854,
+    "sha256": "b07d9c6bd764b74ab3213d90088c7e195b51f486af5efabb1104b17575983b08"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-25.npz",
+    "bytes": 839,
+    "sha256": "1f67fa16114ab1e52de7abf877ff37a071baf96ebc8d757715843953db3feabc"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-26.npz",
+    "bytes": 839,
+    "sha256": "ef9c099a7d8261716b0246a0b4fdae647dc95ceb0fcd20a14f5a1fa20db0cb7a"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-27.npz",
+    "bytes": 844,
+    "sha256": "81ea2e67db00b1c3d118394be6140d95ef5aa9d6f02e17c473f07dd5abf9f81c"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-28.npz",
+    "bytes": 856,
+    "sha256": "bf03b477094212cc0cb44cd52b3e6f03f06cacc72ff9ea4c6df536bc5bdbcf12"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-29.npz",
+    "bytes": 854,
+    "sha256": "a4d6b5d276e3f20b0ef594be4d1421d84eb23d78adf25aa30305ccde38413f25"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-06-30.npz",
+    "bytes": 841,
+    "sha256": "7f39a95061c2d8fbb583a8889808c4be1675ef04552239f90ba10ff54a0d657f"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-01.npz",
+    "bytes": 828,
+    "sha256": "c2da133dbd6ed0c4ff635cc0a83540f596ffc5887f6b7823dd8107b94cebd970"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-02.npz",
+    "bytes": 841,
+    "sha256": "2c6be4eb2473350298f38200eb90a3bb7cbfad4806a81d67f4bcecb8d7d779dc"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-03.npz",
+    "bytes": 839,
+    "sha256": "c2ec9217bccf30e63d5ada60edabba227fac13a511b1b75e4f051b944afe5f5c"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-04.npz",
+    "bytes": 843,
+    "sha256": "5a833e87086297edbc9a2546daa9714bc726cc0f28226c2ac7c0382a6a3f36b8"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-05.npz",
+    "bytes": 848,
+    "sha256": "0574b4dcb126b43e0145dcb877980be8004661cd0b663c46f8e5387189208bbb"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-06.npz",
+    "bytes": 841,
+    "sha256": "62966475f44261eac9bec2a53c89d9ee5fa6d4a34490687c5a6ef6d98c2b9547"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-07.npz",
+    "bytes": 851,
+    "sha256": "b676fa4e947ff36809c69e1c6c1d5409586ace31e06495f575cc1d5cfb9b80bd"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-08.npz",
+    "bytes": 839,
+    "sha256": "65bccf8e0ff0e4a8db790091f219a48d6548ba512d3aad137575ce80a6242fed"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-09.npz",
+    "bytes": 837,
+    "sha256": "db0a8cbe08ce358975ec1a889d035a627f78f4b020fffda558a45a818f7167d4"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-10.npz",
+    "bytes": 851,
+    "sha256": "25335de753cc59dcd22a568792334fcdcbb166bb27a5aea317e118f3e421ca08"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-11.npz",
+    "bytes": 864,
+    "sha256": "15faa82abcce64f3d921d2cf9f275571b39ccd4999d81c2206b62046c043f735"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-12.npz",
+    "bytes": 861,
+    "sha256": "6fdc2588aae6c8aae77fcb758965fcede58b28887234840d13173cb9482026ee"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-13.npz",
+    "bytes": 849,
+    "sha256": "8f18ffd8cd44eaa4174352974a352956dc22ab6da01610d855139ca80fc136ce"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-14.npz",
+    "bytes": 847,
+    "sha256": "549af20434657a5ea6972825ba04e303c32cd8f874e5a14427ae7a7fb7ab8bd7"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-15.npz",
+    "bytes": 850,
+    "sha256": "c395fb44db98ddd1d5743be2d38f3653020eb680133da5dfca3be99c5a09f3c2"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-16.npz",
+    "bytes": 832,
+    "sha256": "a8d301ede886959e2826b6cb4c832d2b3df88fcb256a6b5cdb046dc5665e5195"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-17.npz",
+    "bytes": 856,
+    "sha256": "6ed7e7f890c1ea36ca68379aab485f24fba3af91b51f6d849115308405e62978"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-18.npz",
+    "bytes": 848,
+    "sha256": "1786259cca81a77a792e6a1705be50dfc2a7e4e00891d273444ba6069a7c6654"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-19.npz",
+    "bytes": 841,
+    "sha256": "0cfaf0ace42b29b398ae3b9f474084ca81d671c859242c94a5aef51427aac509"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-20.npz",
+    "bytes": 833,
+    "sha256": "c67d4f7246e7673f893adf02a94a8a0a09981df7060343dd2c121f8b36968093"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-21.npz",
+    "bytes": 830,
+    "sha256": "62a37caf47a2505562b185a93aa30d3333ec83d3890d390725cd13cb1eb3cedf"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-22.npz",
+    "bytes": 839,
+    "sha256": "cf4d28f27c2d36cf2c3c8c1f06b6e53704f71c943513e33216b3039a5a6c3bb9"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-23.npz",
+    "bytes": 845,
+    "sha256": "864db795e33c7120bb92cfb6bf0a3962928435781af99c96d63f7b86a732b648"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-24.npz",
+    "bytes": 836,
+    "sha256": "c1fa13438242d88a6c323364b8d7ec842cd1f545140455938b7492c755ec4a8c"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-25.npz",
+    "bytes": 856,
+    "sha256": "9c703315fe2ac7bb0a2c8fb04d19cc4168a5c24eadf7801f7e48213031e9e3da"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-26.npz",
+    "bytes": 840,
+    "sha256": "67146660fb4aed5add9980cc0d4875dd1f0aef5009e41454ce886d843065fe83"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-27.npz",
+    "bytes": 848,
+    "sha256": "4644f405ab63d4d1f631efae612bcaa7ba3ec31ea255a6afc2a0da86f194a7f3"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-28.npz",
+    "bytes": 835,
+    "sha256": "96e0d0ce38ea1a515360142f655d7e1160aa98a610b9f32dfa90804a0fc22c65"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-29.npz",
+    "bytes": 838,
+    "sha256": "969dc5fbad7fc7e4fd1b72c56e3e09c658fbf3e2777806aa2a0aeec1de6a05a1"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-30.npz",
+    "bytes": 833,
+    "sha256": "4fcde639d1f65493602b3f5cf7e20901bb7287b88845f41715d43d86380bc996"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-07-31.npz",
+    "bytes": 843,
+    "sha256": "6793eeeb2a366fb62acc2244cfac81085cd8f32536d4b34f101daf4e2ff88b0b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-01.npz",
+    "bytes": 847,
+    "sha256": "a7e4904a734f4bc791df591d0af394729008213220ca444ddb680fb62f5481ea"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-02.npz",
+    "bytes": 852,
+    "sha256": "fd3648d0de86d5b967112ec717b690573352966031c7d00225eb97f7d515a4e2"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-03.npz",
+    "bytes": 825,
+    "sha256": "dc0cb4ffd19f01e57bf99e4d18227f3f7c46d6016ec3f38c5b2f86926695ceb6"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-04.npz",
+    "bytes": 836,
+    "sha256": "0c055eab9459a4f6858a8f8c92aee500f7c41684ccf625a49917aa5707d6cef7"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-05.npz",
+    "bytes": 851,
+    "sha256": "204b8da0ef8972f1312fe11d8e1c01b035b2a4ae7fb7a9ff9d0c4c34e696b5d5"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-06.npz",
+    "bytes": 853,
+    "sha256": "8287e0018b8e3b95c8c8d39ef7fd0e00c86fd44f0956bf25af9c9df23fc4d1e5"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-07.npz",
+    "bytes": 842,
+    "sha256": "4de3c4a6c163663b34d6d84026374e6fd0a6d7078cca965ecec2de582f1b3877"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-08.npz",
+    "bytes": 857,
+    "sha256": "d6e4472ee3b758955dc306a870d547cc8a22d7a54ee801814219ce4a12fb655c"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-09.npz",
+    "bytes": 830,
+    "sha256": "bb22006779966c1652a5e74697460c9ba49f18036efbd39b5d15e1feff013b72"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-10.npz",
+    "bytes": 840,
+    "sha256": "b9c74606870524288f933fc20846cbda7b66c33ae504abe0f196d4ab193881f6"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-11.npz",
+    "bytes": 851,
+    "sha256": "d98a9ce3f13dc7392479d6739410c843ba7476b5c0a25cf62cb1e63c3ce41889"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-12.npz",
+    "bytes": 848,
+    "sha256": "a6297da00e7f2494d7e7728bb1a79fa354b9ed4c9079899271710c84561c05b1"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-13.npz",
+    "bytes": 842,
+    "sha256": "1b1ccf4540543e853b1f29b7ab58d9fbfad9846c0c2911b2f775e98bec6f8928"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-14.npz",
+    "bytes": 848,
+    "sha256": "1f0009c38cdc1f182955904b99e209033d882705a06add355c3b805c1a57b4b0"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-15.npz",
+    "bytes": 837,
+    "sha256": "3f906ece6466ec49972ac4de4172168cbb747151dd5505927f8113450016ce75"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-16.npz",
+    "bytes": 840,
+    "sha256": "b63d90cb9a3b208ff3d14e618682f386cda2f0e14c4f04046c961763c0e24343"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-17.npz",
+    "bytes": 815,
+    "sha256": "d386c424bf62c6e5cc6033c4f0305e53c688d4836433e9dfe7502d6d2ce3c992"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-18.npz",
+    "bytes": 839,
+    "sha256": "343d6ef040c63547a37bce209d7ecf74d525da7237efb16a4ae6370e384b7f65"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-19.npz",
+    "bytes": 850,
+    "sha256": "5b758ecef6565a2270117692f024573e75dd24e93194e84e33a17f81d3b434ae"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-20.npz",
+    "bytes": 856,
+    "sha256": "5224c80763e73f31387888e2e8dd6bb582e6f92c8571a9c6f18e33c828d7e479"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-21.npz",
+    "bytes": 833,
+    "sha256": "5305affb4871066ea0830fd844a6adb513c9c79bb3bace8049e9563f14041db3"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-22.npz",
+    "bytes": 856,
+    "sha256": "2dc6025573c14808978e1830e9a2e77de658092e5f6ce1eb2069e403d1c6e8b0"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-23.npz",
+    "bytes": 847,
+    "sha256": "5bfc26086eba649a49809d2cf6cb816c45e8614f6de5bb43ab7c6848cf6923e2"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-24.npz",
+    "bytes": 832,
+    "sha256": "c69c2f1e5d9d6abcb563ff111b61dbf65f7dd7d4953ee9de3ae6cbea17043f56"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-25.npz",
+    "bytes": 859,
+    "sha256": "476ccf64a58f0c9f1f80febd60287525e203477b2fa1f951ff8f5e7b11711621"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-26.npz",
+    "bytes": 842,
+    "sha256": "cf59700e7090c410eb16970a575d0ee53e1d075218748e0479f66aa9385618f9"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-27.npz",
+    "bytes": 840,
+    "sha256": "6f66e7513c7a1c18fc928466ea8d480eb159bc3f7bc8bfe7de0bfa0964e5119a"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-28.npz",
+    "bytes": 823,
+    "sha256": "9a381627fd52a6e82922dea8c923781186b06517f4dfd9572ae4790613068f5f"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-29.npz",
+    "bytes": 828,
+    "sha256": "46c0a30ef13773a4d4ab32649a10d2ced7728664b2dc1c4d136bf0d7b867f912"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-30.npz",
+    "bytes": 826,
+    "sha256": "7c67587b59f41627bd0b4148382c8a266ec80cbbc579cd0492dd3cf152ac433b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-08-31.npz",
+    "bytes": 835,
+    "sha256": "84dd3ccb335d95d83623945b0ae9e6c0d048522d351c804b8c03bee47d2e91d3"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-01.npz",
+    "bytes": 833,
+    "sha256": "589bab08e91be5336ca588fea515618910bc043bd2ce4bbe574051a4bc0a72ef"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-02.npz",
+    "bytes": 833,
+    "sha256": "0614361c0641485246974278852c47e88848b77c0ac84afb637a3099f23df344"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-03.npz",
+    "bytes": 839,
+    "sha256": "faa7a648b0ba93cfe1578b126ccc1a1434c46dae3d9b294cc36a0642f6efdfd1"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-04.npz",
+    "bytes": 846,
+    "sha256": "40e150ce0fa5e48865b07cf62ed6954142e7fffbb583677db60eef7d3313edfb"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-05.npz",
+    "bytes": 847,
+    "sha256": "b49ad5ab264df8a033f9a0cd4a1297b14c0742636ba0508cc958a127b7be91b3"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-06.npz",
+    "bytes": 854,
+    "sha256": "54ea9c471a7511665f6a51877b3f6ece7d475d85ea8a04ea2df3d3e89dcad90e"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-07.npz",
+    "bytes": 850,
+    "sha256": "1e12321d6a677ad6c593da72a2c49e460152462536801623bcd915efbfe2ce4d"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-08.npz",
+    "bytes": 847,
+    "sha256": "fced8b83a02c7df4ac536ccc1acdfde7e4aa8541664028b7d31d3a13180de59d"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-09.npz",
+    "bytes": 835,
+    "sha256": "526a197a11af7ea27aa82ef0dd72a25fb182a875c83a9367c60c6d5058ee4632"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-10.npz",
+    "bytes": 839,
+    "sha256": "497953729ec9f8107f2ecfec579c56e080495b06de866ef472fc09e486a87028"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-11.npz",
+    "bytes": 853,
+    "sha256": "a5d5d4ad6dba44ef0e770362984dccd0751a57b2510efa38c2403c520ae111f0"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-12.npz",
+    "bytes": 843,
+    "sha256": "7097e421bd2d072789eec4c0ad819bc7ae1e3bac063d53af00960e980dc8964d"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-13.npz",
+    "bytes": 831,
+    "sha256": "6db25e3b3c64e2b4a207b84b0cf67bc1ab1d92fc94c19a5d36b420d1650d5722"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-14.npz",
+    "bytes": 843,
+    "sha256": "84e62639bb8bd18c3f16c33920ada951433c0a9b16dc9a05b4799be29d03cbb2"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-15.npz",
+    "bytes": 837,
+    "sha256": "544a1aaf85646ffd12213931c79802d146133279f29dbd09368f35e7840c2da5"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-16.npz",
+    "bytes": 832,
+    "sha256": "4b79725a05c72a8d94bfec51ff84f242204e59c69d61a94cfc537465c3bfa794"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-17.npz",
+    "bytes": 832,
+    "sha256": "db09b8148e81624e73b3e92d725276712a9e7947aa1a5b1d51a5b7d47526d529"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-18.npz",
+    "bytes": 836,
+    "sha256": "ec48d9e170f06cb023ddf8e177c3090df3d42e5882484bc671f26ae474340812"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-19.npz",
+    "bytes": 833,
+    "sha256": "4066b34d74553ce0fe3e24f2e1a55839dcae85f5337b50f78e4e36bcabde4f7f"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-20.npz",
+    "bytes": 840,
+    "sha256": "97fe6339ff7ef683b37ec6b503f4e0ac4f403b310f0a14ef7a9234ec405dbd07"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-21.npz",
+    "bytes": 827,
+    "sha256": "d59a45d7e527a9ec5a73317d2ca1b5b8c3769c8d4d87d2d2315cd0ee1660bf25"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-22.npz",
+    "bytes": 830,
+    "sha256": "80dcfd009ffa131e17ede81c219ff0e5d62595fa1c95da7fb52d8d8577900a8e"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-23.npz",
+    "bytes": 846,
+    "sha256": "4d19dafa1758272a55d209f9683de8c4fe87c0d3e915a481bb19d037e505b60f"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-24.npz",
+    "bytes": 838,
+    "sha256": "d373c16eb9e808bb45306fed79946865d53f02a02901cc0cb2143e8f46fa41da"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-25.npz",
+    "bytes": 828,
+    "sha256": "06656bb3120deeb13324f4fb572801dce62ee4aee7a82599148dbdbd322594b1"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-26.npz",
+    "bytes": 844,
+    "sha256": "92770ca32749bbc219eab91b3dabdc3221a70a947ee14e79849a3bf06a9a0875"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-27.npz",
+    "bytes": 834,
+    "sha256": "981d3bd297f3db650196228a4dedba394089d51c4655fe65957334db3e09a1bf"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-28.npz",
+    "bytes": 845,
+    "sha256": "8746c397086fb59fedb2060b7f6ec5eae5edcdfed54eb0b68a780891139c7430"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-29.npz",
+    "bytes": 826,
+    "sha256": "a9daa71d26d6c9b6ab72cf7b22f8fd5fc8d7d7c47f3a23ac1910e2704f78db64"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-09-30.npz",
+    "bytes": 829,
+    "sha256": "af97178385b3db66432b83b92010516ecfacb18882c05b45ab6359743de1fa8e"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-01.npz",
+    "bytes": 860,
+    "sha256": "770129d3407ceda14ca2eb5ef6748c798c825315d6313ce4f0312bea61b3ac63"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-02.npz",
+    "bytes": 847,
+    "sha256": "ebf02cf38f6d5c286abd20eac2d8d38b7cbffe1cb80a3609dbd49baa250fb1be"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-03.npz",
+    "bytes": 828,
+    "sha256": "9dd4e86643ae134073b284af928237ed031090ec30fdd955127b77ce4c5dde2e"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-04.npz",
+    "bytes": 832,
+    "sha256": "33e4a587f91f8fa9cb6cbdb35ee55158d05fe5b3b2c68046ab40aa6239bb38d4"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-05.npz",
+    "bytes": 841,
+    "sha256": "75f2f77a4a2ab5da052285ecf5209e57b0e073c95043f18fa1781b97400f0ff1"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-06.npz",
+    "bytes": 849,
+    "sha256": "24e1f564bc49641c7d287871edc90d9eea0db11d45dc142f28a43b2713040389"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-07.npz",
+    "bytes": 839,
+    "sha256": "809510e762690c5564e1d5db9c53697d62ace75d221e23a05c04c6377c077135"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-08.npz",
+    "bytes": 840,
+    "sha256": "397e70f79fef10d61ed8831302178d7e860d0694a6f31698b3abcb5298a39dce"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-09.npz",
+    "bytes": 837,
+    "sha256": "a203439b2f61161678a8a3d41a32709b6732f7561b175fbdf8f273c2678563b7"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-10.npz",
+    "bytes": 834,
+    "sha256": "48cea756acc85756dc7a581fc39fe99e265aac33f074a4940114bcac10b520dc"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-11.npz",
+    "bytes": 839,
+    "sha256": "a5338e414db99780e3792935b4128e7c6fce0dc2a40ad092b05088350444b344"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-12.npz",
+    "bytes": 837,
+    "sha256": "ab7d728f4c9ecb18b9e1f38a8b61f3ad7c1507d1a214e3a3bdc735186db80b51"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-13.npz",
+    "bytes": 853,
+    "sha256": "8d81b453b8cca554fcf53c36a83fa186cf0e32fdd8d2a4c53ae7b86b21796a4e"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-14.npz",
+    "bytes": 842,
+    "sha256": "5396c78a810dcd617894f5a87da0ea9e4fb685765c38e064501bd386315a40bf"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-15.npz",
+    "bytes": 856,
+    "sha256": "a94819a4009783b2cc1d1600c725a827c953f5a608484814be43e18672cc6be4"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-16.npz",
+    "bytes": 842,
+    "sha256": "ecd624b22ee8fb1de57e10d8ccfd7e967f032c21dda23c15b8d14e2018b44f8b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-17.npz",
+    "bytes": 844,
+    "sha256": "6eba5935be163fdd6283152632feb66ba4fa44d35222566191a3ccada7d42168"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-18.npz",
+    "bytes": 844,
+    "sha256": "193161aee89f3fd3ac47afa2c67679d7920aa90b11e924b0ae99533976ba79f7"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-19.npz",
+    "bytes": 845,
+    "sha256": "92a74cc03f049832e06c3ffc5cc9babb74509903d283e4845d1e94db672bce02"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-20.npz",
+    "bytes": 849,
+    "sha256": "07dcf959849ddac4bfa9fc9779a9055627b192100d5a28572237257ef97f6b2d"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-21.npz",
+    "bytes": 834,
+    "sha256": "1b798867f63bfff64196b3fc0a058baf0d8137b10fffc05eb7371dd41718b73c"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-22.npz",
+    "bytes": 835,
+    "sha256": "76e19666d4ec632386bcf0eef6df8afef43b2ff573087787784ff3e444a4b4ba"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-23.npz",
+    "bytes": 854,
+    "sha256": "c7d0cc2da57d944c5ce77502bb240ef97ebd0c1782b97ab05cc4f9aace43afad"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-24.npz",
+    "bytes": 839,
+    "sha256": "2c58d3281e71b72ebd8259b7163909446670e661503e6506e5faf2dfa1050d07"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-25.npz",
+    "bytes": 858,
+    "sha256": "16982af07c9dc728dfd761ca6ada5767aabcd59a37e953d05556dcd25060a3ad"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-26.npz",
+    "bytes": 831,
+    "sha256": "bdb329b20bee8af07c13d7d92797491c210024d7d9ce59f8d5a2d6b4c9aa158f"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-27.npz",
+    "bytes": 843,
+    "sha256": "092c7f94653dbb5b05ddcc062aec194b1af93cf817d3f9c1c86e2587359998b1"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-28.npz",
+    "bytes": 844,
+    "sha256": "226d0b9c953a6bae3ac9ffacde45276238a91826f92b2a13a07010a8520de46f"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-29.npz",
+    "bytes": 849,
+    "sha256": "1ea8b06574f338ae9a044eda3bd06eb69c10f1d08f27fc0656486d8bfb6fb75f"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-30.npz",
+    "bytes": 827,
+    "sha256": "2cb21a62baa0ac74224d13612abe64fa714e08aadb2688852f4605bfc3d571cb"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-10-31.npz",
+    "bytes": 847,
+    "sha256": "535d6f3a0e13ae4e1cd6bff8dc9c35dc4f4a2dd43f7e0e36f0302a3fa00b5364"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-01.npz",
+    "bytes": 850,
+    "sha256": "09117855a9bcb2ca22219349b5f86c8cd46dc478aaf55dc0ffd8e8c574566da9"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-02.npz",
+    "bytes": 839,
+    "sha256": "0e005e1d7c94f387df2f76331625ccca6435689be7e0778ac44425cab19cc765"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-03.npz",
+    "bytes": 843,
+    "sha256": "d0c2457e3d964018790870f07b822e00ad3a9cb90e45ce72c0610efb87a279df"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-04.npz",
+    "bytes": 836,
+    "sha256": "1cdb145e7724999e39bbdb1fe1697ced096487ea0d8ecd0d5a3631841b9712c5"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-05.npz",
+    "bytes": 816,
+    "sha256": "c507b26700edcf219df50abd8370b9d3c0613fa7915de1bb65ba5104a532e3d1"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-06.npz",
+    "bytes": 833,
+    "sha256": "282dd2e4412aa89aef9e021ab042b29394983837654c8251117d57dd3b009b2c"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-07.npz",
+    "bytes": 850,
+    "sha256": "769946b2f7642cfc8e85f394a585ea3df779f886894c90521a5d2a9341cb8ff0"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-08.npz",
+    "bytes": 847,
+    "sha256": "d45a5d98b39ea3e5cb8422ba5c71d4ca029929d9512c3e5970197518c4715619"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-09.npz",
+    "bytes": 838,
+    "sha256": "ffb3d375c989611dc5340437f385d3b84c93684c2b2433f609c0f14561f7137d"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-10.npz",
+    "bytes": 840,
+    "sha256": "d27fc0df8e8dd4ef4065d26504898e0a91b61e83e078ba964de6eb8a29f058f8"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-11.npz",
+    "bytes": 841,
+    "sha256": "cda264909a31e2a096b2674f8b65a0b4b659cba51e459d83598bd9907a5a0f56"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-12.npz",
+    "bytes": 852,
+    "sha256": "8841b120abcebadb9eef7560e7b2dc6800b5c28154bd237d0814dbb8a3fe8e6a"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-13.npz",
+    "bytes": 862,
+    "sha256": "5e7e02bad73784a3688c24426a753d5141f414201c0a674bd37b08580b24ae00"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-14.npz",
+    "bytes": 848,
+    "sha256": "eb2a7a6e9e169640eb43c4488aac29c6b0828f492d510cbc8b2c6c4793d59243"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-15.npz",
+    "bytes": 829,
+    "sha256": "958ad626896687172ba2adb4900127b6586c1e6027b213d0d92aec997a5d164b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-16.npz",
+    "bytes": 860,
+    "sha256": "d95c412a2b36603ead318b63cc1e379e41d2e88f5a0cc3c2e3ab3a77f509e741"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-17.npz",
+    "bytes": 851,
+    "sha256": "6ab956adec02df76ba28fc93b9e97623ea5daf7b5fec954d58e43241f575ec87"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-18.npz",
+    "bytes": 848,
+    "sha256": "7bda51653186048acaf9817f2428bb610a86c3018538cc24fca820e751287391"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-19.npz",
+    "bytes": 840,
+    "sha256": "8a6a8a455dd694e108fc27097bdca2ca2e5b6685b86d901e014504196991fa89"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-20.npz",
+    "bytes": 841,
+    "sha256": "f9c8fbb77a82df69555a3f4ff2518796bf1f9853f185cc99b0b3e312f2fc1236"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-21.npz",
+    "bytes": 857,
+    "sha256": "7ed6684a5d45d15c754e3cab79ce2ea8ea56a3a7efbd514d45f707ea71577793"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-22.npz",
+    "bytes": 827,
+    "sha256": "33de6c2b499e84dff7f4a17dc20ca149f4ea5fdb59e2ccd77e4d0f0dcf6df4a7"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-23.npz",
+    "bytes": 837,
+    "sha256": "7acbce0090b254f537021217c2b7db7ffb60c938902fa1537e1c98df261218bf"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-24.npz",
+    "bytes": 836,
+    "sha256": "630b51b73a1abf420ac8aed3688caf8ed5545276f77b40a0166f769acc12edb4"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-25.npz",
+    "bytes": 845,
+    "sha256": "836f66c49c42966a51c526783e46d1ef9abdf9f62dabc9e4b232fc19b4997ac3"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-26.npz",
+    "bytes": 846,
+    "sha256": "5504e290cbd8b436bb336c6cdbd2466f2ccc0339ef8f3d54bfea2d9198c5b969"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-27.npz",
+    "bytes": 851,
+    "sha256": "5e63fb21183558effc880cf3ab801c0bfdb66f255a5873fbc1aec466505df7b7"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-28.npz",
+    "bytes": 836,
+    "sha256": "c293d2a09954410181d9dba1dc3ec2cc5254254c78225cbeb238acc93ae589d7"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-29.npz",
+    "bytes": 844,
+    "sha256": "4e49397647138d3cf6079e30d3bf3dd79cca128566741a2bb746fbfec23ddc9e"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-11-30.npz",
+    "bytes": 835,
+    "sha256": "73e2e456b624d1a538854f24e37c827b99eef02297443c5b7febfa224499fd4b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-01.npz",
+    "bytes": 838,
+    "sha256": "652eafca575d3b2acffe8c017e567affae96943f239b9f6bea560bfb597071b2"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-02.npz",
+    "bytes": 842,
+    "sha256": "2e78169e07a69bab64a98101e78740535e751edbf191bef7e57c927921fefba2"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-03.npz",
+    "bytes": 843,
+    "sha256": "2c1361fdd69570790df2f8c1d8fdfeceb07d3a618d19a7246a8402e751d539ff"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-04.npz",
+    "bytes": 843,
+    "sha256": "b60a4f3a77bab4154905f9dc0b45f60460cf6643ffe25adff5844f0adc97384b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-05.npz",
+    "bytes": 827,
+    "sha256": "e9cf6a7b956a87d0cc1a2463bbbd2b01df651ddf304b49854a2e28089c7c7318"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-06.npz",
+    "bytes": 847,
+    "sha256": "07d2a8ef776bbd2175dc28619769455d33b070d16f4a6506541b317f7782c1e1"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-07.npz",
+    "bytes": 843,
+    "sha256": "9d6bea3339f192e1d1eb4108ec34889363903073ed8ba8d82e287e21f8a100b1"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-08.npz",
+    "bytes": 834,
+    "sha256": "2febc4e8a54582420a9428a61f6f019843275fbde25baed6be2faedf85e2e8a2"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-09.npz",
+    "bytes": 846,
+    "sha256": "d50dfef51f1c3ac3f3d4ae128ae372d8d5ecf9326b8dc2623333d23e7e8099cf"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-10.npz",
+    "bytes": 851,
+    "sha256": "341a290a9fed074df3d659c7953abefa5df29eab92c8c2b0bd44a4db91a33db2"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-11.npz",
+    "bytes": 829,
+    "sha256": "fe0cdf17da0a62eb9ca09e8c6a990604f4ec855c6785af98757e20ddca56b558"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-12.npz",
+    "bytes": 840,
+    "sha256": "4d17836ef0a7382411a7f9e9e052d49a4359a89857fece1c44a969f3f069adb8"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-13.npz",
+    "bytes": 830,
+    "sha256": "d15f32ad90ed61de61ab040fa6a8e6f8d91af1ff1faabd32ebae9a4a7fb06d84"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-14.npz",
+    "bytes": 854,
+    "sha256": "212e64d44c5f691cfcd4b589b314aafee729b2685449bff5e47bf3bc3c41dea6"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-15.npz",
+    "bytes": 851,
+    "sha256": "cef3a2d86a7c8c4fd46c570ba602b77546cb9d478867da9c0e1168379246f532"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-16.npz",
+    "bytes": 845,
+    "sha256": "fd830ef758857e6170016514e475003553cb19d30482c09e7a93498fbd255cad"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-17.npz",
+    "bytes": 847,
+    "sha256": "b5c023f64b4ba78604992eb84fc3fee6ccc40bdef15d4ea335d2de4ad84cbb26"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-18.npz",
+    "bytes": 833,
+    "sha256": "112c567e8b8004ff029179de4d2cdba5ece420b62245c0c9f6c84d2a36ef2d52"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-19.npz",
+    "bytes": 850,
+    "sha256": "063c25fecde23952030ac51e6707a74eefd6b29576b896c50c06f2367bf07d5e"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-20.npz",
+    "bytes": 840,
+    "sha256": "dfc773d8e9c7dbd713fa5cd768fb6793b6c927a35fac147547e9d9f639dedac8"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-21.npz",
+    "bytes": 858,
+    "sha256": "9ecf2b4c0e2df35fcb84e55c427395c9e791f3e3566bb0105150fa8c81d45368"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-24.npz",
+    "bytes": 822,
+    "sha256": "5cbc23adaa36bc7cbd4229d4c7e12cbb3219dce8d4a7ca2a85a92cc702284ece"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-25.npz",
+    "bytes": 851,
+    "sha256": "f140c8df3a8cceea0ab69fa7568b207041121db82f38e189640558b97b86f10e"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-26.npz",
+    "bytes": 838,
+    "sha256": "6387f3806b9fbee4862042e68eaa6fa5b59e47bd48147f71afb1bf65f4f817a0"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-27.npz",
+    "bytes": 830,
+    "sha256": "2a3adcb8d354f43489739fae4df9bc8bb02954719039f02adff9b705d76876b3"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-28.npz",
+    "bytes": 831,
+    "sha256": "a92bbf4e489b56d4175d255129b0cbe4787d9ce4c97f6f6b4125fc6951991ff1"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-29.npz",
+    "bytes": 842,
+    "sha256": "9b2245611ae488b6a3c469eb247981d72c4e73549fc22cf5be1c360b422d4997"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-30.npz",
+    "bytes": 829,
+    "sha256": "3b17012fc71a55fcd3754569a423b1c6321b96abe083dad19c811f0510de74d6"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2025-12-31.npz",
+    "bytes": 844,
+    "sha256": "c2beaa8bc54e388cd60708278c97f5c40ba65b99b94acbcfb22367e21a453c43"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-01.npz",
+    "bytes": 837,
+    "sha256": "c8e5ce1ac296a0790dc932883a4f2a20a02b0cb7e766c215d24f9cd871a9e0bb"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-02.npz",
+    "bytes": 842,
+    "sha256": "f90523d11de34fc8df511719791f46f1ab564e877079c22b2ea63ecd441235f8"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-03.npz",
+    "bytes": 834,
+    "sha256": "a33717a41811e11b9a5d4498c041171ecb778bf5ec540f34e9065117a704365f"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-04.npz",
+    "bytes": 820,
+    "sha256": "a51b6282108cfc5cbf7dfdf03290fe4ff51b61aa7427c67d7e695b943339499f"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-05.npz",
+    "bytes": 847,
+    "sha256": "50c1403bd80f38d550b4cae0f09c48fcbd59ce7cd1ac4640e6d00c04a7669fb2"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-06.npz",
+    "bytes": 859,
+    "sha256": "7378908d9d9dacf26a4c9ab10c66bfe477bdc5019c4db1782fe9fd62c2adf88c"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-07.npz",
+    "bytes": 843,
+    "sha256": "a8008d0a5fe842a8763b25cc358982a8846c83bf5a8e05a94331a1304c233d10"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-08.npz",
+    "bytes": 843,
+    "sha256": "31bd358ed4b46928ad6e7edbb04e0c833f52606f47ca3bd54931b9449bcd617f"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-09.npz",
+    "bytes": 847,
+    "sha256": "3e7cb6facbc29c3e3611629013a1bebe5a7460b086bed0ee73b9172f46cd40e0"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-10.npz",
+    "bytes": 841,
+    "sha256": "a8e7b76d47ccfe647119486b43aefba3a6df500b0eae9a9de8235222d5c9029b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-11.npz",
+    "bytes": 840,
+    "sha256": "052ec2e5aee0f7eee88ded952c9e466b5174e96366cfff3dd5aab343ac42fdc5"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-12.npz",
+    "bytes": 837,
+    "sha256": "19b6b1f4bda5ab5b256317a8d4d34351a504bff99032ac7052b77ae098e473ce"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-13.npz",
+    "bytes": 849,
+    "sha256": "78018246f55bebbda796dbe848f81c2b3219fb93e57c560d543b2192ba0ff06a"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-14.npz",
+    "bytes": 826,
+    "sha256": "184a24e52a90daab78748ce77ba217dbd53065899c75a8a7ecfbeef935c16b48"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-15.npz",
+    "bytes": 848,
+    "sha256": "b3236604ac8ee895e2534629de6872cfe754fa8fac7904ddbebb1f48d42f6f21"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-16.npz",
+    "bytes": 861,
+    "sha256": "06d8c864f3463f9269667de67496d024a4ce045fa5157eabe04971228e42e3c3"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-17.npz",
+    "bytes": 852,
+    "sha256": "e69420e7ea0dbe0429f6bec97b7ce2d45481c201e7e8aaf1a77e62e82cb4035e"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-18.npz",
+    "bytes": 847,
+    "sha256": "8fa7717d4081678a3b032c56944fbff5bef24428a8260ee6e224ab6e44f63cc5"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-19.npz",
+    "bytes": 832,
+    "sha256": "57c3e5631d1930dcb9d3596f06c3ae02340c3ce5f9831a25808da55e12ca440d"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-20.npz",
+    "bytes": 847,
+    "sha256": "86c8cd2646f955e05480bd450f8fbaebb8672c1c6b7366e95bc5332832c62cda"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-21.npz",
+    "bytes": 834,
+    "sha256": "89394435044649f0cba7f4c5f43dee3f07ed163bdc81cff8364bd2c8438885fc"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-22.npz",
+    "bytes": 847,
+    "sha256": "9e04e5b5033e0cdf0c4bb506a1e7675a0aa27ba0a7ed9b104a175398a00334f9"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-23.npz",
+    "bytes": 839,
+    "sha256": "9a0b9b138acda982f992ac398a634ed349e95935a07c0486aafbff7b0154c740"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-24.npz",
+    "bytes": 833,
+    "sha256": "a8208dba6c5330338ec567261d17038c4335ea1cbc37005bb7a0766bf230ff39"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-25.npz",
+    "bytes": 845,
+    "sha256": "d6ce4f3cf493ed61363764c704d1df32cdb2f1eb6cda36eba996ef3e03cf7642"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-26.npz",
+    "bytes": 836,
+    "sha256": "e1d8da4c64abdc55c752633d134f1b5d800451d42c05b9284b9a9f15fbc4514b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-27.npz",
+    "bytes": 843,
+    "sha256": "70d3b53e22c99fd53052c69decd286c6b391a86cf33f0f3c50054efcd88e999e"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-28.npz",
+    "bytes": 846,
+    "sha256": "d2974475f1b0a8ceec9d3e50098d5ecaadd92104c98d129e79954a3172e6e6e3"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-29.npz",
+    "bytes": 850,
+    "sha256": "76266595011c997fc27011af1814724e128290fc2fe7ff874ea3e3c5c18ce634"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-30.npz",
+    "bytes": 841,
+    "sha256": "b083a58c0cdadf2b1579250cc4b31e7302d7fbf1acff0766d0d3bd5c563f79af"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-01-31.npz",
+    "bytes": 853,
+    "sha256": "ef21ddf6a4769dbc636bc6f47da2a889f052c897fccd5ec4e34e473295dd0adc"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-01.npz",
+    "bytes": 839,
+    "sha256": "633bc69d73cdb843682f6e933e667924b695b16d8750df7e795b21bc299c5b0b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-02.npz",
+    "bytes": 859,
+    "sha256": "82b11989d49d2fd873414ba4c9582ceda5e84eb6adcb0205190d6be734e8782a"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-03.npz",
+    "bytes": 865,
+    "sha256": "e2780aa66c19d3f1837e7fe43dd5e98e660db928713963a515e297c87c0206b0"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-04.npz",
+    "bytes": 853,
+    "sha256": "0ddbb0f3bd6a0e8aaa79346a138230a1f2bb6e676aabb2c9fd77a58a410fe349"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-05.npz",
+    "bytes": 856,
+    "sha256": "ec396888e8b5929e3e34b21dc5a9dc6e0278f0e82110fc4d4d4c22a1a34ebdc6"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-06.npz",
+    "bytes": 852,
+    "sha256": "1ef76c1f227658eabdb29e7460d3b055910315cf3316966df0987a8a1ce60fd9"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-07.npz",
+    "bytes": 840,
+    "sha256": "a3291ae4162ebd6e4cbb41f3530c9894063c6e239e4ba3b7b34cd05085c8b779"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-08.npz",
+    "bytes": 839,
+    "sha256": "e9dcee735cccc123923b5010d62fb50235cba7bde213df0117b9dbc707c0fa60"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-09.npz",
+    "bytes": 834,
+    "sha256": "2a93ce34026e84a7acd277124a5a3e929095a4e655eae3924552b7a07f3c9e52"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-10.npz",
+    "bytes": 827,
+    "sha256": "8c4e982ff264e9bbbf9faf9e59f75cb3d8964acd53772dad4ba6ce937a37d984"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-11.npz",
+    "bytes": 848,
+    "sha256": "7bff79984cb80b93eb431c7e03684861e9212fe296317f9d6cf43e5c42ee6f85"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-12.npz",
+    "bytes": 837,
+    "sha256": "6377faab50ad7d8e9eee9e20f2f9b59ea5a3503990c09359119c088c25d65992"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-13.npz",
+    "bytes": 839,
+    "sha256": "8a315f95011062fd3cfac03077f10eda81c286293d55ccd028cb386ee207fa88"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-14.npz",
+    "bytes": 847,
+    "sha256": "56abee39a345e2dd8e32218ea762be7d1433f700e815fe08f9ee9788c553f2e4"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-15.npz",
+    "bytes": 854,
+    "sha256": "b293d09e836f99000c9e0c7b272781519fc3bdd9e7fb9411fa56071148d5b285"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-16.npz",
+    "bytes": 834,
+    "sha256": "91ce60a203c28ea10a6903c6eada897d607dfe04d973ea3e816c7db3d29361d6"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-17.npz",
+    "bytes": 845,
+    "sha256": "722d195a791eedaea4c89178c6ab1eb2c243251507dd037b15add8be11030e3e"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-18.npz",
+    "bytes": 845,
+    "sha256": "7db9ae7365e74b185b5d298fe0035db05d7eddc444e72c1dcaa7d05d1bc8d8c0"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-19.npz",
+    "bytes": 837,
+    "sha256": "81ad0cf9639205edcdb6ef4925195e1f3aa0de46306062a64c860ab42a0f0762"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-20.npz",
+    "bytes": 840,
+    "sha256": "6c013d2cbd16732a70cbd6e48d0abf6732d7f783fe8fd8b94e69863bba57a70c"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-21.npz",
+    "bytes": 852,
+    "sha256": "7649720be7beb3439e895bf343af880ffd84fc66bbd4555fc4ba4ea8514501f3"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-22.npz",
+    "bytes": 833,
+    "sha256": "c5c0f29d1a637183c81f7eaaa95bccafe1b0c8a26c2b01809b71e52e0f22d4b5"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-23.npz",
+    "bytes": 835,
+    "sha256": "3b12eb63053cdbcf4e8408e371b3bc2962fb36f66ab349e229f698bc1d0f1fcd"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-24.npz",
+    "bytes": 851,
+    "sha256": "d4beeb242d76e6e0400f83509d89e7d8570bcfd4e0c90a67ab3aea71dae98bce"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-25.npz",
+    "bytes": 852,
+    "sha256": "733b5471a54456460fce9e857fcf44aac3ceab859c4f027c214159798a10b35c"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-26.npz",
+    "bytes": 836,
+    "sha256": "5851a650a4be7e5365f42a8eb30ee8973ce3a0a2393bf85b14c69295a0c60277"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-27.npz",
+    "bytes": 853,
+    "sha256": "bb2b46d0cc9ffc85e0bb697797a0851bac6b15a52273a787458680e95275a682"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-02-28.npz",
+    "bytes": 852,
+    "sha256": "b376bb85cf2b03d8ebfedd9ce6a552d7fb757f54cc4fab7958c844382790662e"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-01.npz",
+    "bytes": 833,
+    "sha256": "2eb0fbe64949415a6d2618491a076c46dc2b880988651b0b54625d532a01f088"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-02.npz",
+    "bytes": 833,
+    "sha256": "764c7c0d6aaa92c88dfa93ad72b8cfadc6041ab25db47f72507429c55a786a30"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-03.npz",
+    "bytes": 839,
+    "sha256": "887a736bf1a72b10c5ffc0bf668f3c414785fbd01ba1ca072f74d8d024641e88"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-04.npz",
+    "bytes": 838,
+    "sha256": "854a2b77fcb4db601cb7c7023ff4e2c8369689c6c9f5ebab019e547fee04e27d"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-05.npz",
+    "bytes": 859,
+    "sha256": "2cc7cf2270268a32f15dc43d4b37cf713792fd61ca4c99d7af1f4b6382500536"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-06.npz",
+    "bytes": 833,
+    "sha256": "5000ef5092440e440eca6ef1695d63243a0a59e840d55f54ddad4ec872c4a2d3"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-07.npz",
+    "bytes": 829,
+    "sha256": "d1952b88f40acbf629eccfa065e73c9b01057c1364d1b26871cb2faf17ef8771"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-08.npz",
+    "bytes": 828,
+    "sha256": "4b988dd236837053e4bcf0f50b151ef8384c4573c01987650ddd57318df5821a"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-09.npz",
+    "bytes": 850,
+    "sha256": "28444df449261f4a0939177afc4267dabcdae21121c9ded77c302ae7913bc3a7"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-10.npz",
+    "bytes": 845,
+    "sha256": "98f430dcaa9ac4b6c101a2bcd07e0e3b237183963b50f90dd53a7232b1a8d39d"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-11.npz",
+    "bytes": 842,
+    "sha256": "2dc950e970081db25e048d4953327f987efad92d5b2eb13fda315e8abb61e619"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-12.npz",
+    "bytes": 846,
+    "sha256": "25e5db6cc0b57e74b77052fe2e49b4d48bb17d6aa43cd9213c8bf9a0f4badb9e"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-13.npz",
+    "bytes": 847,
+    "sha256": "a08db53f31fcc5bec6b597a686b821967a6985dd1eed49383ad335d1163940d0"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-14.npz",
+    "bytes": 841,
+    "sha256": "55214da32044c49a2c6db4de8ff4834645b05faae75b103e21390f67fa767e17"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-15.npz",
+    "bytes": 847,
+    "sha256": "fe96ff5b8b23b66a7fb70436233fea6d27ff412e50cdd7320637574b38810bd1"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-16.npz",
+    "bytes": 861,
+    "sha256": "d3be7be800edf00d16eae539bcfba5a5e912f6fb2078114685d006c79ef172f6"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-17.npz",
+    "bytes": 834,
+    "sha256": "54e83d56d542a7c509221d7ea6f57851c14bae9b1b0cf616d376f4c8b8fbebc7"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-18.npz",
+    "bytes": 847,
+    "sha256": "a26b7d27e656664798c663c6b18fa759fc0460d06a08f36e56cb0ce9a98cf8b1"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-19.npz",
+    "bytes": 846,
+    "sha256": "da1123dd1f9b04ae3304ae51ce7ab0ec210d355179b39e5e19ea475d3762565f"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-20.npz",
+    "bytes": 845,
+    "sha256": "9e618d0d5a6dbf7f0456b170b447bc09702208b8585f7d4709d50d27e8017f59"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-21.npz",
+    "bytes": 828,
+    "sha256": "5b1f734cf01e38d55ed1ad8827b63339d856ef1e68bd956ab827e768dfe289aa"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-22.npz",
+    "bytes": 825,
+    "sha256": "fb313c48401047244ab0e666ff5346fa0ceca70691972888cb11c55ef66bb125"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-23.npz",
+    "bytes": 841,
+    "sha256": "7beb306e50181fd27390b04d63e9ae8f8e8bd4854dd33e7d77518b53160b93a2"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-24.npz",
+    "bytes": 828,
+    "sha256": "fcfa4a97e77f551277e5be366e237a78d2b084b4013a8e526fc2f9a034fc2005"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-25.npz",
+    "bytes": 842,
+    "sha256": "632997ac2b75dd219a9544c231c47ca98e00e7476912a77f7dee234c0c820867"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-26.npz",
+    "bytes": 857,
+    "sha256": "fd87a9f5f5625140e493aac9baaf9f416fcff6fce3eafb9382f85dbdda25712e"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-27.npz",
+    "bytes": 837,
+    "sha256": "bc7b63f70934c41d80f0f10ba8b41c3a3039081ea3086d08a24f00bd6408bb4d"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-28.npz",
+    "bytes": 843,
+    "sha256": "3cb217645cc11313558bfab4ad5edad46ff7b55aa8d60bba83c082c09aca42e4"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-29.npz",
+    "bytes": 846,
+    "sha256": "bfa99606ba1226edbce904a300effdd3a88e69630bbae39d065923a7a728fe06"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-30.npz",
+    "bytes": 842,
+    "sha256": "3c89f877e7e9c9a6092bc0ca4fb2b2c01a50f60a8ce312812301e0d6b6b0d1ef"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-03-31.npz",
+    "bytes": 855,
+    "sha256": "fa0c4671e1f905c9b7979366ed174b716fe588c25812a9abf9236d73f0ef6970"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-01.npz",
+    "bytes": 854,
+    "sha256": "0960b22625885a10f41ca38d2e93427f030fe82eeb73dfc319a40c9f92027dbb"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-02.npz",
+    "bytes": 835,
+    "sha256": "92b2befdf3944657220f300e37eb171d325d51d118982d85706a9d295531a089"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-03.npz",
+    "bytes": 847,
+    "sha256": "05088a1219770e2a4a7c533bfc051dfb49168d4de84cc66b43c82c5682f40b19"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-04.npz",
+    "bytes": 856,
+    "sha256": "d2e6344eed1fb0b9a8e6b5e3d796bd55747b0fbf8a13a4bf8f64fbab713908bb"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-05.npz",
+    "bytes": 843,
+    "sha256": "8bf3f960725da9c2086c08b75896eda45491f2ddd0c661fe4c26f902435f1061"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-06.npz",
+    "bytes": 831,
+    "sha256": "1db09e13ad7748866aa8d51c95a3adc487fc00e4cc0b498ebafe13fa319cc3f6"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-07.npz",
+    "bytes": 840,
+    "sha256": "342bd67d29f9bec8099516b379e719e3ac007ee4ddd4a702ed71509b33f679c8"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-08.npz",
+    "bytes": 835,
+    "sha256": "b9fc99f702442594672446087fc4e2f59c3d63a3b9bfce95fe3271aef7c768c8"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-09.npz",
+    "bytes": 838,
+    "sha256": "d56307c73f75d5652cec1a2cb5906963860bcde0b31de3354ae71bb169cc61d0"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-10.npz",
+    "bytes": 847,
+    "sha256": "9dae5d34224f56d32ab9422aaa138a1a96c48a11158c38d8ab1b4c4f9f2802a7"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-11.npz",
+    "bytes": 846,
+    "sha256": "2c9f59436b788cb5803903ccb5677295e539314156680d8421a62aa9959d322b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-12.npz",
+    "bytes": 839,
+    "sha256": "f04e6af05c85881f31bcec919689fc1e6bbbddbcfa2360cd2c9e3f2982e82370"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-13.npz",
+    "bytes": 834,
+    "sha256": "d6d0b6c9568c2764d9e20bda2a4384be146578b8b4c1b2f0f65355a17d7229a6"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-14.npz",
+    "bytes": 841,
+    "sha256": "5f5f098867d69fd97c8eeb6052fc5c17547c8306b38a16f908c99a2bc812a5d9"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-15.npz",
+    "bytes": 842,
+    "sha256": "b7d6cce109d978923ee4564601bdd706b6f4c623a014b0f0c59489a426178311"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-16.npz",
+    "bytes": 841,
+    "sha256": "2edde0fa02eca7b2c81b86c512b150ab1bbce4429486c13f46322857c9316d2b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-17.npz",
+    "bytes": 847,
+    "sha256": "287bb2597a545780265bec2a4eeec1fa7cccaf6551f702ab34e15ed93b91e393"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-18.npz",
+    "bytes": 844,
+    "sha256": "38be54b21b50725c2755e3f96f00e3890c6af4252167652203de58a111176776"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-19.npz",
+    "bytes": 840,
+    "sha256": "b2cdf74d0b1b927f2b9f3ca0ea7de80443df1e9c7cee7fd98e029361b2f80199"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-20.npz",
+    "bytes": 833,
+    "sha256": "1e67fca99aff9537c7ed03048cd78105676bc43feb30c0410cb99063e1d7e786"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-21.npz",
+    "bytes": 833,
+    "sha256": "b0fc476287a74c4609d27dd28c9d691f8ff196a65de12764831121a0beda50ff"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-22.npz",
+    "bytes": 831,
+    "sha256": "c47f4ac6e54a038311157580f91ae363f365db1262a829a3c44bccc19f784240"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-23.npz",
+    "bytes": 834,
+    "sha256": "f195bbbfeee7e77c87a74dc8a251397ec7a75ec2f76c136e09d45f5c2d7c9df8"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-24.npz",
+    "bytes": 837,
+    "sha256": "f1b5346b7d1f4fb12af62b97ecd95d459fb000e14a1c150574bdce89152c1cce"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-25.npz",
+    "bytes": 846,
+    "sha256": "9e7c14a7dd3a7f8b8224d005eb6da32e2ce3260da8ce8e2c60d06665fa62c265"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-26.npz",
+    "bytes": 850,
+    "sha256": "03abec83c827b1a69eb47638964071ea2c3ffa2c16bbcc96b27dd2fc77b66644"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-27.npz",
+    "bytes": 852,
+    "sha256": "359e3cb3ced92a252314d629b58c0a9f5b9269485d3123675a9f3885878ae8c8"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-28.npz",
+    "bytes": 829,
+    "sha256": "9eff31eae21e1229236b07e98bacdf3ef80faa0bfd0e3c5e7852cc78ab617030"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-29.npz",
+    "bytes": 848,
+    "sha256": "7f9e4751b90cedf7591e11001d65d22da91ee7c03c84ba1abe531d9e87b45728"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-04-30.npz",
+    "bytes": 831,
+    "sha256": "7f0edb2d67bceffc91ba985576adc787f568ddcc76e5615a2bfa963f62c07291"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-01.npz",
+    "bytes": 833,
+    "sha256": "261574842c3c324b487049867f147644fb5f1b200f4f9dbe29f1992fc2f0879f"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-02.npz",
+    "bytes": 846,
+    "sha256": "0ee91feb387fa6876f7a2049c29682a23ce69b436aca76695fca1f8b2ec19697"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-03.npz",
+    "bytes": 849,
+    "sha256": "a172ef4d1d12651820adc18b40b653243b9c140c7e048b989601e0cba34e6333"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-04.npz",
+    "bytes": 847,
+    "sha256": "06e5fba17d4d145ad2014214866517fd38a1587c1681a6df45c6ace72dea8d99"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-05.npz",
+    "bytes": 836,
+    "sha256": "631cdf5e5f7c2a33a1042ce8255182d506d55b06b7dd045498a5abec0fb7497c"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-06.npz",
+    "bytes": 852,
+    "sha256": "6d9e088107cb0736a3fc08b485d1fdd6ec93bcc12a0c592f92608670872300d2"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-07.npz",
+    "bytes": 835,
+    "sha256": "81af38079475ddaa65911f078fdcca7a9ab4e83d615e54b22297cd3005e38c7d"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-08.npz",
+    "bytes": 838,
+    "sha256": "4b38c2741646283d21448819b46288f3c76132990985222955e50b9a4e84b9a8"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-09.npz",
+    "bytes": 834,
+    "sha256": "d6c773fa79db4ca9b611298052562b9a64a434d46c43e490c17d5ad2a2fec3d6"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-10.npz",
+    "bytes": 829,
+    "sha256": "347fb74fd380d6d2fec161d774d5dfcd1f6f399813c761e3b53ca0951d1273a0"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-11.npz",
+    "bytes": 831,
+    "sha256": "f6f8f16eda6741fc8a86c3794241aaa55ccc424cf99907d6b951500019054af6"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-12.npz",
+    "bytes": 839,
+    "sha256": "be07b472e640ff262b985b78034d9fbfd7a6c2a7a30b5f3193dac166a36eaf89"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-13.npz",
+    "bytes": 844,
+    "sha256": "d3810967c523f7642c007909521a0400c7a602ae9bf04f707ed533fadd86c63e"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-14.npz",
+    "bytes": 840,
+    "sha256": "b6a38aebb27244c0354f8888e9f9d113fcfd013a9e4d50bcfef97bb6f1623fa0"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-15.npz",
+    "bytes": 834,
+    "sha256": "81414da6e6ad91e4eaf8b47cb6e1b7def18a7c75816598f7937766cfdcef0399"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-16.npz",
+    "bytes": 837,
+    "sha256": "e30fd04eb079e2d3d5c673161f3094b03a690b9754585aa6bf0a14f22978728b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-17.npz",
+    "bytes": 836,
+    "sha256": "a95d11d34f58c46e531bcb2c9c8502d4c293bd32a167cc3fab74195761056c16"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-18.npz",
+    "bytes": 855,
+    "sha256": "440a8a74914fb3bb2aa614c66fffee58b67285d8d93495f9f676e66ce93c3fb6"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-19.npz",
+    "bytes": 847,
+    "sha256": "ef0216a199dea316963f94ace8574bbc5867d18e0e0b904d2ffaf20591297fbc"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-20.npz",
+    "bytes": 844,
+    "sha256": "1169474b2a430bc773afac843a4a76b45d36acbd8d877b1ec0779a8d07f7b872"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-21.npz",
+    "bytes": 844,
+    "sha256": "d4beccb0ec8fea8b24b37411a60a419dfb90febde1bb5a3358377ce1b2158582"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-22.npz",
+    "bytes": 839,
+    "sha256": "ce1c6a20d9414c51d5c818014566c67d1bba4bd5e6ce17a9594e09fea0621026"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-23.npz",
+    "bytes": 836,
+    "sha256": "c976f379e8a4a32c159daafbe3590a59cd23ef145f4e4dd4844c0185e4b42e27"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-24.npz",
+    "bytes": 845,
+    "sha256": "8f242080c60dfb3edfa476ad9b1d5399085fa483ebe0f5a5bc4ccc32d8718205"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-25.npz",
+    "bytes": 832,
+    "sha256": "11c4d4a98d5014615ddd3e4db774c3fc8865f13badf690e3a3ff22883163940b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-26.npz",
+    "bytes": 856,
+    "sha256": "c695152f91002ff20a197f0bdc083c6fc4fe1efa95e9382baaad1f19f89f2005"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-27.npz",
+    "bytes": 836,
+    "sha256": "ad8deb8f84080da415b7919819993c244614e7d1726686aebf264131421d6036"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-28.npz",
+    "bytes": 829,
+    "sha256": "29a27a11f25cf9d851c4d003b186eee39ad89303587e93b3961d5c6efaa37798"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-29.npz",
+    "bytes": 843,
+    "sha256": "6adae8b11990751a60ee3f5dc632656fd63bb187bb5ec32a5b328ca404f153f7"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-30.npz",
+    "bytes": 836,
+    "sha256": "7f5f9dd3e1a17826e443ee6e5707035dd00c2567176bf481de59633cc4d019e6"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-05-31.npz",
+    "bytes": 841,
+    "sha256": "1951e31282fb718c37ec6da04aacb3f7c8db4b38d54b871aca4b1c59f0d49caf"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-01.npz",
+    "bytes": 831,
+    "sha256": "35bed29266183a57c71134186f42b6b406e0070a1159f53917c5ca6ba0ae8a3c"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-02.npz",
+    "bytes": 824,
+    "sha256": "97eec3de81cc3858e93eec8efcd5868e724fe2e1301ebae0554e5394c28b3e70"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-03.npz",
+    "bytes": 833,
+    "sha256": "a3c25a77aae735aaf8390c3e768475ee470089362d9e5d71dfd14595f1050086"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-04.npz",
+    "bytes": 857,
+    "sha256": "66cfc3b176c57b8738730c357d3a47399e8596525d59a17d48cbd4f8f2281166"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-05.npz",
+    "bytes": 850,
+    "sha256": "ffc16121685cc271c995e484bb8598b4cb545124f6c4e17690d12d1c465305c4"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-06.npz",
+    "bytes": 842,
+    "sha256": "ab50c293ecc0c14d4f5e39a624c0b7bd0a0291f1d128f5d0066b4a8efefc873b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-07.npz",
+    "bytes": 855,
+    "sha256": "772e9ede9f622c857f638af12870257c98bdb851d7bbad82283b5387636090fc"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-08.npz",
+    "bytes": 846,
+    "sha256": "956098c01e1acca0090e7f90a00b4469376f31596c43f31c28e71c29ec250434"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-09.npz",
+    "bytes": 844,
+    "sha256": "a3d9f24f4598523db47efd180728cad383fb5707c73f5c088d52dfb593329e81"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-10.npz",
+    "bytes": 849,
+    "sha256": "e6abca31c19f65894be869f36edaab313bcdc7ffd033ca88a8d360dcb01549a2"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-11.npz",
+    "bytes": 841,
+    "sha256": "8620345e8405f2ce706402c86e8043f7caae8c33f8977911518008caedac92c4"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-12.npz",
+    "bytes": 836,
+    "sha256": "e33a12de43f3bd4cd9e08f66c4f2be33b6c6eab112165d43f82dea9644a99967"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-13.npz",
+    "bytes": 847,
+    "sha256": "b2cb0abdb342ee8e2f7b83b3f9d238ed9624553542be455c47e2c8c39f7a8197"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-14.npz",
+    "bytes": 833,
+    "sha256": "3d975dc806f5d863762943e158f5c135c7d57ce9934759b6357d08370627f2c2"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-15.npz",
+    "bytes": 853,
+    "sha256": "7d653b85b9194fb1920c7d750077aaa08a3335d5efbb975fc1cde53ab5a0052a"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-16.npz",
+    "bytes": 853,
+    "sha256": "bfeddfbbb3070ede79237a5abd730c411f6cae921d5a39549c9b9707a0e36b34"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-17.npz",
+    "bytes": 830,
+    "sha256": "97994eedbfa1d2a31ccb2c8f300d3b599e5e7bec8c9f1a12314545f221edb218"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-18.npz",
+    "bytes": 839,
+    "sha256": "ffe648f068ba64ba298ef75bcdf91d1e34546b66a799487a39b8c9c741157850"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-19.npz",
+    "bytes": 850,
+    "sha256": "864be5a822385c31fb5bd1053e468725b47cfd490b0bee234c3900b37028030d"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-20.npz",
+    "bytes": 843,
+    "sha256": "239efe2ad44ac5b5f5f1b7dd35aaf72835ea6bc66e5a7193698cfb8899ed76de"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-21.npz",
+    "bytes": 828,
+    "sha256": "c113b4ba589adb5282bc08988d4242c89c3806b86ffcf7e20e7d3ff623b80417"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-22.npz",
+    "bytes": 828,
+    "sha256": "b3b8333483899dbd17db3dd06e656f619b24a348429ea9a7773fd7e70a641b8a"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-23.npz",
+    "bytes": 828,
+    "sha256": "88b70c31c229743d37149462eac1c228792904efa61bac53a14792abc9c5fbf1"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-24.npz",
+    "bytes": 834,
+    "sha256": "fdf3e7ede8b8445a7c3cb9173812665c864ef9b731aa627a92f42592af0942fa"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-25.npz",
+    "bytes": 843,
+    "sha256": "3f488140ba00c0bba0e2bf78bb4ee89e6997bb2b19d9aa753e3a612bb2b0a317"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-26.npz",
+    "bytes": 840,
+    "sha256": "255fe3ae6031b27eb6334d3eb4eb749facfdf5a486a3e58ddfb0c1bfc8b5a68b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-27.npz",
+    "bytes": 842,
+    "sha256": "07e19c189425ab12f6478a038d3748ae8cf9874a331a469a5c4a68ffd661679b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-28.npz",
+    "bytes": 841,
+    "sha256": "60c2ce37fe5c8558f419cc6eea1ebd31311d260c03c2741f5debe61cccdd8873"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-29.npz",
+    "bytes": 856,
+    "sha256": "96ff7feb560122332651817cd148aeffd11c42bc7b09a61de41d15f90eca3537"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-06-30.npz",
+    "bytes": 852,
+    "sha256": "937e137dc9d663bf25a3d96df47f636f6d04cfc1eb023bbe0cf0f022cb968ade"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-01.npz",
+    "bytes": 840,
+    "sha256": "0ef05d67571d0ee90a2d76e3cb2f130508b8766946f0be19f08cc9a89f0e35d4"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-02.npz",
+    "bytes": 846,
+    "sha256": "1ee68b0b36268faff40b084b265e16e234eb0b5f8dd60a94819dc5bde872d16f"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-03.npz",
+    "bytes": 843,
+    "sha256": "7144bca46ba7cc64066a85f9f483de071942efc5273776a0324bff9a7cbbeded"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-04.npz",
+    "bytes": 858,
+    "sha256": "b7d331604139fde953a739814963ba5138b59027efc9c90f0386c6f4ffaa0aac"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-05.npz",
+    "bytes": 839,
+    "sha256": "cb536b41fe3f1621d59835d32c6f9ae4ba030fd3d0302438bc554bca3604af8d"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-06.npz",
+    "bytes": 832,
+    "sha256": "7eaf3026eea9110a56da152c235bac09189961a2598d2f48ae62c746cdfce1e6"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-07.npz",
+    "bytes": 834,
+    "sha256": "b395eb13c0b40113434875a05a45e0fc453e71a9481b26eba3dd5a9a3ab72640"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-08.npz",
+    "bytes": 839,
+    "sha256": "6af4a6630a39c01f0bb7527fdbab4d4a76f529961597aaab1305df24db0e4736"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-09.npz",
+    "bytes": 841,
+    "sha256": "d031d46c4cd5d84e6a45514ed79e78034ff2c229d731824c3bfe9f3d4b55eb73"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-10.npz",
+    "bytes": 838,
+    "sha256": "6598a1604eb37b46552c5b27526b4afaa79c01bbaeb1846d42e4323f3d11d856"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-11.npz",
+    "bytes": 858,
+    "sha256": "726e6f8d03373fbe7c6b8665141503f604f081cd7c14e25d3afcbae321f269ed"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-12.npz",
+    "bytes": 848,
+    "sha256": "7ececae623908c0dec7860319cfd96adf72941510f296881f70331be74b7dcd9"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-13.npz",
+    "bytes": 855,
+    "sha256": "070e14e7dd0397f51e727ed4937b74269bd70c0504cffff2471db70ccb8f448b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-14.npz",
+    "bytes": 833,
+    "sha256": "89b0d810ace7fdaa70b752d232baa4d501a6389f7ae0511548a03a638db6837d"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-15.npz",
+    "bytes": 846,
+    "sha256": "6b7f9f366e48b90033d5cbf894883e1271c411242bd9fd10cfcc754984a20196"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-16.npz",
+    "bytes": 839,
+    "sha256": "8650a4d452196a355e8f15a5f93bf3223417ba20819cb07f09eaa82465d9c1f1"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-17.npz",
+    "bytes": 852,
+    "sha256": "b103f030d6ae21bb78d8015f2ce39782c006dcd58bb072e0ee9ec1cff6416681"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-18.npz",
+    "bytes": 843,
+    "sha256": "a270ca4011ac4dea008c820ecaf4c921bece2b3f0982494e5a7bc4a403ce888d"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-19.npz",
+    "bytes": 839,
+    "sha256": "5e6698b1c3b3b477df58505726d3c1dee40a24f6a185229f9d1b8edc7554e8f6"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-20.npz",
+    "bytes": 851,
+    "sha256": "8c7fbf956366cf59cf531ab6cba7b494a7d2f68b16b44e3455ea6070722620ce"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-21.npz",
+    "bytes": 849,
+    "sha256": "9e465573ee94ba80aa7a027772c64c64800b11464bb8516331853856c34357a2"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-22.npz",
+    "bytes": 838,
+    "sha256": "8ee7b8500c6b2cc30dca11e62c35335340856d19543c1234f19e9d38d3fd5a1b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-23.npz",
+    "bytes": 845,
+    "sha256": "cab1fc9a21ed5def054d107649a89dd28953637002f87cf38aa5dff04b290687"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-24.npz",
+    "bytes": 844,
+    "sha256": "25a767406a504d58cbc5dbf77ee4a5ae283b4fb616223ddf3c2a79810477a61d"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-25.npz",
+    "bytes": 840,
+    "sha256": "ba168474efcdb17918418efeee606633c10defd92c96067e8bf2237dbbe1cd8c"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-26.npz",
+    "bytes": 830,
+    "sha256": "4bbeb243aea1a2d9df94ea0eb2930eb3c5437a4437cc22771c54539940af1565"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-27.npz",
+    "bytes": 836,
+    "sha256": "bdb432808b06c3dea6e3910dd94662a85ce94dcf76de9d97c64daa18b80c9b2b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-28.npz",
+    "bytes": 837,
+    "sha256": "0471d86ee0a79394004293c08018ac6f95d84e6f7e14ef94c411f3bab85b715b"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-29.npz",
+    "bytes": 834,
+    "sha256": "5a47d649a3b35d8994ee94c6d08c1f635b2d1bbd9fd115cc0796760d870a1b22"
+  },
+  {
+    "path": "minute_revision_20260908/datasets/belgium_quarters/2026-07-30.npz",
+    "bytes": 846,
+    "sha256": "38b9cb563a006251954d50f762cf6e0e51012d6f159ddec7340595b52f328c69"
+  },
+  {
+    "path": "minute_revision_20260908/docs/.gitkeep",
+    "bytes": 2,
+    "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+  },
+  {
+    "path": "minute_revision_20260908/results/belgium_eligibility_sensitivity.csv",
+    "bytes": 547,
+    "sha256": "c2a44e5d1439c8923e9dfec8d130225f5948c440fdc193b71e2481cb9ba235c0"
+  },
+  {
+    "path": "minute_revision_20260908/results/belgium_validated_config.json",
+    "bytes": 264,
+    "sha256": "5b37a869136a8e8501b41e98265087f473b4cfe3f82e4971930755e355b665e0"
+  },
+  {
+    "path": "minute_revision_20260908/results/certificate_verification.json",
+    "bytes": 210,
+    "sha256": "0523b158a05ceb5ba6977af82426ecd36c903fb7d1190e6da8fb350271bf6797"
+  },
+  {
+    "path": "minute_revision_20260908/results/cross_source_daily.csv.gz",
+    "bytes": 4027038,
+    "sha256": "e40402dc33279d59bcb3330c5888063579c5bcb5ef43e9e7fc95d32912101ade"
+  },
+  {
+    "path": "minute_revision_20260908/results/cross_source_summary.csv",
+    "bytes": 66550,
+    "sha256": "94c0c1df124c815eb2a62d511f49270870bab013b93dcaaa1d2593a4ae7223ec"
+  },
+  {
+    "path": "minute_revision_20260908/results/electrolyzer_baseline_verification.json",
+    "bytes": 82,
+    "sha256": "48b4b2561ca27c653af2e6e836ba1b4c803e9922178f77a09ccb734b39af08b1"
+  },
+  {
+    "path": "minute_revision_20260908/results/electrolyzer_constraint_config.json",
+    "bytes": 451,
+    "sha256": "fb10364932dc8b9c5474464618ff49cf9e17c4019cb235c5a89265493b7ee277"
+  },
+  {
+    "path": "minute_revision_20260908/results/electrolyzer_constraints_audit.json",
+    "bytes": 121,
+    "sha256": "28786abf8eb32aab510e12e595ffa3d61d309c1a888e209bd72cfda2f5cc2d40"
+  },
+  {
+    "path": "minute_revision_20260908/results/electrolyzer_constraints_daily.csv.gz",
+    "bytes": 2099439,
+    "sha256": "d537e2009b2ca8bcf3397c196474c7466a5d6d4c127b197268e943a0a8a17af4"
+  },
+  {
+    "path": "minute_revision_20260908/results/electrolyzer_constraints_summary.csv",
+    "bytes": 11180,
+    "sha256": "be257412dada3f4cf72b5ee771b1fce08cab588223e3f435cbed888e5a92dc00"
+  },
+  {
+    "path": "minute_revision_20260908/results/frontier_uncertainty.csv",
+    "bytes": 1807,
+    "sha256": "b2e0fb83c34ad32ea5a6959b1301020b32bb753298ee7d0e30e7536aed70fb35"
+  },
+  {
+    "path": "minute_revision_20260908/results/germany_capacity_decisions.csv",
+    "bytes": 25834,
+    "sha256": "23349c7e5a593b38caef4aa4fd2e038c9b91aea6f58d73b29a7016400d93c7df"
+  },
+  {
+    "path": "minute_revision_20260908/results/germany_main_audit.json",
+    "bytes": 369,
+    "sha256": "90502f0936005c9f3069e1d706515ef108ca6492acf31a2cfc28a186c91f8822"
+  },
+  {
+    "path": "minute_revision_20260908/results/germany_main_config.json",
+    "bytes": 1106,
+    "sha256": "2b0566b5b41f430e55e6a95400cba16edec2f8290b6f8c3645282a08e875adbe"
+  },
+  {
+    "path": "minute_revision_20260908/results/germany_main_daily.csv.gz",
+    "bytes": 4190857,
+    "sha256": "a3ab231d912beb37bf6cf716c765017e791d56d73c281e34a2e560e14a1b4ea1"
+  },
+  {
+    "path": "minute_revision_20260908/results/germany_main_summary.csv",
+    "bytes": 225011,
+    "sha256": "5b2d9ab39e90febb6b2bce40408f6e2d4b7ef3fed3f81c59bf0df6907f99a042"
+  },
+  {
+    "path": "minute_revision_20260908/results/germany_measured_audit.json",
+    "bytes": 295,
+    "sha256": "69fc6bf9b3676227df5e328315130e575302dafc6167994a811275543eb8791f"
+  },
+  {
+    "path": "minute_revision_20260908/results/germany_measured_capacity_decisions.csv",
+    "bytes": 26404,
+    "sha256": "cc9786328e4e604f78a007a568a261fbe96ba670642ed9c208a58da21bc6350f"
+  },
+  {
+    "path": "minute_revision_20260908/results/germany_measured_config.json",
+    "bytes": 1137,
+    "sha256": "ef1406eda374ff77f988a6765cd29ec8bf8201f147724216a131bc871d0c6d19"
+  },
+  {
+    "path": "minute_revision_20260908/results/germany_measured_daily.csv.gz",
+    "bytes": 2392477,
+    "sha256": "c848eb621063521fc681ed4505bf7775dd01b8d193274229511cd93886bf408c"
+  },
+  {
+    "path": "minute_revision_20260908/results/germany_measured_paired_uncertainty.csv",
+    "bytes": 404,
+    "sha256": "d13b39790ae5381a5b38225da51f1f1270e844032f3e7e1654dedb18dfe7e2de"
+  },
+  {
+    "path": "minute_revision_20260908/results/germany_measured_summary.csv",
+    "bytes": 226728,
+    "sha256": "3a3ed9bc4de408590422947009c4bf9513f2989ceb47639962ba83d5736bf244"
+  },
+  {
+    "path": "minute_revision_20260908/results/germany_paired_uncertainty.csv",
+    "bytes": 1160,
+    "sha256": "4184980c51da9a3951350b3c9475caae079cdb987d098c29aedd4c04a7efaabb"
+  },
+  {
+    "path": "minute_revision_20260908/results/integrated_pilot.csv",
+    "bytes": 22599,
+    "sha256": "05fee77788b5fef88640491f767922c4cda088c335e8ddea61bf333b0c666251"
+  },
+  {
+    "path": "minute_revision_20260908/results/january_mechanism_pilot.csv",
+    "bytes": 40983,
+    "sha256": "8e30466abcef1c9e5aba57ada3e383ce67130aafa0e9925c3b99b4ec3b8c31f1"
+  },
+  {
+    "path": "minute_revision_20260908/results/january_mechanism_summary.csv",
+    "bytes": 1452,
+    "sha256": "47bc5f4f0f350a55fe6283b7bceb4a9a5d0f26611bafec8b093aab7ecbd35ff4"
+  },
+  {
+    "path": "minute_revision_20260908/results/pilot_config.json",
+    "bytes": 193,
+    "sha256": "d76fed859d4b80a2e264df8251dfb2b36bbd50a760d8da0d700ed9cc98f2e3f4"
+  },
+  {
+    "path": "minute_revision_20260908/results/recovery_scarcity_config.json",
+    "bytes": 320,
+    "sha256": "337545088ebfb59692aec693ffac72601837b8d99ac1ac42db0a4f8b66a2165c"
+  },
+  {
+    "path": "minute_revision_20260908/results/recovery_scarcity_daily.csv.gz",
+    "bytes": 1773035,
+    "sha256": "1270c8fee6943220f11c1fa3d01c09681d61aeac8881545dba0d54b553eff5ab"
+  },
+  {
+    "path": "minute_revision_20260908/results/recovery_scarcity_summary.csv",
+    "bytes": 48615,
+    "sha256": "d060d2f494a25cd65d2de127707e60ffef737ec4a7be95902e55c63fa6130380"
+  },
+  {
+    "path": "minute_revision_20260908/results/robustness_audit.json",
+    "bytes": 130,
+    "sha256": "7718ccb15c4bf311ea2ee729f95c3ef4884e4298bf2137a76dc87d2648dd3760"
+  },
+  {
+    "path": "minute_revision_20260908/results/robustness_config.json",
+    "bytes": 760,
+    "sha256": "ba0f03a87a3907eeab1aeeec0b03006120ec5f959278d736bd1dac2f81e3374b"
+  },
+  {
+    "path": "minute_revision_20260908/results/robustness_daily.csv.gz",
+    "bytes": 4404860,
+    "sha256": "a30bbc128241a287105e40bb2993824ead75914e317e6f8bc06c2de7a5766c13"
+  },
+  {
+    "path": "minute_revision_20260908/results/robustness_summary.csv",
+    "bytes": 109940,
+    "sha256": "b9316f4a3a9944e41e0a505f4348b5ad3eb9379ecb2143bc5d51831c2d970d59"
+  },
+  {
+    "path": "minute_revision_20260908/results/scarcity_challenges_config.json",
+    "bytes": 570,
+    "sha256": "6e700ba9b65c40649b762c291f4b311d637a55777877fee29a161452300ec5be"
+  },
+  {
+    "path": "minute_revision_20260908/results/scarcity_challenges_daily.csv.gz",
+    "bytes": 2826259,
+    "sha256": "58901b04e6dba12d2db6815a5b3d53cfda31cb2e248c8d1ce4cda3ffc6f4ec75"
+  },
+  {
+    "path": "minute_revision_20260908/results/scarcity_challenges_summary.csv",
+    "bytes": 13245,
+    "sha256": "f87aca261a7701581d6df269e3d8f606b1e34756fbb369be9ab6206daeb5b6ef"
+  },
+  {
+    "path": "provenance/germany_cache_manifest.json",
+    "bytes": 84073,
+    "sha256": "460d9601efb8524a9db9aa35a732053edb47f58b13f4df39c26919dbb32592ab"
+  },
+  {
+    "path": "provenance/germany_day_audit.csv",
+    "bytes": 42206,
+    "sha256": "20428ed660850c3bab473f97af86b1cbbcc9216e22ffd414bd90c4f66f3e744e"
+  },
+  {
+    "path": "provenance/germany_download_manifest.json",
+    "bytes": 2990,
+    "sha256": "6c355183d51b1b1519c35ebcf8fc9d55e40186774f0cf6a42930a581853f146a"
+  },
+  {
+    "path": "provenance/germany_raw_files.json",
+    "bytes": 3187,
+    "sha256": "b8bc8d8763930a7f7aebd005e39c0fb9133eabc47e29cb3a03e8c861fd2b8075"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1901,
+    "sha256": "e776383857d2020fc680c9f4294d0dc49403a62a92045d7f0c3a40decd62626e"
+  },
+  {
+    "path": "REPRODUCIBILITY.md",
+    "bytes": 4083,
+    "sha256": "197eb8e16b8a83089524c5fa72e2f505fe416fff560f6c1b63de77a5fdff2f33"
+  },
+  {
+    "path": "submission_revision_20260908/code/audit_distribution_envelope.py",
+    "bytes": 2489,
+    "sha256": "f7e63ce7eefc16b0ffff1c984a790fffbc462ba1108169d3fe1c3f17d8ae9ba4"
+  },
+  {
+    "path": "submission_revision_20260908/code/audit_distribution_screen.py",
+    "bytes": 2936,
+    "sha256": "0317f608fb0c76c9aeb5595db8700e235213a02dab82694a2b15a1a6a7886d4c"
+  },
+  {
+    "path": "submission_revision_20260908/code/audit_energy_identity.py",
+    "bytes": 2634,
+    "sha256": "6e9d6d492df8af6833a228318b902063fdcd04eb0cf3a6da9440644c6e4e3c34"
+  },
+  {
+    "path": "submission_revision_20260908/code/audit_gb_transfer.py",
+    "bytes": 2177,
+    "sha256": "c98dc288db0ee3645644d5e67deac29853d7a1736693437bd48be7b0c96078a3"
+  },
+  {
+    "path": "submission_revision_20260908/code/audit_resolution_extension.py",
+    "bytes": 1991,
+    "sha256": "de2916e6e1e6c75043422e69dc6fe641495b0b492201ba51d4d2d22df80cde7c"
+  },
+  {
+    "path": "submission_revision_20260908/code/build_distribution_figure.py",
+    "bytes": 1590,
+    "sha256": "6868eb1f736c3082bc46bf652191445cefa0464beb9dbe1778f63c39ac0e8163"
+  },
+  {
+    "path": "submission_revision_20260908/code/build_error_transfer_figure.py",
+    "bytes": 1912,
+    "sha256": "45aae51db27d27f3a6272f30cfdedb1987ff0244577df52c94781d1ff6ad3638"
+  },
+  {
+    "path": "submission_revision_20260908/code/build_figures.py",
+    "bytes": 4289,
+    "sha256": "54c6d5f916dc6bbc76c3ed2f2b38e1a282ab74f6b1ecd33c514c1ff06053c116"
+  },
+  {
+    "path": "submission_revision_20260908/code/build_resolution_figure.py",
+    "bytes": 2140,
+    "sha256": "50990637ccdf546e65c33a39f761dcb2ae3de940461217eba4de2a3eee2c7c02"
+  },
+  {
+    "path": "submission_revision_20260908/code/build_result_ledger.py",
+    "bytes": 1324,
+    "sha256": "df4e2d336a4c546c7680d90d1cc18f4c885e4042a849fa8135257b84780b2612"
+  },
+  {
+    "path": "submission_revision_20260908/code/certify_native_bounds.py",
+    "bytes": 1263,
+    "sha256": "d6f950a31eaa548bed290f6654756404998f50d14f65d4fbace4cf82ddf74aaf"
+  },
+  {
+    "path": "submission_revision_20260908/code/check_final_envelope_claims.py",
+    "bytes": 694,
+    "sha256": "fa4aedd4c48771dd4e78004172168f037019581727f330f965913768faf62fd2"
+  },
+  {
+    "path": "submission_revision_20260908/code/compare_fresh_reproduction.py",
+    "bytes": 3127,
+    "sha256": "a4e03c9a49996a3e2f65b697a45089ecfdbf6aa11c9c13b6587f06b49575d0e3"
+  },
+  {
+    "path": "submission_revision_20260908/code/compare_resolution_reproduction.py",
+    "bytes": 1579,
+    "sha256": "d133db08157fe93c41ef1dd21e365466332686cb8af278dc3b986b1a73f6839d"
+  },
+  {
+    "path": "submission_revision_20260908/code/control_classification.py",
+    "bytes": 3451,
+    "sha256": "952f6848c794af4442dac864ab6a7bedcd125bc90b6a52257a507ba4bcad0b7e"
+  },
+  {
+    "path": "submission_revision_20260908/code/cyclic_energy_dual.py",
+    "bytes": 2275,
+    "sha256": "78d000d5eb33b47d410c00c7768a24ab4412ba951e2ef00eb09831f6986eeec4"
+  },
+  {
+    "path": "submission_revision_20260908/code/distribution_envelope.py",
+    "bytes": 1906,
+    "sha256": "f8a37e579c19fb2877f7b269d33f783b9c7dd16a8aad60247d6201e66750708d"
+  },
+  {
+    "path": "submission_revision_20260908/code/distribution_screen.py",
+    "bytes": 1838,
+    "sha256": "d2451f6edc18a5a148f5966ec3f0ff39fdce6f587a99e0ca134b39adb742b87c"
+  },
+  {
+    "path": "submission_revision_20260908/code/download_gb_frequency.py",
+    "bytes": 2104,
+    "sha256": "e479c84c8472356a03bac83d26b5f2a1d5589eee1e686f96ac2af22d9eda8443"
+  },
+  {
+    "path": "submission_revision_20260908/code/hydrogen_lp_pilot.py",
+    "bytes": 2857,
+    "sha256": "46fb63b0e346e7d15e5d0a75723ce0a3ac8af54caefc7ae0fb84b52d3b22ad68"
+  },
+  {
+    "path": "submission_revision_20260908/code/native_hydrogen_bound.py",
+    "bytes": 4374,
+    "sha256": "81b543397bfead811b6710f74f5c9e63107127f251c3e5ad3dd8f4d694ccb7dc"
+  },
+  {
+    "path": "submission_revision_20260908/code/pilot_reachability.py",
+    "bytes": 1969,
+    "sha256": "80601ed9769baf0327e9108852cd5e884a8bd01221cb93c06a42e7def784a955"
+  },
+  {
+    "path": "submission_revision_20260908/code/prepare_evaluation_cache.py",
+    "bytes": 677,
+    "sha256": "888fac4c15d6dd5822464af341903af238cb62a9922601295ed40528ca511400"
+  },
+  {
+    "path": "submission_revision_20260908/code/prepare_gb_frequency.py",
+    "bytes": 2325,
+    "sha256": "c1c466ef9b56889fec4dd7ec721d74d25e291c3f56995e48c952044e1f26d7a9"
+  },
+  {
+    "path": "submission_revision_20260908/code/reachability.py",
+    "bytes": 4416,
+    "sha256": "67b937703e0ea8e5254ca713964163b512528425075581fa76c273755974a2a7"
+  },
+  {
+    "path": "submission_revision_20260908/code/reachability_property_check.py",
+    "bytes": 13719,
+    "sha256": "137bb2bed9a7584ab8faac2764248609ff7d8d51f7dbcde149a44d02f1084225"
+  },
+  {
+    "path": "submission_revision_20260908/code/run_distribution_envelope.py",
+    "bytes": 1474,
+    "sha256": "d2547aa6a757e7dcf6d4a033c097ddfd3a1a4a069ad02fac0ffa1c53edb44d4a"
+  },
+  {
+    "path": "submission_revision_20260908/code/run_distribution_screen.py",
+    "bytes": 2451,
+    "sha256": "f5541bf647cb03397c1e0d1354bd70181729a05a66c607ff099518e25ec1e954"
+  },
+  {
+    "path": "submission_revision_20260908/code/run_energy_challenge.py",
+    "bytes": 1541,
+    "sha256": "d52403e030cfcbfd11cc60df27c5cbc35dfcc88312b77ebe88f42383fdb97610"
+  },
+  {
+    "path": "submission_revision_20260908/code/run_gb_transfer.py",
+    "bytes": 1452,
+    "sha256": "e5cdbc8ff206d4d63df33c056e6ae1f5ee6de47561c5454392859126d7d31dba"
+  },
+  {
+    "path": "submission_revision_20260908/code/run_hydrogen_matrix.py",
+    "bytes": 3930,
+    "sha256": "bfc6f863421142b33b7e3abac95fbc4e560d1424c4de8d594e0dc134f9715a55"
+  },
+  {
+    "path": "submission_revision_20260908/code/run_local.py",
+    "bytes": 552,
+    "sha256": "11eec4958beabb96b9062b1e7680a71059bcd68dc7d91637cd6884d068152a13"
+  },
+  {
+    "path": "submission_revision_20260908/code/run_monthly_energy_challenge.py",
+    "bytes": 2588,
+    "sha256": "972354818c8cfee2c0ddadd0d1d8b178ba2906019f6431f6fb81036c3ed49c0f"
+  },
+  {
+    "path": "submission_revision_20260908/code/run_monthly_oracle.py",
+    "bytes": 2647,
+    "sha256": "f5032cc1bcb7938ab222c4b01ac770b3b8231a5372cc6e89885815c6dc2228ed"
+  },
+  {
+    "path": "submission_revision_20260908/code/run_oracle_frontier.py",
+    "bytes": 3242,
+    "sha256": "09ebadef0ce76e564176d7523c3b7afc1ba8bc2ad043bb25b6f18f7f483cd382"
+  },
+  {
+    "path": "submission_revision_20260908/code/run_resolution_challenge.py",
+    "bytes": 3510,
+    "sha256": "8138e646b3c7368163a6cd6cbb8bc4d01909f34f61608e32027c5b3929605e38"
+  },
+  {
+    "path": "submission_revision_20260908/code/solve_native_bound_worker.py",
+    "bytes": 330,
+    "sha256": "f5af6c83b13e5f7441c643242dd8de4b231a184310d4b62dd26ca2f0400c3734"
+  },
+  {
+    "path": "submission_revision_20260908/code/verify_hydrogen_optimization.py",
+    "bytes": 3321,
+    "sha256": "d0ae55324bcc1dd9720a75e120a491a7c65fddfdae4157c709d004e979d6e57f"
+  },
+  {
+    "path": "submission_revision_20260908/datasets/gb_frequency/2026-01.npz",
+    "bytes": 3090351,
+    "sha256": "2230a62e4c94cd5c5535ab6677161aaa5c558b81ae81f1c17ad46ea41e23933f"
+  },
+  {
+    "path": "submission_revision_20260908/datasets/gb_frequency/2026-02.npz",
+    "bytes": 2569967,
+    "sha256": "23d2a3ab618ca402513486af68ed8c7641d9915d2b59b63874df47a241cce550"
+  },
+  {
+    "path": "submission_revision_20260908/datasets/gb_frequency/2026-03.npz",
+    "bytes": 2975054,
+    "sha256": "1a4752af8435015ab4e4d2a929a843085753a2ad889361920dc14e7d748b8ba6"
+  },
+  {
+    "path": "submission_revision_20260908/datasets/gb_frequency/2026-04.npz",
+    "bytes": 2881493,
+    "sha256": "2358665afb8fdc21cbcf9c370d0c72b7c808e1b87ca9be578a949d0100dfccb2"
+  },
+  {
+    "path": "submission_revision_20260908/datasets/gb_frequency/2026-05.npz",
+    "bytes": 2937174,
+    "sha256": "c0decaf7b82426551001974c948fe59021b3ba67a60472757ed7e2953a6d58ca"
+  },
+  {
+    "path": "submission_revision_20260908/datasets/gb_frequency/2026-06.npz",
+    "bytes": 2918261,
+    "sha256": "a4b366b92dc5c868f2dbb75d7777fc17c1d39486e4dd5dd8a1b7c88951e2f850"
+  },
+  {
+    "path": "submission_revision_20260908/datasets/gb_frequency/2026-07.npz",
+    "bytes": 3039165,
+    "sha256": "4616880a7eee25d5d5da75b5519fb38926ca4c37dcd7c4bfbba82d8a62cbf75f"
+  },
+  {
+    "path": "submission_revision_20260908/docs/.gitkeep",
+    "bytes": 2,
+    "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+  },
+  {
+    "path": "submission_revision_20260908/README_REPRODUCTION.md",
+    "bytes": 6667,
+    "sha256": "4fcd70e1296919b35022661ab32bf47bc0ab129e60a293cb86f8d8ccb7d42b6a"
+  },
+  {
+    "path": "submission_revision_20260908/requirements.txt",
+    "bytes": 137,
+    "sha256": "77db8d78135e8aca425f5ef276528a1656b0869c6119d42880f7939cc16100c9"
+  },
+  {
+    "path": "submission_revision_20260908/results/control_classification.csv",
+    "bytes": 63419,
+    "sha256": "06290dd5bf534eecf8b298c588e879ffea987624702a7fa2585496522cbe41cf"
+  },
+  {
+    "path": "submission_revision_20260908/results/control_classification_audit.json",
+    "bytes": 276,
+    "sha256": "dbb19d599e1b900cc8281397cbe647f036ebf06cbe83a6e9da132a4ca9cdd7d3"
+  },
+  {
+    "path": "submission_revision_20260908/results/current_evidence_audit.json",
+    "bytes": 462,
+    "sha256": "4e0f3cd6fde2255318b95119a49a25b714a5b728022c058f48212ed268634417"
+  },
+  {
+    "path": "submission_revision_20260908/results/cyclic_energy_dual_challenge.json",
+    "bytes": 2005,
+    "sha256": "40cb42a2f48d41cf6b5d144a628eacc8ce56c599fd6444379dda4b3ee7b817a4"
+  },
+  {
+    "path": "submission_revision_20260908/results/distribution_envelope.json",
+    "bytes": 30362,
+    "sha256": "117775b89bc0732283a811218452ea433ef9e1383e6de247747fe2fc5a064d2a"
+  },
+  {
+    "path": "submission_revision_20260908/results/distribution_envelope_audit.json",
+    "bytes": 251,
+    "sha256": "107cb113adcba814a37cd5a31d211f72c077c5006c45ea268b9f5c3e87a113d7"
+  },
+  {
+    "path": "submission_revision_20260908/results/distribution_envelope_reproduction.json",
+    "bytes": 144,
+    "sha256": "b9bc4dac959abe0dc30019f293bf1100f02c11204025262b3d8c041376bf5696"
+  },
+  {
+    "path": "submission_revision_20260908/results/distribution_screen/audit.json",
+    "bytes": 28993,
+    "sha256": "46e283398dae47156dc9a6b81582a3d86ff47feae7d475fc4da95ab96b1041c0"
+  },
+  {
+    "path": "submission_revision_20260908/results/distribution_screen/reproduction.json",
+    "bytes": 40806,
+    "sha256": "e3a567a27da8b9483c5f1673e84323bced9076c54f16f6ada8d6bc0229a4ffd3"
+  },
+  {
+    "path": "submission_revision_20260908/results/distribution_screen/results.json",
+    "bytes": 59975,
+    "sha256": "6ddd5a46787818306770489600cf5eb73c48081074cae8bc3d090a6885ccbbc5"
+  },
+  {
+    "path": "submission_revision_20260908/results/distribution_screen/run_environment.json",
+    "bytes": 320,
+    "sha256": "03a564bdb2179138e0d1f415a5306fe0d0acacfe75d80e343efc8ace39b63b88"
+  },
+  {
+    "path": "submission_revision_20260908/results/dual_certificate_0.08_0.1_0.94_7_3.json",
+    "bytes": 341,
+    "sha256": "3d6d3ebda7024fd0dfdaa03d39b80736f7280bb779bedee5fe72acde898cced0"
+  },
+  {
+    "path": "submission_revision_20260908/results/dual_certificate_0.08_0.3_1.0_7_3.json",
+    "bytes": 335,
+    "sha256": "1b6788d8f0dbf6359233c70e60f975a99ee4825997e6c5e83e0883738ff81093"
+  },
+  {
+    "path": "submission_revision_20260908/results/dual_certificate_0.2_0.1_0.94_7_3.json",
+    "bytes": 337,
+    "sha256": "daa38eb98d2c9737bf59f6b93496821b1068cfa799ba33962fe99584cea75a71"
+  },
+  {
+    "path": "submission_revision_20260908/results/dual_certificate_0.2_0.1_1.0_7_3.json",
+    "bytes": 338,
+    "sha256": "9f5bd3142e3e3eb30dc3445189b8ef912510793f99fa297dd62bf8dc48bacdef"
+  },
+  {
+    "path": "submission_revision_20260908/results/dual_certificate_0.2_0.3_0.85_7_3.json",
+    "bytes": 317,
+    "sha256": "d316fb286b87d0bd378a52ebb910d4c4de52a6c7e61c7b418982844d14bfd4f6"
+  },
+  {
+    "path": "submission_revision_20260908/results/dual_certificate_0.2_0.6_0.94_7_3.json",
+    "bytes": 319,
+    "sha256": "ca904911b4b9abef7e7223aca196a714ac916140034314445631bec5293760ca"
+  },
+  {
+    "path": "submission_revision_20260908/results/dual_certificate_0.2_0.6_1.0_7_3.json",
+    "bytes": 337,
+    "sha256": "deab47110dc3d288bb85e2d5df26eabf7bdf9e51b0cfa5c65acf506c3ac5d18b"
+  },
+  {
+    "path": "submission_revision_20260908/results/dual_certificate_0.5_0.1_0.85_7_3.json",
+    "bytes": 336,
+    "sha256": "ad5baf1dec3d40ec78b1f86f4fd710379b1c489b28002f6927538197ce3a3ac5"
+  },
+  {
+    "path": "submission_revision_20260908/results/dual_certificate_0.5_0.1_0.94_7_3.json",
+    "bytes": 338,
+    "sha256": "dd38cfbc4b28241a7466919835215c9b0113509504b96e43e1c9428b3111ca86"
+  },
+  {
+    "path": "submission_revision_20260908/results/dual_certificate_0.5_0.3_0.85_7_3.json",
+    "bytes": 317,
+    "sha256": "3d21ce94162595b29f59740e9dd1fa835a4d1dc0c31d0397b36472cb4a5a3c68"
+  },
+  {
+    "path": "submission_revision_20260908/results/dual_certificate_0.5_0.3_1.0_7_3.json",
+    "bytes": 316,
+    "sha256": "27b98297f94f69883c803bcd4e35fbdc2b3f9ca268a572d75927ec379fbc3a12"
+  },
+  {
+    "path": "submission_revision_20260908/results/dual_certificate_0.5_0.6_0.85_7_3.json",
+    "bytes": 337,
+    "sha256": "68b165f48f4a576a4eb05f33c33ad7589bd6c179152ac8a1c8836ff386de2f71"
+  },
+  {
+    "path": "submission_revision_20260908/results/dual_certificate_0.5_0.6_1.0_7_3.json",
+    "bytes": 317,
+    "sha256": "ac6b8931d49eaa5ad624b01d6f49a292cfd0f098c5e2780ff60ea07490fb889f"
+  },
+  {
+    "path": "submission_revision_20260908/results/dual_certificate_1.0_0.2_0.94_17_20348.json",
+    "bytes": 333,
+    "sha256": "a5d2228434bd5a28caf74b911e3d8b38bc657cc26c36803d48c0200a2b148469"
+  },
+  {
+    "path": "submission_revision_20260908/results/dual_certificate_2.0_0.1_0.94_17_20348.json",
+    "bytes": 335,
+    "sha256": "4fc8236b56859fe7efc58c6afccbae3beb05dea889d9b366fdea1bfecb997e3f"
+  },
+  {
+    "path": "submission_revision_20260908/results/dual_certificate_2.0_0.2_0.94_17_20348.json",
+    "bytes": 336,
+    "sha256": "7d6cdacc5f5993adb1bc004fae25fe52b82208b26656003be4564510cd750908"
+  },
+  {
+    "path": "submission_revision_20260908/results/dual_certificate_4.0_0.1_0.94_17_20348.json",
+    "bytes": 335,
+    "sha256": "4bf878bda4c3ea19cc711369f32fa59648bc56bf6fb657d91c31d9edf3d16a7f"
+  },
+  {
+    "path": "submission_revision_20260908/results/dual_certificate_4.0_0.2_0.94_17_20348.json",
+    "bytes": 336,
+    "sha256": "0165f99094762fbd777a79d3d7c536f40aaa05385a5bb7c37c6ef40686f9193e"
+  },
+  {
+    "path": "submission_revision_20260908/results/dual_certificate_8.0_0.05_0.94_17_20348.json",
+    "bytes": 337,
+    "sha256": "c9554ad0920c43762039cbda6d3a66905583363166a3e5b9798599594e75c341"
+  },
+  {
+    "path": "submission_revision_20260908/results/dual_certificate_8.0_0.1_0.94_17_20348.json",
+    "bytes": 335,
+    "sha256": "3e6407240776994a1414e6e5592cac9393264d0806af230b36623f1c35fb2d92"
+  },
+  {
+    "path": "submission_revision_20260908/results/dual_certificate_8.0_0.2_0.94_17_20348.json",
+    "bytes": 336,
+    "sha256": "7eb7bdc4a82834def5a2072feefe152c17ae9fa60c24ad820cb0b7201e8e4280"
+  },
+  {
+    "path": "submission_revision_20260908/results/energy_challenge.json",
+    "bytes": 3690,
+    "sha256": "6827427daab32ebf33b5d834d0b62fd873228fbdc549be88d97512b68d4a19e6"
+  },
+  {
+    "path": "submission_revision_20260908/results/energy_identity_audit.json",
+    "bytes": 10646,
+    "sha256": "c54c1581218525eadfdf1c28244095dac9f3d7cacd244a3b8ad11b493a63fe18"
+  },
+  {
+    "path": "submission_revision_20260908/results/fresh_completed_stage_comparison.json",
+    "bytes": 335,
+    "sha256": "764be6c74f4e9af16df4680b0d98a8da81988a9df9bf07fc9e8e2057f598bc2f"
+  },
+  {
+    "path": "submission_revision_20260908/results/fresh_identity_comparison.json",
+    "bytes": 208,
+    "sha256": "4383331e6428c3bd0ad4249780441ada91812fd88b47bd9b06688b1e335a7881"
+  },
+  {
+    "path": "submission_revision_20260908/results/fresh_reproduction_comparison.json",
+    "bytes": 27284,
+    "sha256": "1164ad5c94a23aee8f51439e21186eeca6ad2bb15a6ef2a502e4c0c5a2cfc1e0"
+  },
+  {
+    "path": "submission_revision_20260908/results/gb_frequency_downloads.json",
+    "bytes": 2809,
+    "sha256": "da1345f8268c2a1c0620cc0f4043227311ae9a06b9bca41b7cd9263f871d58ec"
+  },
+  {
+    "path": "submission_revision_20260908/results/gb_frequency_qc.json",
+    "bytes": 4021,
+    "sha256": "91c0b73e0a15640eadbe4bf3c07663e048d8b5e8a0b6e67e4aee21cdac249b87"
+  },
+  {
+    "path": "submission_revision_20260908/results/gb_transfer.json",
+    "bytes": 19827,
+    "sha256": "99cc30af6b6a55cc9ca9cbc71381696ff3e514d8fc39ca1aa9d3c7c95aaf6d2e"
+  },
+  {
+    "path": "submission_revision_20260908/results/gb_transfer_audit.json",
+    "bytes": 1190,
+    "sha256": "e1bc9a6897a2faf040ac9ce56e94735760f0318e8c1fefbd7152b9528629ea4b"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_Belgium_quarters_4.0_0.2.npz",
+    "bytes": 166087,
+    "sha256": "cf217708fa5ceb957114a728106155255d5c047b3897fd3d1b13987059dd72e5"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_Belgium_quarters_8.0_0.1.npz",
+    "bytes": 165088,
+    "sha256": "77adce07f21646c3d582c62cecb72ccc835a8a469c3885326b606a95e6241f82"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_Belgium_quarters_8.0_0.2.npz",
+    "bytes": 165628,
+    "sha256": "3643b436fe3848592413cff410e30a64d4427b62fe0812dd75575d086668cd92"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_Germany_quarters_1.0_0.2.npz",
+    "bytes": 166796,
+    "sha256": "dbe3affef6118547daee3804621e26523f8366f20f7895d0fa447910c4957ee7"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_Germany_quarters_2.0_0.1.npz",
+    "bytes": 169486,
+    "sha256": "7df7121bd811720ddc92140d3a6548c14055fc6ca443439776e7b0caead73455"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_Germany_quarters_2.0_0.2.npz",
+    "bytes": 166257,
+    "sha256": "a9ea5712dc6639fd39fec9097fe997786dc54d4ed7f1bd1e189fe8be0b245808"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_Germany_quarters_4.0_0.1.npz",
+    "bytes": 169547,
+    "sha256": "a02c7008a702c24aec7798b168dd91975b3db9f49e0e0f610ca135146442a182"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_Germany_quarters_4.0_0.2.npz",
+    "bytes": 166253,
+    "sha256": "cb86614d331d402de0b346af0fb27225e85dc376b9a01711d9537d0a70d262c6"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_Germany_quarters_8.0_0.05.npz",
+    "bytes": 166840,
+    "sha256": "a9477eefaaf424a426cba6c09f0ff25f02d33fc69f1ae76b52f2ae6aaba258f9"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_Germany_quarters_8.0_0.1.npz",
+    "bytes": 169407,
+    "sha256": "c4c87a546d70e034abe04638cc8f1f6631ce781d9a7e3e87feb9d5d54d4f908a"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_Germany_quarters_8.0_0.2.npz",
+    "bytes": 166090,
+    "sha256": "1fc82e4bdd324f43ba8c7c8e45608d7d131ccce43cfcef461f7f9979054dfb82"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_Germany_seconds_1.0_0.2.npz",
+    "bytes": 248837,
+    "sha256": "f6b0bc0fe4bd7187619ce4a51a15cafd32803da136dd2be78d90e0fa71dca5bf"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_Germany_seconds_2.0_0.2.npz",
+    "bytes": 245896,
+    "sha256": "f2c6d0d1f8f154c8f224f71225611831daed7d149cf0cdcefc7f2c523b6d4fee"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_Germany_seconds_4.0_0.1.npz",
+    "bytes": 224484,
+    "sha256": "cc0099c9343b2892d3169a9c8386a7daa2407117465d0826309dfe3891a18aa1"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_Germany_seconds_4.0_0.2.npz",
+    "bytes": 243202,
+    "sha256": "230098e2d97ba93ec6b1989db969fbd1462e0c99bd9b76a99927e5e8806bb8f9"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_Germany_seconds_8.0_0.1.npz",
+    "bytes": 221977,
+    "sha256": "30fa41d0668f0fe3cd6f738933d24fde6a3561d81eac84562b6512f93cc8d102"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_Germany_seconds_8.0_0.2.npz",
+    "bytes": 240609,
+    "sha256": "924d34bd030a9d67714fabdf252d8ff5656dae50c9e5ccfc734dfd6a1e4a04eb"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_lp_pilot.json",
+    "bytes": 913,
+    "sha256": "1d9fc8c129207b4726b73712f2a661b9429920724bbdf8750a8a4df07beaabed"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_lp_pilot_4.0_0.2.npz",
+    "bytes": 24747,
+    "sha256": "8e4da403a6f318c3db824a3b504262d6f4d29d99e570c35f9e5fa828175e6f6f"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_lp_pilot_8.0_0.1.npz",
+    "bytes": 24777,
+    "sha256": "9aa58d69cd389b2cc40fdef7ce72642d2458161dbb8014ce9607d56dea330f15"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_lp_pilot_8.0_0.2.npz",
+    "bytes": 24662,
+    "sha256": "1f104434d1c3f50740e68cd005185bbbd03d8c03fbabb106bca399403343c2aa"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_matrix.csv",
+    "bytes": 4392,
+    "sha256": "77d489424633efbbc594ca4191e322986e3be16877b83a06c8508336a6716fbf"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_matrix_audit.json",
+    "bytes": 264,
+    "sha256": "71b2c151ab9dbe5d2687a8d6c6e457841e855dbb17c9ce0972ed338f67c5dc19"
+  },
+  {
+    "path": "submission_revision_20260908/results/hydrogen_optimization_independent_check.json",
+    "bytes": 6400,
+    "sha256": "5a736d2b58e07be523773d6f69e55928bb8a56dd4cc0e43c9f6be8fa84e8851f"
+  },
+  {
+    "path": "submission_revision_20260908/results/monthly_energy_challenge/native_2026-01.npz",
+    "bytes": 31891,
+    "sha256": "242c2c79e2ff582ba74a75e7564bac3441946d7f15fde2ba18e5fb4374d6857e"
+  },
+  {
+    "path": "submission_revision_20260908/results/monthly_energy_challenge/native_2026-02.npz",
+    "bytes": 30039,
+    "sha256": "3c7e23014874b2b27ca87cc786fb9720af5e3284cab21563306d533fef31fd1b"
+  },
+  {
+    "path": "submission_revision_20260908/results/monthly_energy_challenge/native_2026-03.npz",
+    "bytes": 34634,
+    "sha256": "b77837c1134aa9eeb16fc5e8f85d3a19c95ed6f5aebd06e7b0eca47738239676"
+  },
+  {
+    "path": "submission_revision_20260908/results/monthly_energy_challenge/native_2026-04.npz",
+    "bytes": 32883,
+    "sha256": "2a63721df73a0d0a698b257abe9d520a5b27819fc4d416c25e9329284bca0bc8"
+  },
+  {
+    "path": "submission_revision_20260908/results/monthly_energy_challenge/native_2026-05.npz",
+    "bytes": 34551,
+    "sha256": "de941f81e89669f9329915129a1cd21dafba3bf5adb4a8003bc3d9813c1e7351"
+  },
+  {
+    "path": "submission_revision_20260908/results/monthly_energy_challenge/native_2026-06.npz",
+    "bytes": 31777,
+    "sha256": "b5f591faa46232bcb08ac729dc40a6cdf9510c8e4da96e794b61f489d6a3fef0"
+  },
+  {
+    "path": "submission_revision_20260908/results/monthly_energy_challenge/native_2026-07.npz",
+    "bytes": 34478,
+    "sha256": "0531357878bad65cf51c996d973bf23d311769fd4037a015d8e9753da599cbbc"
+  },
+  {
+    "path": "submission_revision_20260908/results/monthly_energy_challenge/quarter_2026-01.npz",
+    "bytes": 24827,
+    "sha256": "410c1e34c69b2e9523cfbc8a53a954f494fea0e6deef76250d5a909ef2ed43e0"
+  },
+  {
+    "path": "submission_revision_20260908/results/monthly_energy_challenge/quarter_2026-02.npz",
+    "bytes": 22818,
+    "sha256": "b64b0806cdc1f662290e87254b34391eaf08fc6948493192f48294978225eacc"
+  },
+  {
+    "path": "submission_revision_20260908/results/monthly_energy_challenge/quarter_2026-03.npz",
+    "bytes": 25266,
+    "sha256": "5504ac689253d94cd6d4a5108b7000efba39bcae01d3372cbad86a4736b37a8e"
+  },
+  {
+    "path": "submission_revision_20260908/results/monthly_energy_challenge/quarter_2026-04.npz",
+    "bytes": 24348,
+    "sha256": "60a36263a38141732fc5ec3c4e89bdcbfead1fe950281dcbc832b3f39fd31501"
+  },
+  {
+    "path": "submission_revision_20260908/results/monthly_energy_challenge/quarter_2026-05.npz",
+    "bytes": 25248,
+    "sha256": "9d162ca8ea33f6498106f73071dd42b6f49248b62ec1ff46a89c222e6459706f"
+  },
+  {
+    "path": "submission_revision_20260908/results/monthly_energy_challenge/quarter_2026-06.npz",
+    "bytes": 24343,
+    "sha256": "257cdd6b60e0a7bc6a35ecda9e05fe52f2f8ce89ddbd8054fc535d4e2efde73c"
+  },
+  {
+    "path": "submission_revision_20260908/results/monthly_energy_challenge/quarter_2026-07.npz",
+    "bytes": 25450,
+    "sha256": "226ed0bb347d53a31f0031858388d81edb2c3edf207f248e20005fd5162fee6a"
+  },
+  {
+    "path": "submission_revision_20260908/results/monthly_energy_challenge/results.json",
+    "bytes": 5417,
+    "sha256": "5761ac56e61639b19572d98d5643a73c0d41c2fbdb66c1971afd7d4f22740ebd"
+  },
+  {
+    "path": "submission_revision_20260908/results/monthly_oracle.csv",
+    "bytes": 16476,
+    "sha256": "e2b3a4f5a021b5743fd37d57ca09f052973f993aa585583c54180c259cbe37c1"
+  },
+  {
+    "path": "submission_revision_20260908/results/monthly_oracle_audit.json",
+    "bytes": 195,
+    "sha256": "150c4f972cb21254e2374ea442918280950b9fc2ba50a5a83372b14f6c887386"
+  },
+  {
+    "path": "submission_revision_20260908/results/monthly_summary.csv",
+    "bytes": 796,
+    "sha256": "d61780d86131a3201b8d96bff726a454114fd3382ecf456d984e96d2743d46e8"
+  },
+  {
+    "path": "submission_revision_20260908/results/native_hydrogen_bounds.json",
+    "bytes": 701,
+    "sha256": "b71f5e5e94a9fe15e5d69cbb700f99ed8f6314430bade0ad7b90be778ed3ef12"
+  },
+  {
+    "path": "submission_revision_20260908/results/native_hydrogen_witness_2.0_0.1.npz",
+    "bytes": 227067,
+    "sha256": "08c55ea68f1975d78caaf492a61ceaf667af5811aeb226f85376935da230d308"
+  },
+  {
+    "path": "submission_revision_20260908/results/native_hydrogen_witness_8.0_0.05.npz",
+    "bytes": 191994,
+    "sha256": "4e9b460fb4f51441349b69f6946ccb213400153352af92d642dfa72021e5288e"
+  },
+  {
+    "path": "submission_revision_20260908/results/oracle_frontier.csv",
+    "bytes": 4960,
+    "sha256": "83bed3b0f362039c50408ea34a9e3e49a5d4c36035f39b5fcf43d72b86f2335d"
+  },
+  {
+    "path": "submission_revision_20260908/results/oracle_frontier_audit.json",
+    "bytes": 250,
+    "sha256": "8876ec7bead4990e55d0f70987aa6c80b5f6ecbf7f1a3086c8e1bae39e73c232"
+  },
+  {
+    "path": "submission_revision_20260908/results/oracle_schedules/Belgium_quarters_4.0_0.npz",
+    "bytes": 172532,
+    "sha256": "fa6538e5dfd2ac2bca298bd5fe0446267382b3fa45599df8f06c3656f005a4ef"
+  },
+  {
+    "path": "submission_revision_20260908/results/oracle_schedules/Belgium_quarters_4.0_1.npz",
+    "bytes": 172527,
+    "sha256": "24c10dfcf27efe8eedab06ae2cafd941b8afec32354bca00c5f901d1ad30bc04"
+  },
+  {
+    "path": "submission_revision_20260908/results/oracle_schedules/Belgium_quarters_8.0_0.npz",
+    "bytes": 163366,
+    "sha256": "b0d5799a40656b5bea4745cf08f3dc7de7660307e5414ce0320b9f666e56d233"
+  },
+  {
+    "path": "submission_revision_20260908/results/oracle_schedules/Belgium_quarters_8.0_1.npz",
+    "bytes": 163312,
+    "sha256": "d8719979172fb9e7dec85163725d61763da1358720f04fde1963f87d6ea7a3d8"
+  },
+  {
+    "path": "submission_revision_20260908/results/oracle_schedules/Germany_quarters_1.0_0.npz",
+    "bytes": 192971,
+    "sha256": "5f61808215842c481b62e6f66f3313e533eec74b694241df4b8e42a80567722f"
+  },
+  {
+    "path": "submission_revision_20260908/results/oracle_schedules/Germany_quarters_1.0_1.npz",
+    "bytes": 192971,
+    "sha256": "5f61808215842c481b62e6f66f3313e533eec74b694241df4b8e42a80567722f"
+  },
+  {
+    "path": "submission_revision_20260908/results/oracle_schedules/Germany_quarters_2.0_0.npz",
+    "bytes": 181148,
+    "sha256": "e908772492ab35b28b17b6a11bfce1b1d1c3270cf001810a93c3861e5dd83e4f"
+  },
+  {
+    "path": "submission_revision_20260908/results/oracle_schedules/Germany_quarters_2.0_1.npz",
+    "bytes": 181140,
+    "sha256": "c5b4a8d09a384d736090f0a08c10c506f92c1f4fe427ea5b1590b5da3af5b91d"
+  },
+  {
+    "path": "submission_revision_20260908/results/oracle_schedules/Germany_quarters_4.0_0.npz",
+    "bytes": 175308,
+    "sha256": "a2e58c8c212d1b8823e289febec552bdfe55b0540ccafa7b9320e1099aabe236"
+  },
+  {
+    "path": "submission_revision_20260908/results/oracle_schedules/Germany_quarters_4.0_1.npz",
+    "bytes": 175326,
+    "sha256": "95861962312a7edabe9bc50ae2c3b8f9e5672b3af282cf02d680ca05c414598f"
+  },
+  {
+    "path": "submission_revision_20260908/results/oracle_schedules/Germany_quarters_8.0_0.npz",
+    "bytes": 167049,
+    "sha256": "7af014b263a51aa640ed184238605b8f7bbb4e8d6c395d255194cc34595e1ed5"
+  },
+  {
+    "path": "submission_revision_20260908/results/oracle_schedules/Germany_quarters_8.0_1.npz",
+    "bytes": 167056,
+    "sha256": "df6811a8887a7a0b2cd5e53388eb8bae8db2e8c6f5bd6e1cb9fddd61dcf45fd8"
+  },
+  {
+    "path": "submission_revision_20260908/results/oracle_schedules/Germany_seconds_1.0_0.npz",
+    "bytes": 245269,
+    "sha256": "29af697323f1c332ad92dc474fc9f1fe11c14e03583b0299ff384a83d35c5a30"
+  },
+  {
+    "path": "submission_revision_20260908/results/oracle_schedules/Germany_seconds_1.0_1.npz",
+    "bytes": 245267,
+    "sha256": "e1c1dba0d5105b4c05502570a779c2aa82b098beb6f42de463d02d1e594d352b"
+  },
+  {
+    "path": "submission_revision_20260908/results/oracle_schedules/Germany_seconds_2.0_0.npz",
+    "bytes": 215646,
+    "sha256": "64034f236be2d052634f8848f4d204d8856bd756918b158519ed1cce64d97328"
+  },
+  {
+    "path": "submission_revision_20260908/results/oracle_schedules/Germany_seconds_2.0_1.npz",
+    "bytes": 215650,
+    "sha256": "47086348e6797e1f8ea3ad58c4204547bcdca6e51809ac16508065aa373da135"
+  },
+  {
+    "path": "submission_revision_20260908/results/oracle_schedules/Germany_seconds_4.0_0.npz",
+    "bytes": 203915,
+    "sha256": "cfe3acaeff052ed7a003ed8ea22e4e094d5425bd7bd733929d8e5fc26f78dc6b"
+  },
+  {
+    "path": "submission_revision_20260908/results/oracle_schedules/Germany_seconds_4.0_1.npz",
+    "bytes": 203919,
+    "sha256": "9e92106d3cc1c7a4b3fc3bff40cb6602b453d140c42e9a048a5a2fb5b860e926"
+  },
+  {
+    "path": "submission_revision_20260908/results/oracle_schedules/Germany_seconds_8.0_0.npz",
+    "bytes": 186860,
+    "sha256": "f9801849a754c4d8cfa9ef04a5b9808bd708712b4684da452e7306e2f9493dc8"
+  },
+  {
+    "path": "submission_revision_20260908/results/oracle_schedules/Germany_seconds_8.0_1.npz",
+    "bytes": 186858,
+    "sha256": "133a57fa2165539783a576bb0a88f74b3c335be0ed7375be4ffc9414a6ead4b5"
+  },
+  {
+    "path": "submission_revision_20260908/results/reachability_pilot.json",
+    "bytes": 1807,
+    "sha256": "269005a6253264b923ceb565edc327c8c9c37a33c0de2ba818530435666e3210"
+  },
+  {
+    "path": "submission_revision_20260908/results/resolution_challenge/input_manifest.json",
+    "bytes": 161,
+    "sha256": "13d373564e47da7984e76370fe949e4c268fb016cf9b0d1bfcd923c6cea89d94"
+  },
+  {
+    "path": "submission_revision_20260908/results/resolution_challenge/results.json",
+    "bytes": 10012,
+    "sha256": "abda0d675d14ed693abeb8fd9a688d2630f56488d4042c30ab72d2f29a63d2b7"
+  },
+  {
+    "path": "submission_revision_20260908/results/resolution_challenge/schedule_15s.npz",
+    "bytes": 226216,
+    "sha256": "ceb746a3c949ed09b362492e577e86e2afd1b500aa6e3d83879975ce371462ff"
+  },
+  {
+    "path": "submission_revision_20260908/results/resolution_challenge/schedule_180s.npz",
+    "bytes": 212189,
+    "sha256": "62f9d292db2e9153d2a423864a72d1ca08a1c0a8c315afc94a27084fb0dd9b13"
+  },
+  {
+    "path": "submission_revision_20260908/results/resolution_challenge/schedule_1s.npz",
+    "bytes": 227067,
+    "sha256": "08c55ea68f1975d78caaf492a61ceaf667af5811aeb226f85376935da230d308"
+  },
+  {
+    "path": "submission_revision_20260908/results/resolution_challenge/schedule_300s.npz",
+    "bytes": 207559,
+    "sha256": "afa88335c2dfaad0d1a5296831ff90a5faf8c419b8a53376eabb0aca18ec1340"
+  },
+  {
+    "path": "submission_revision_20260908/results/resolution_challenge/schedule_30s.npz",
+    "bytes": 224924,
+    "sha256": "8e6c2ed7b72bf1d56f0c40423023ec2c42cf2118ee7438e9a0b15a04cf6ec974"
+  },
+  {
+    "path": "submission_revision_20260908/results/resolution_challenge/schedule_5s.npz",
+    "bytes": 226857,
+    "sha256": "924a2ce303457012b40e6a38e299dfda6f940931b6c17e79af154f14b1144c26"
+  },
+  {
+    "path": "submission_revision_20260908/results/resolution_challenge/schedule_60s.npz",
+    "bytes": 220993,
+    "sha256": "48e139c6a2e693eb4ddd02d9d648d5662e249767ea6e1c831df351fbb3048675"
+  },
+  {
+    "path": "submission_revision_20260908/results/resolution_challenge/schedule_900s.npz",
+    "bytes": 169486,
+    "sha256": "7df7121bd811720ddc92140d3a6548c14055fc6ca443439776e7b0caead73455"
+  },
+  {
+    "path": "submission_revision_20260908/results/resolution_extension_audit.json",
+    "bytes": 971,
+    "sha256": "81e9ff5e2f2495b7bf724f9ace659efdc43a6d8de84efb68117024da96e09c2b"
+  },
+  {
+    "path": "submission_revision_20260908/results/resolution_reproduction_comparison.json",
+    "bytes": 206,
+    "sha256": "e477aab7f4f577d40443d033e75bc1ccaeff50feb83e46af9873b3af02a83706"
+  },
+  {
+    "path": "submission_revision_20260908/results/source_definition_check.json",
+    "bytes": 448,
+    "sha256": "29cd6c47b3194a2fcdc7d2f1024634dfd506ba5f22fa7b1aeb9232cd5b3dcffc"
+  },
+  {
+    "path": "submission_revision_20260908/results/submission_materials_review.json",
+    "bytes": 609,
+    "sha256": "28ec6809699328c3c8737b594df9b2c983445b1364c62e75fae4518633c563fe"
+  },
+  {
+    "path": "submission_revision_20260908/results/unpacked_review_check.json",
+    "bytes": 418,
+    "sha256": "2fa5ec099dc1d202e89fb3a204b78d9b12997b5ecfc0a1d131580cb9d57575fa"
+  },
+  {
+    "path": "verify_manifest.py",
+    "bytes": 405,
+    "sha256": "9de99851dd870c30d164ab5664517fab1619b639dee51a45c4b1ae94ef573a05"
+  }
+]

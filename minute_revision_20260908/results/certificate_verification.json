@@ -1,0 +1,8 @@
+{
+  "cases": 1200,
+  "max_absolute_error": 6.444254851967201e-15,
+  "fallback_cases": 76,
+  "adversarial_delta": -0.015478723404254952,
+  "adversarial_minimum": -0.13297872340425512,
+  "status": "PASS"
+}

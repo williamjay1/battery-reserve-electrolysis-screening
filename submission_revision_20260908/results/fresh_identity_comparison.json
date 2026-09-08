@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "cases": 19,
+  "scope": "Direct-throughput identity outputs on reference and independently regenerated schedules",
+  "max_reference_identity_residual_mwh": 4.547473508864641e-13
+}

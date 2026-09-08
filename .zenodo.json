@@ -1,0 +1,28 @@
+{
+  "title": "Conservative distribution screening of battery reserve energy for electrolysis: code, derived data and results",
+  "upload_type": "software",
+  "description": "Reproducibility archive for the energy engineering study by Junjie Zhang. Contains computational methods, frozen numerical results, Belgian validated quarter caches and GB frequency derived activation caches. Native German source records and lossless daily caches are excluded because redistribution permission has not been established; acquisition and reconstruction code, source locations and SHA256 manifests are included. Public archiving is not journal submission or acceptance. See DATA_SOURCES.md for provider-specific rights and REPRODUCIBILITY.md for offline and source-dependent workflows.",
+  "creators": [
+    {
+      "name": "Zhang, Junjie",
+      "affiliation": "Shanghai International Studies University",
+      "orcid": "0009-0004-8821-4018"
+    }
+  ],
+  "version": "1.0.0",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "battery storage",
+    "electrolysis",
+    "frequency reserve",
+    "temporal aggregation",
+    "energy adequacy"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/williamjay1/battery-reserve-electrolysis-screening",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "capacity_mwh": 2.0,
+    "supply_mw": 0.1,
+    "hydrogen_feasible_lower_mwh": 496.72539079811526,
+    "hydrogen_relaxed_upper_mwh": 502.9725838306246,
+    "gap_pct": 1.2420543849390193,
+    "native_schedule_error": 5.6729954067691324e-11,
+    "support_knots": 17,
+    "lp_iterations": 78914,
+    "seconds": 39.69639399999869
+  },
+  {
+    "capacity_mwh": 8.0,
+    "supply_mw": 0.05,
+    "hydrogen_feasible_lower_mwh": 240.8880430627139,
+    "hydrogen_relaxed_upper_mwh": 246.44954031825526,
+    "gap_pct": 2.2566474452983174,
+    "native_schedule_error": 5.821334525535349e-10,
+    "support_knots": 17,
+    "lp_iterations": 64909,
+    "seconds": 90.25685269999667
+  }
+]

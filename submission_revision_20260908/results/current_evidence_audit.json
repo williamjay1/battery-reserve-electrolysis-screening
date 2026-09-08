@@ -1,0 +1,10 @@
+{
+  "status": "PASS_FOR_SPECIFIED_CHECKS",
+  "matrix_rows": 45,
+  "feasible_cases": 19,
+  "native_certificates": 8,
+  "maximum_duality_gap": 2.0954704638143085e-10,
+  "sensitivity_cases": 6,
+  "cited_references": 41,
+  "scope": "Certificate/matrix consistency, main sign inequalities, six sensitivity outcomes, citation-key existence and local-path absence. Not a source-attribution, layout, authorship, journal-compliance or full-reproduction audit."
+}

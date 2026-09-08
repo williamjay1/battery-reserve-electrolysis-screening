@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "lp_feasible": 182,
+  "lp_infeasible": 18,
+  "jensen_checks": 800,
+  "empirical_intervals": 78,
+  "scope": "Bounds enclose capacity-free dual optimum; lower bound does not certify feasible finite-inventory allocation."
+}

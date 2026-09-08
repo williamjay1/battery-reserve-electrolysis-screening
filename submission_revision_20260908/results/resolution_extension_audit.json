@@ -1,0 +1,39 @@
+{
+  "status": "PASS_FOR_SPECIFIED_CHECKS",
+  "scales": [
+    {
+      "scale_seconds": 1,
+      "direct_state_error": 4.5241477231172667e-11
+    },
+    {
+      "scale_seconds": 5,
+      "direct_state_error": 4.372169293276329e-12
+    },
+    {
+      "scale_seconds": 15,
+      "direct_state_error": 1.0751399770470016e-12
+    },
+    {
+      "scale_seconds": 30,
+      "direct_state_error": 5.17808018685173e-13
+    },
+    {
+      "scale_seconds": 60,
+      "direct_state_error": 3.610445276081009e-13
+    },
+    {
+      "scale_seconds": 180,
+      "direct_state_error": 5.417888360170764e-14
+    },
+    {
+      "scale_seconds": 300,
+      "direct_state_error": 6.927791673660977e-14
+    },
+    {
+      "scale_seconds": 900,
+      "direct_state_error": 3.375077994860476e-14
+    }
+  ],
+  "months": 7,
+  "scope": "Direct schedule reconstruction, compact/expanded increments, result signs and all-month coverage; not external validity."
+}

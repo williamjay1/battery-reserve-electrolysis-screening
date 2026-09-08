@@ -1,0 +1,20 @@
+[
+  {
+    "matrix": "control_classification",
+    "rows": 270,
+    "status": "PASS",
+    "differences": []
+  },
+  {
+    "matrix": "oracle_frontier",
+    "rows": 30,
+    "status": "PASS",
+    "differences": []
+  },
+  {
+    "matrix": "monthly_oracle",
+    "rows": 167,
+    "status": "PASS",
+    "differences": []
+  }
+]
