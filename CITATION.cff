@@ -1,11 +1,20 @@
 cff-version: 1.2.0
-message: "Please cite the archived version of these reproducibility materials."
-title: "Conservative distribution screening of battery reserve energy for electrolysis: code, derived data and results"
+message: "If you use this code or its derived result records, please cite the associated manuscript and this repository."
+title: "Conservative screening of temporal aggregation bias in battery-electrolyzer energy allocation: code, provenance and derived results"
+type: software
 authors:
   - family-names: Zhang
     given-names: Junjie
+    affiliation: "Independent Researcher, Shanghai, China"
     orcid: "https://orcid.org/0009-0004-8821-4018"
-version: 1.0.0
+version: 2.0.0
+date-released: 2026-09-23
 license: CC-BY-4.0
 repository-code: "https://github.com/williamjay1/battery-reserve-electrolysis-screening"
-doi: "10.5281/zenodo.22659529"
+keywords:
+  - battery storage
+  - electrolysis
+  - frequency reserve
+  - temporal aggregation
+  - energy allocation
+abstract: "Code, derived result ledgers, and selected figures for a conservative screen of temporal aggregation bias in a modeled battery-electrolyzer electrical-allocation problem."

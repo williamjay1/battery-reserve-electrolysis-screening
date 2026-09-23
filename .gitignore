@@ -1,7 +1,17 @@
+# Python and compiled caches
 __pycache__/
-*.pyc
-*.nbc
-*.nbi
-**/temp/
-**/paper/
-**/datasets/germany_seconds/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+temp_numba/
+
+# Local prepared inputs and release bundles
+prepared_inputs/
+release_assets/
+*.zip
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+*.log

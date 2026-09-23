@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "configurations": 45,
+  "native_bounds": "exact feasible witness and optimistic convex endpoint upper bound",
+  "quarter_results": "exact LP with physical increment bounds and replay",
+  "terminal": "half capacity at both endpoints"
+}

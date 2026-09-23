@@ -1,0 +1,13 @@
+{
+  "capacity_mwh": 0.5,
+  "supply_mw": 0.3,
+  "quarters": 3,
+  "knots": 7,
+  "eta": 1.0,
+  "method": "highs-ipm",
+  "primal_objective": 0.13910342833467937,
+  "dual_lower_objective": 0.13910342833467937,
+  "duality_gap": 0.0,
+  "roundoff_margin_mwh": 1e-06,
+  "hydrogen_upper_mwh": 0.08589757166532061
+}

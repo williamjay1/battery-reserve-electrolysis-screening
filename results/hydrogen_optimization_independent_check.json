@@ -1,0 +1,278 @@
+{
+  "status": "PASS",
+  "seed": 63107,
+  "cases": [
+    {
+      "case": 0,
+      "capacity": 0.5,
+      "supply": 0.3,
+      "eta": 1.0,
+      "native_exact": 0.08589657166533077,
+      "native_upper": 0.08589757166532061,
+      "coarse_error": 1.3877787807814457e-17
+    },
+    {
+      "case": 1,
+      "capacity": 0.2,
+      "supply": 0.6,
+      "eta": 1.0,
+      "native_exact": 0.49739772394294995,
+      "native_upper": 0.49739872394294543,
+      "coarse_error": 5.551115123125783e-17
+    },
+    {
+      "case": 2,
+      "capacity": 0.5,
+      "supply": 0.1,
+      "eta": 1.0,
+      "native_exact": null,
+      "native_upper": null,
+      "coarse_error": null
+    },
+    {
+      "case": 3,
+      "capacity": 0.2,
+      "supply": 0.1,
+      "eta": 1.0,
+      "native_exact": 0.17134631138160028,
+      "native_upper": 0.17134731138159784,
+      "coarse_error": 2.7755575615628914e-17
+    },
+    {
+      "case": 4,
+      "capacity": 0.2,
+      "supply": 0.3,
+      "eta": 0.85,
+      "native_exact": 0.3750313267626013,
+      "native_upper": 0.37503232676260206,
+      "coarse_error": 0.0
+    },
+    {
+      "case": 5,
+      "capacity": 0.2,
+      "supply": 0.6,
+      "eta": 1.0,
+      "native_exact": 0.5185809749234481,
+      "native_upper": 0.5185819749234432,
+      "coarse_error": 1.1102230246251565e-16
+    },
+    {
+      "case": 6,
+      "capacity": 0.5,
+      "supply": 0.1,
+      "eta": 0.94,
+      "native_exact": 0.08760675153846806,
+      "native_upper": 0.08760775153847222,
+      "coarse_error": 1.3877787807814457e-17
+    },
+    {
+      "case": 7,
+      "capacity": 0.08,
+      "supply": 0.1,
+      "eta": 1.0,
+      "native_exact": null,
+      "native_upper": null,
+      "coarse_error": null
+    },
+    {
+      "case": 8,
+      "capacity": 0.2,
+      "supply": 0.6,
+      "eta": 0.85,
+      "native_exact": null,
+      "native_upper": null,
+      "coarse_error": null
+    },
+    {
+      "case": 9,
+      "capacity": 0.5,
+      "supply": 0.3,
+      "eta": 0.85,
+      "native_exact": 0.14291708126612518,
+      "native_upper": 0.14291808126612246,
+      "coarse_error": 2.7755575615628914e-17
+    },
+    {
+      "case": 10,
+      "capacity": 0.08,
+      "supply": 0.6,
+      "eta": 0.85,
+      "native_exact": null,
+      "native_upper": null,
+      "coarse_error": null
+    },
+    {
+      "case": 11,
+      "capacity": 0.5,
+      "supply": 0.1,
+      "eta": 0.85,
+      "native_exact": 0.016578788648420807,
+      "native_upper": 0.01657978864841858,
+      "coarse_error": 5.551115123125783e-17
+    },
+    {
+      "case": 12,
+      "capacity": 0.5,
+      "supply": 0.6,
+      "eta": 1.0,
+      "native_exact": 0.4651262803436209,
+      "native_upper": 0.4651272803436174,
+      "coarse_error": 0.0
+    },
+    {
+      "case": 13,
+      "capacity": 0.08,
+      "supply": 0.1,
+      "eta": 0.94,
+      "native_exact": null,
+      "native_upper": null,
+      "coarse_error": null
+    },
+    {
+      "case": 14,
+      "capacity": 0.5,
+      "supply": 0.6,
+      "eta": 1.0,
+      "native_exact": 0.5701993913880992,
+      "native_upper": 0.5702003913880948,
+      "coarse_error": 0.0
+    },
+    {
+      "case": 15,
+      "capacity": 0.2,
+      "supply": 0.6,
+      "eta": 0.85,
+      "native_exact": null,
+      "native_upper": null,
+      "coarse_error": null
+    },
+    {
+      "case": 16,
+      "capacity": 0.08,
+      "supply": 0.1,
+      "eta": 1.0,
+      "native_exact": null,
+      "native_upper": null,
+      "coarse_error": 6.938893903907228e-18
+    },
+    {
+      "case": 17,
+      "capacity": 0.5,
+      "supply": 0.3,
+      "eta": 1.0,
+      "native_exact": null,
+      "native_upper": null,
+      "coarse_error": null
+    },
+    {
+      "case": 18,
+      "capacity": 0.08,
+      "supply": 0.6,
+      "eta": 0.94,
+      "native_exact": null,
+      "native_upper": null,
+      "coarse_error": 0.0
+    },
+    {
+      "case": 19,
+      "capacity": 0.08,
+      "supply": 0.3,
+      "eta": 0.94,
+      "native_exact": null,
+      "native_upper": null,
+      "coarse_error": null
+    },
+    {
+      "case": 20,
+      "capacity": 0.08,
+      "supply": 0.1,
+      "eta": 0.94,
+      "native_exact": null,
+      "native_upper": null,
+      "coarse_error": null
+    },
+    {
+      "case": 21,
+      "capacity": 0.08,
+      "supply": 0.1,
+      "eta": 0.94,
+      "native_exact": null,
+      "native_upper": null,
+      "coarse_error": null
+    },
+    {
+      "case": 22,
+      "capacity": 0.08,
+      "supply": 0.6,
+      "eta": 1.0,
+      "native_exact": null,
+      "native_upper": null,
+      "coarse_error": 0.0
+    },
+    {
+      "case": 23,
+      "capacity": 0.2,
+      "supply": 0.3,
+      "eta": 0.85,
+      "native_exact": 0.3819595444077443,
+      "native_upper": 0.38196054440773713,
+      "coarse_error": 5.551115123125783e-17
+    },
+    {
+      "case": 24,
+      "capacity": 0.2,
+      "supply": 0.6,
+      "eta": 0.94,
+      "native_exact": 0.4865119572102707,
+      "native_upper": 0.48651295721026705,
+      "coarse_error": 0.0
+    },
+    {
+      "case": 25,
+      "capacity": 0.5,
+      "supply": 0.6,
+      "eta": 0.85,
+      "native_exact": 0.4411854351331096,
+      "native_upper": 0.4411864351331091,
+      "coarse_error": 5.551115123125783e-17
+    },
+    {
+      "case": 26,
+      "capacity": 0.08,
+      "supply": 0.3,
+      "eta": 1.0,
+      "native_exact": null,
+      "native_upper": null,
+      "coarse_error": null
+    },
+    {
+      "case": 27,
+      "capacity": 0.08,
+      "supply": 0.3,
+      "eta": 1.0,
+      "native_exact": 0.07863892309980591,
+      "native_upper": 0.07863992309979917,
+      "coarse_error": 1.3877787807814457e-17
+    },
+    {
+      "case": 28,
+      "capacity": 0.08,
+      "supply": 0.1,
+      "eta": 0.94,
+      "native_exact": 0.09200402834558222,
+      "native_upper": 0.09200502834557966,
+      "coarse_error": 1.3877787807814457e-17
+    },
+    {
+      "case": 29,
+      "capacity": 0.2,
+      "supply": 0.1,
+      "eta": 0.94,
+      "native_exact": 0.19666930944472166,
+      "native_upper": 0.19667030944471878,
+      "coarse_error": 2.7755575615628914e-17
+    }
+  ],
+  "native_feasible": 16,
+  "maximum_coarse_error": 1.1102230246251565e-16
+}
