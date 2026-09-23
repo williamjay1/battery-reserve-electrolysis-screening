@@ -1,0 +1,30 @@
+{
+  "capacity_free_upper_mwh": 508.60837399349543,
+  "dual_cost_mwh": 0.09162700650457134,
+  "multiplier": 1.0638297872340283,
+  "inventory_sum_at_selected_multiplier": -4.66327436953007,
+  "numerical_margin_mwh": 1e-06,
+  "seconds": 1.1285852999426425,
+  "inherited_witness": {
+    "hydrogen_lower_mwh": 496.72539079807217,
+    "end_inventory": 0.99999999994327,
+    "min_inventory": 0.6176437747538098,
+    "max_inventory": 1.9999999999993423,
+    "maximum_violation": 0.0
+  },
+  "new_reachability_witness": {
+    "hydrogen_lower_mwh": 502.40607883447996,
+    "end_inventory": 0.9999999999371845,
+    "min_inventory": 0.6176437747536848,
+    "max_inventory": 1.9999999999993148,
+    "maximum_violation": 0.0,
+    "seconds": 1.4719357000431046
+  },
+  "step_seconds": 60,
+  "sample_seconds": 1,
+  "samples": 18313200,
+  "intervals": 305220,
+  "horizon_hours": 5087.0,
+  "H0_mwh": 508.7,
+  "total_seconds": 2.6560510999988765
+}

@@ -1,7 +1,7 @@
 {
   "title": "Conservative screening of temporal aggregation bias in battery–electrolyzer energy allocation: code, provenance and derived results",
   "upload_type": "software",
-  "description": "Code, derived result ledgers, and selected figures for a conservative screen of temporal aggregation bias in a modeled battery-electrolyzer electrical-allocation problem. Raw provider data are not included in the repository.",
+  "description": "Version 3 adds a tightened native finite-capacity bracket (502.790566–502.811466 MWh), matched one-, five- and fifteen-minute decision comparisons, independently replayed schedules and dual certificates, full local screening timings, all-quarter diagnostic summaries, corrected GB transfer feasibility, and portable reconstruction plus synthetic demonstration code. Source provider records and native caches are not included. Original code is MIT licensed; derived figures and result documentation retain CC BY 4.0. See revision/README.md.",
   "creators": [
     {
       "name": "Zhang, Junjie",
@@ -9,7 +9,7 @@
       "orcid": "0009-0004-8821-4018"
     }
   ],
-  "version": "2.0.0",
+  "version": "3.0.1",
   "license": "cc-by-4.0",
   "keywords": [
     "battery storage",

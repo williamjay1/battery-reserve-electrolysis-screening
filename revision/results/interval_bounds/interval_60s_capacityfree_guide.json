@@ -1,0 +1,9 @@
+{
+  "purpose": "Nominal capacity-free guide only; may violate inventory limits",
+  "step_seconds": 60,
+  "multiplier": 1.0638297872340283,
+  "common_shift": 0.0011769248042980962,
+  "cyclic_inventory_residual": -1.1477518935265607e-10,
+  "min_inventory": -18.820682816361224,
+  "max_inventory": 1.543772283048563
+}

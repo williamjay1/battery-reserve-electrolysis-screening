@@ -1,0 +1,14 @@
+{
+  "step_seconds": 60,
+  "adaptive_round": null,
+  "guide": "capacityfree",
+  "policy": 0,
+  "policy_name": "clamp relaxed baseline",
+  "hydrogen_lower_mwh": 506.66205177466287,
+  "end_inventory": 1.0000000000533764,
+  "min_inventory": 9.999869936283454e-08,
+  "max_inventory": 1.9999999000530484,
+  "maximum_violation": 0.0,
+  "inventory_safety_margin_mwh": 1e-07,
+  "total_seconds": 1.7570475999964401
+}

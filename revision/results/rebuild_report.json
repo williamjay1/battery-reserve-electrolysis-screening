@@ -1,0 +1,206 @@
+{
+  "downloaded_missing_files": [],
+  "expected": {
+    "cache_sha256": "0a664312a5bdbb5b7bf3b12dc8e203c932f1b07b7e029abf887e9599efc91163",
+    "calibration_period": "2025-01-01 through 2025-06-30",
+    "evaluation_period": "2026-01-01 through 2026-07-31",
+    "normalization": "99.5th percentile of absolute calibration MW; evaluation setpoints divided by it and clipped to [-1, 1].",
+    "raw_files": 19
+  },
+  "raw_inventory": [
+    {
+      "actual_bytes": 10131038,
+      "actual_sha256": "60c062d9cdb01ebbc98e2f23ed02304ad0fa0d20bc1dc29064d66ebedd922676",
+      "expected_bytes": 10131038,
+      "expected_sha256": "60c062d9cdb01ebbc98e2f23ed02304ad0fa0d20bc1dc29064d66ebedd922676",
+      "file": "SRL_Soll_20250101_20250131.csv.zip",
+      "status": "verified"
+    },
+    {
+      "actual_bytes": 9000006,
+      "actual_sha256": "83714822218ee9d87428b970e0162531176b4b2e39a9411010a89fc50bdd4895",
+      "expected_bytes": 9000006,
+      "expected_sha256": "83714822218ee9d87428b970e0162531176b4b2e39a9411010a89fc50bdd4895",
+      "file": "SRL_Soll_20250201_20250228.csv.zip",
+      "status": "verified"
+    },
+    {
+      "actual_bytes": 9957773,
+      "actual_sha256": "2cd94fd4c49cfe2821c8a5c318748b5aeb1cc6f6f24171ddefb80e30fb907635",
+      "expected_bytes": 9957773,
+      "expected_sha256": "2cd94fd4c49cfe2821c8a5c318748b5aeb1cc6f6f24171ddefb80e30fb907635",
+      "file": "SRL_Soll_20250301_20250331.csv.zip",
+      "status": "verified"
+    },
+    {
+      "actual_bytes": 9545638,
+      "actual_sha256": "7abb637ede3655a454108fb01ea9e08cd62b4ceaf78bd95f041b6f41ba0e5a57",
+      "expected_bytes": 9545638,
+      "expected_sha256": "7abb637ede3655a454108fb01ea9e08cd62b4ceaf78bd95f041b6f41ba0e5a57",
+      "file": "SRL_Soll_20250401_20250430.csv.zip",
+      "status": "verified"
+    },
+    {
+      "actual_bytes": 9576122,
+      "actual_sha256": "8250639ba93884bac0bdf1c491b649e53b995332c2b0410b829fee3100b85104",
+      "expected_bytes": 9576122,
+      "expected_sha256": "8250639ba93884bac0bdf1c491b649e53b995332c2b0410b829fee3100b85104",
+      "file": "SRL_Soll_20250501_20250531.csv.zip",
+      "status": "verified"
+    },
+    {
+      "actual_bytes": 9828788,
+      "actual_sha256": "9eb9cd317bb75ffda27b57df04b9b50bf117726908856d3f28214fad0018ee5d",
+      "expected_bytes": 9828788,
+      "expected_sha256": "9eb9cd317bb75ffda27b57df04b9b50bf117726908856d3f28214fad0018ee5d",
+      "file": "SRL_Soll_20250601_20250630.csv.zip",
+      "status": "verified"
+    },
+    {
+      "actual_bytes": 9888413,
+      "actual_sha256": "1a1463439b852ce66f34f5d89c7306ed9cd6356eaea1abe87fb31040b1e67538",
+      "expected_bytes": 9888413,
+      "expected_sha256": "1a1463439b852ce66f34f5d89c7306ed9cd6356eaea1abe87fb31040b1e67538",
+      "file": "SRL_Soll_20250701_20250731.csv.zip",
+      "status": "verified"
+    },
+    {
+      "actual_bytes": 9942461,
+      "actual_sha256": "c592b990ddf615af35603446629d515366d1fc3f289516300998b93cdc8fdc63",
+      "expected_bytes": 9942461,
+      "expected_sha256": "c592b990ddf615af35603446629d515366d1fc3f289516300998b93cdc8fdc63",
+      "file": "SRL_Soll_20250801_20250831.csv.zip",
+      "status": "verified"
+    },
+    {
+      "actual_bytes": 10100637,
+      "actual_sha256": "595f096eafbb932797a1eb7eb8cffbf43f71119be4f71b2fb61a88d6195b8252",
+      "expected_bytes": 10100637,
+      "expected_sha256": "595f096eafbb932797a1eb7eb8cffbf43f71119be4f71b2fb61a88d6195b8252",
+      "file": "SRL_Soll_20250901_20250930.csv.zip",
+      "status": "verified"
+    },
+    {
+      "actual_bytes": 10574298,
+      "actual_sha256": "1e44e3980684e8805fb3b92cfc5434e0686daff57cd61df474172cee9bdb3b4f",
+      "expected_bytes": 10574298,
+      "expected_sha256": "1e44e3980684e8805fb3b92cfc5434e0686daff57cd61df474172cee9bdb3b4f",
+      "file": "SRL_Soll_20251001_20251031.csv.zip",
+      "status": "verified"
+    },
+    {
+      "actual_bytes": 10293991,
+      "actual_sha256": "7d5bb1aff1fb5c3bb16a6e67728d1e7f63af113dc191565a30a2bb562fc5862e",
+      "expected_bytes": 10293991,
+      "expected_sha256": "7d5bb1aff1fb5c3bb16a6e67728d1e7f63af113dc191565a30a2bb562fc5862e",
+      "file": "SRL_Soll_20251101_20251130.csv.zip",
+      "status": "verified"
+    },
+    {
+      "actual_bytes": 10395961,
+      "actual_sha256": "dae46b7301bc3336a599a783530f26083f8a70b1896b87161c90a37f82248dec",
+      "expected_bytes": 10395961,
+      "expected_sha256": "dae46b7301bc3336a599a783530f26083f8a70b1896b87161c90a37f82248dec",
+      "file": "SRL_Soll_20251201_20251231.csv.zip",
+      "status": "verified"
+    },
+    {
+      "actual_bytes": 10689048,
+      "actual_sha256": "ad58d4aba5d4204406632021cba3e9d216c74e9764139707503aabed84d592a0",
+      "expected_bytes": 10689048,
+      "expected_sha256": "ad58d4aba5d4204406632021cba3e9d216c74e9764139707503aabed84d592a0",
+      "file": "SRL_Soll_20260101_20260131.csv.zip",
+      "status": "verified"
+    },
+    {
+      "actual_bytes": 9678389,
+      "actual_sha256": "8b3b166c80289c12997a1b61e67ad78b623d022aaec065988fb254248660af83",
+      "expected_bytes": 9678389,
+      "expected_sha256": "8b3b166c80289c12997a1b61e67ad78b623d022aaec065988fb254248660af83",
+      "file": "SRL_Soll_20260201_20260228.csv.zip",
+      "status": "verified"
+    },
+    {
+      "actual_bytes": 10741480,
+      "actual_sha256": "e6e7a39ee865f73fe6f2a7ad03a473ca73e1628817880bd2ebce1b52421df569",
+      "expected_bytes": 10741480,
+      "expected_sha256": "e6e7a39ee865f73fe6f2a7ad03a473ca73e1628817880bd2ebce1b52421df569",
+      "file": "SRL_Soll_20260301_20260331.csv.zip",
+      "status": "verified"
+    },
+    {
+      "actual_bytes": 10639126,
+      "actual_sha256": "538de70790738f3e585f76cc1084bbaf9837bbaf595ebc7c90ce592b6c9f4fcb",
+      "expected_bytes": 10639126,
+      "expected_sha256": "538de70790738f3e585f76cc1084bbaf9837bbaf595ebc7c90ce592b6c9f4fcb",
+      "file": "SRL_Soll_20260401_20260430.csv.zip",
+      "status": "verified"
+    },
+    {
+      "actual_bytes": 10841434,
+      "actual_sha256": "6a3979bfdfb9b84f22d041ef744d38b0bfdfa8c2ac25231c7a2c07939b417ee1",
+      "expected_bytes": 10841434,
+      "expected_sha256": "6a3979bfdfb9b84f22d041ef744d38b0bfdfa8c2ac25231c7a2c07939b417ee1",
+      "file": "SRL_Soll_20260501_20260531.csv.zip",
+      "status": "verified"
+    },
+    {
+      "actual_bytes": 10628433,
+      "actual_sha256": "e4374964e1fc73677b7d54010a8b0b7481673c2b969c242e591a7181f11eab95",
+      "expected_bytes": 10628433,
+      "expected_sha256": "e4374964e1fc73677b7d54010a8b0b7481673c2b969c242e591a7181f11eab95",
+      "file": "SRL_Soll_20260601_20260630.csv.zip",
+      "status": "verified"
+    },
+    {
+      "actual_bytes": 10971082,
+      "actual_sha256": "7e60696bf1745f1be726a1c9d012129690a2cb73eef976775a78d5b84b0d915b",
+      "expected_bytes": 10971082,
+      "expected_sha256": "7e60696bf1745f1be726a1c9d012129690a2cb73eef976775a78d5b84b0d915b",
+      "file": "SRL_Soll_20260701_20260731.csv.zip",
+      "status": "verified"
+    }
+  ],
+  "reconstruction": {
+    "cache": "D:\\MLWork\\06\\Applied_Sciences_screen_revision_20260923\\results\\rebuild_german\\native_evaluation.npy",
+    "cache_hash_matches_expected": true,
+    "cache_sha256": "0a664312a5bdbb5b7bf3b12dc8e203c932f1b07b7e029abf887e9599efc91163",
+    "calibration_complete_days": 181,
+    "calibration_samples": 15634800,
+    "clipped_samples": 63819,
+    "daily_audit": {
+      "complete_days": 577,
+      "dst_short_days": [
+        "2025-03-30",
+        "2026-03-29"
+      ],
+      "incomplete_days": [],
+      "missing_days": [],
+      "total_days": 577,
+      "unexpected_days": []
+    },
+    "evaluation_complete_days": 212,
+    "finite": true,
+    "hours": 5087.0,
+    "maximum": 1.0,
+    "minimum": -1.0,
+    "mode": "rebuild",
+    "quarters": 20348,
+    "samples": 18313200,
+    "scale_mw": 1039.8310100000015
+  },
+  "reproducibility": {
+    "expected_hash_inventory": "D:\\MLWork\\06\\Applied_Sciences_energy_revision_20260923\\public_repository\\provenance\\germany_raw_files.json",
+    "expected_hash_inventory_sha256": "b8bc8d8763930a7f7aebd005e39c0fb9133eabc47e29cb3a03e8c861fd2b8075",
+    "network_download_opt_in": false,
+    "output_dir": "D:\\MLWork\\06\\Applied_Sciences_screen_revision_20260923\\results\\rebuild_german",
+    "raw_dir": "E:\\AcademicData\\06\\raw\\minute_revision_20260908",
+    "raw_input_policy": "Existing raw files are opened read-only. Missing archives are downloaded only if --allow-download was explicitly supplied, using exclusive file creation.",
+    "report": "D:\\MLWork\\06\\Applied_Sciences_screen_revision_20260923\\results\\rebuild_report.json",
+    "script": "D:\\MLWork\\06\\Applied_Sciences_screen_revision_20260923\\analysis\\rebuild_german.py",
+    "script_sha256": "e78c9c75752fbdbb66d6fcd37340f61a909805906b34dc1f8387d1c2b46820bd"
+  },
+  "schema_version": "1.0",
+  "scope": "Checked local reconstruction of the German one-second input cache. It is a source-data transformation, not an observed asset-dispatch record or a redistribution package.",
+  "status": "PASS"
+}

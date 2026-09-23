@@ -1,0 +1,172 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-09-23T09:03:20.603338+00:00",
+  "scope": "Independent saved dual/support audit, original-second native replay, coarse replay and small synthetic enumeration; no production code imported or large LP rerun.",
+  "native_input_sha256": "0a664312a5bdbb5b7bf3b12dc8e203c932f1b07b7e029abf887e9599efc91163",
+  "script_sha256": "73b4fc0727b145a76cbdfad031be686c373230ada0aab4b1c86b33c76e32c29a",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "numpy": "2.5.1",
+    "scipy": "1.18.0",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numerical_threads": 1
+  },
+  "native_certificate": {
+    "status": "PASS",
+    "file": "upper_900s_round3_dual_certificate.npz",
+    "sha256": "f61b9c0e6ea20952704f92f816aa6cecbe0befaa2fe915f8c31a4c3222c102e5",
+    "inequality_dual_max": 0.0,
+    "rhs_dot_dual_mwh": 8.744446293812596,
+    "box_correction_mwh": -2.855910997938116,
+    "corrected_dual_mwh": 5.88853529587448,
+    "allocation_upper_mwh": 502.8114657041255,
+    "reported_dual_difference_mwh": 3.090860900556436e-13,
+    "support_evaluations_checked": 406960,
+    "maximum_endpoint_value_error_mwh": 4.829470157119431e-15,
+    "maximum_inverse_slope_error": 9.370282327836321e-14
+  },
+  "native_witnesses": [
+    {
+      "status": "PASS",
+      "file": "guided_witness_900s_round3_policy0.npz",
+      "sha256": "c93368bd74fa23f40a6ff2345d4dcaa65d7dd22a564c07c08b707d0f09abbf40",
+      "step_seconds": 900,
+      "native_samples_checked": 18313200,
+      "intervals": 20348,
+      "electrical_input_mwh": 502.7905657205307,
+      "minimum_inventory_mwh": 9.999449006314887e-08,
+      "maximum_inventory_mwh": 1.9999998999998574,
+      "terminal_residual_mwh": -5.132227975934711e-12,
+      "maximum_actual_power_mw": 0.9051732769481563,
+      "maximum_headroom_mw": 1.0,
+      "electrolyzer_input_range_mw": [
+        0.0,
+        0.35
+      ],
+      "maximum_saved_state_error_mwh": 5.540679026694306e-12,
+      "throughput_identity_residual_mwh": 5.329070518200751e-15
+    },
+    {
+      "status": "PASS",
+      "file": "guided_witness_300s_capacityfree_guide_policy0.npz",
+      "sha256": "5cd94d2efe7d14bf2338b8aa4fd5c070497901e5e0450e3f98dea614ef5b4f0b",
+      "step_seconds": 300,
+      "native_samples_checked": 18313200,
+      "intervals": 61044,
+      "electrical_input_mwh": 504.88375937202085,
+      "minimum_inventory_mwh": 9.998794940624389e-08,
+      "maximum_inventory_mwh": 1.999999899995379,
+      "terminal_residual_mwh": -1.3327783321415154e-11,
+      "maximum_actual_power_mw": 1.0,
+      "maximum_headroom_mw": 1.0,
+      "electrolyzer_input_range_mw": [
+        0.0,
+        0.35
+      ],
+      "maximum_saved_state_error_mwh": 1.3764989148512541e-11,
+      "throughput_identity_residual_mwh": 9.059419880941277e-14
+    },
+    {
+      "status": "PASS",
+      "file": "guided_witness_60s_capacityfree_guide_policy0.npz",
+      "sha256": "b54414a7ec6b5ee9c50c9182f0caf27d0a4fbd09b757b80cc1ce65b3f25f23d8",
+      "step_seconds": 60,
+      "native_samples_checked": 18313200,
+      "intervals": 305220,
+      "electrical_input_mwh": 506.6620517749227,
+      "minimum_inventory_mwh": 1.0000010659729636e-07,
+      "maximum_inventory_mwh": 1.9999999000038033,
+      "terminal_residual_mwh": 3.6921576906934206e-12,
+      "maximum_actual_power_mw": 1.0,
+      "maximum_headroom_mw": 1.0,
+      "electrolyzer_input_range_mw": [
+        0.0,
+        0.35
+      ],
+      "maximum_saved_state_error_mwh": 3.809841331303687e-12,
+      "throughput_identity_residual_mwh": -1.2096990076315706e-12
+    }
+  ],
+  "complete_coarse_replays": [
+    {
+      "status": "PASS",
+      "file": "interval_60s_coarse_network.npz",
+      "sha256": "dbac97f05597a3c738ebd83764436c846ed73ea344ec2bf40460dcdca3118d66",
+      "step_seconds": 60,
+      "intervals": 305220,
+      "electrical_input_mwh": 508.93029035222395,
+      "maximum_equation_error_mwh": 3.469446951953614e-18,
+      "terminal_residual_mwh": 1.5987211554602254e-14,
+      "inventory_range_mwh": [
+        0.03711016257100519,
+        2.000000000000006
+      ],
+      "baseline_range_mw": [
+        -0.2500000000000071,
+        0.10000000000000714
+      ],
+      "network_cost_identity_residual_mwh": -3.552713678800501e-14
+    },
+    {
+      "status": "PASS",
+      "file": "interval_300s_coarse_network.npz",
+      "sha256": "f8f70f1a6307ca37276568f6a78c5339d3fd358af7c43a67e5b1a35687705f82",
+      "step_seconds": 300,
+      "intervals": 61044,
+      "electrical_input_mwh": 510.1997271688891,
+      "maximum_equation_error_mwh": 1.3877787807814457e-17,
+      "terminal_residual_mwh": 2.4424906541753444e-15,
+      "inventory_range_mwh": [
+        2.55351295663786e-15,
+        2.0000000000000027
+      ],
+      "baseline_range_mw": [
+        -0.25000000000000144,
+        0.10000000000000148
+      ],
+      "network_cost_identity_residual_mwh": -9.947598300641403e-14
+    },
+    {
+      "status": "PASS",
+      "file": "interval_900s_coarse_network.npz",
+      "sha256": "724bac2612e3802b19dc384f71e54ec1c0aa131c81f87e000790969b6cf69139",
+      "step_seconds": 900,
+      "intervals": 20348,
+      "electrical_input_mwh": 512.8566778258428,
+      "maximum_equation_error_mwh": 2.7755575615628914e-17,
+      "terminal_residual_mwh": -7.771561172376096e-16,
+      "inventory_range_mwh": [
+        -2.220446049250313e-16,
+        2.0000000000000018
+      ],
+      "baseline_range_mw": [
+        -0.25000000000000044,
+        0.10000000000000048
+      ],
+      "network_cost_identity_residual_mwh": -7.638334409421077e-14
+    }
+  ],
+  "synthetic_active_constraint_fixtures": [
+    {
+      "status": "PASS",
+      "case": "prefix makes endpoint-feasible case physically infeasible",
+      "feasible_sign_regions": 0,
+      "independent_physical_optimum_mwh": null,
+      "reported_physical_optimum_mwh": null
+    },
+    {
+      "status": "PASS",
+      "case": "capacity fixture seed3902309 draw16",
+      "feasible_sign_regions": 2,
+      "independent_physical_optimum_mwh": 0.0003577779441718064,
+      "reported_physical_optimum_mwh": 0.0003577779441718064
+    },
+    {
+      "status": "PASS",
+      "case": "capacity fixture seed3902309 draw48",
+      "feasible_sign_regions": 3,
+      "independent_physical_optimum_mwh": 0.00035565625650327265,
+      "reported_physical_optimum_mwh": 0.00035565625650327265
+    }
+  ]
+}

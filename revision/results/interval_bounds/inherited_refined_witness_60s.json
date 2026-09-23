@@ -1,0 +1,9 @@
+{
+  "source": "refined 900 s witness repeated",
+  "hydrogen_lower_mwh": 502.7905657204057,
+  "end_inventory": 0.9999999999891102,
+  "minimum_inventory": 9.998982812425025e-08,
+  "maximum_inventory": 1.9999998999998934,
+  "maximum_violation": 0.0,
+  "terminal_residual": 1.0889844581640773e-11
+}

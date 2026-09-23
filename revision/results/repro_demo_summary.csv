@@ -1,0 +1,8 @@
+quantity,mwh,scope
+finite_native_exact,0.127683603616282,synthetic verification fixture only
+capacity_free_native_exact,0.127683603616282,synthetic verification fixture only
+quarter_mean_exact,0.1417548001388408,synthetic verification fixture only
+native_capacity_free_evaluated_upper,0.12768427738156166,synthetic verification fixture only
+rank_mean_screen_evaluated_upper,0.12870289699784299,synthetic verification fixture only
+endpoint_mixture_primal_lower,0.12751522938264215,synthetic verification fixture only
+native_endpoint_root_witness,0.12751522938264215,synthetic verification fixture only

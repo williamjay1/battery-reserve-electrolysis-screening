@@ -1,0 +1,14 @@
+metric,value
+status,PASS
+raw_files_expected,19
+raw_files_verified,19
+downloaded_missing_files,0
+calibration_complete_days,181
+calibration_samples,15634800
+evaluation_complete_days,212
+samples,18313200
+quarters,20348
+hours,5087.0
+scale_mw,1039.8310100000015
+cache_sha256,0a664312a5bdbb5b7bf3b12dc8e203c932f1b07b7e029abf887e9599efc91163
+cache_hash_matches_expected,True

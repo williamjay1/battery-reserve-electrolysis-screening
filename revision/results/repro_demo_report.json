@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "scope": "Synthetic software-verification fixture only; it contains no provider observation and no manuscript result.",
+  "seed": 20260923,
+  "fixture": {
+    "quarters": 3,
+    "samples_per_quarter": 6,
+    "activation": [
+      [
+        -1.0,
+        -0.10916092368555837,
+        0.5223981855703425,
+        0.8182335078336,
+        0.29256448486968034,
+        -0.876070817445883
+      ],
+      [
+        -0.3127730287186248,
+        -0.040860037151121596,
+        -0.13695486916373487,
+        -0.0844037480826037,
+        -0.58947047694719,
+        -0.4721647750083299
+      ],
+      [
+        -1.0,
+        0.6626967754215203,
+        -0.22339348816305343,
+        0.35780429106495115,
+        0.18367564107800197,
+        -0.12827432591490076
+      ]
+    ],
+    "capacity_mwh": 0.55,
+    "supply_mw": 0.1,
+    "reserve_mw": 0.75,
+    "one_way_efficiency": 0.94,
+    "no_reserve_mwh": 0.07500000000000001,
+    "rank_groups": 3
+  },
+  "finite_native_exact": {
+    "hydrogen_input_mwh": 0.127683603616282,
+    "baseline_mw": [
+      -0.08187069276416878,
+      -0.2288637217009592,
+      0.1
+    ],
+    "charging_mwh": 0.12088656806321962,
+    "discharging_mwh": 0.10681537154066086,
+    "signed_reserve_mwh": -0.06675480013884076,
+    "maximum_state_violation_mwh": 5.551115123125783e-17,
+    "regions_examined": 30
+  },
+  "capacity_free_native_exact": {
+    "hydrogen_input_mwh": 0.127683603616282,
+    "baseline_mw": [
+      -0.08187069276416878,
+      -0.2288637217009592,
+      0.1
+    ],
+    "charging_mwh": 0.12088656806321962,
+    "discharging_mwh": 0.10681537154066086,
+    "signed_reserve_mwh": -0.06675480013884076,
+    "maximum_state_violation_mwh": 5.551115123125783e-17,
+    "regions_examined": 30
+  },
+  "quarter_mean_exact": {
+    "hydrogen_input_mwh": 0.1417548001388408,
+    "baseline_mw": [
+      -0.04400444535722734,
+      -0.2045783668839506,
+      -0.018436388314185106
+    ],
+    "charging_mwh": 0.0,
+    "discharging_mwh": 5.204170427930421e-18,
+    "signed_reserve_mwh": -0.06675480013884075,
+    "maximum_state_violation_mwh": 0.0,
+    "regions_examined": 8
+  },
+  "evaluated_upper_bounds": {
+    "native_capacity_free_mwh": 0.12768427738156166,
+    "native_multiplier": 0.9980754446476063,
+    "rank_mean_screen_mwh": 0.12870289699784299,
+    "rank_mean_multiplier": 0.9779410114694148
+  },
+  "endpoint_mixture_primal": {
+    "endpoint_lower_mwh": 0.12751522938264215,
+    "endpoint_cyclic_residual_mwh": 3.469446951953614e-17,
+    "native_capacity_free_witness_mwh": 0.12751522938264215
+  },
+  "throughput_identity": {
+    "kappa": 0.061796559779146346,
+    "identity_residual_mwh": 0.0,
+    "loss_relation_residual_mwh": 0.0
+  },
+  "checks": {
+    "native_finite_not_above_capacity_free_exact": true,
+    "capacity_free_exact_not_above_native_dual_upper": true,
+    "native_dual_not_above_rank_mean_screen_upper": true,
+    "endpoint_lower_not_above_native_endpoint_witness": true,
+    "endpoint_witness_not_above_capacity_free_exact": true,
+    "endpoint_lower_not_above_screen_upper": true,
+    "finite_exact_state_replay": true,
+    "capacity_free_terminal_replay": true,
+    "cyclic_throughput_identity": true,
+    "cyclic_loss_relation": true,
+    "endpoint_cyclic_residual": true
+  }
+}

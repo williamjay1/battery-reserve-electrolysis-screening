@@ -1,0 +1,232 @@
+{
+  "model_configuration": {
+    "capacity_mwh": 2.0,
+    "cyclic_initial_and_terminal_inventory_mwh": 1.0,
+    "eta": 0.94,
+    "native_method": "Capacity-free evaluated dual upper bound on 900-second native activation paths; it is a relaxation, not a dispatch policy.",
+    "quarter_mean_method": "Exact LP for interval-mean activation.",
+    "quarter_seconds": 900,
+    "reserve_mw": 0.75,
+    "supply_mw": 0.1
+  },
+  "months": [
+    {
+      "absolute_activation_energy_mwh": 189.37387708333327,
+      "file": "2026-01.npz",
+      "file_sha256": "2230a62e4c94cd5c5535ab6677161aaa5c558b81ae81f1c17ad46ea41e23933f",
+      "hours": 744.0,
+      "native_capacity_free_evaluated_dual_upper": {
+        "delta_vs_no_reserve_mwh": -10.42155697052096,
+        "dual_cost": 10.42155797052096,
+        "hydrogen_input_upper_mwh": 63.978443029479045,
+        "multiplier": 1.0381494139977891,
+        "numerical_margin_mwh": 1e-06,
+        "relaxed_inventory_residual": 0.04335072473415569
+      },
+      "no_reserve_hydrogen_input_mwh": 74.4,
+      "quarter_mean_exact_lp": {
+        "delta_vs_no_reserve_mwh": -8.218178460276135,
+        "hydrogen_input_mwh": 66.18182153972387,
+        "iterations": 5644,
+        "maximum_equation_residual": 2.498001805406602e-16,
+        "maximum_replay_violation": 1.199040866595169e-14,
+        "status": "feasible"
+      },
+      "quarters": 2976,
+      "seconds": 2678400,
+      "signed_activation_energy_mwh": 2.1534812500000062,
+      "within_quarter_absolute_deviation_mwh": 83.50939926851848,
+      "within_quarter_variance": 0.040130777720861495
+    },
+    {
+      "absolute_activation_energy_mwh": 177.48186145833324,
+      "file": "2026-02.npz",
+      "file_sha256": "23d2a3ab618ca402513486af68ed8c7641d9915d2b59b63874df47a241cce550",
+      "hours": 672.0,
+      "native_capacity_free_evaluated_dual_upper": {
+        "delta_vs_no_reserve_mwh": -8.164026069479647,
+        "dual_cost": 8.164027069479648,
+        "hydrogen_input_upper_mwh": 59.035973930520356,
+        "multiplier": 1.0394857126006332,
+        "numerical_margin_mwh": 1e-06,
+        "relaxed_inventory_residual": 0.10675753324478854
+      },
+      "no_reserve_hydrogen_input_mwh": 67.2,
+      "quarter_mean_exact_lp": {
+        "delta_vs_no_reserve_mwh": -6.19262506035912,
+        "hydrogen_input_mwh": 61.00737493964088,
+        "iterations": 5073,
+        "maximum_equation_residual": 4.649058915617843e-16,
+        "maximum_replay_violation": 1.3988810110276972e-14,
+        "status": "feasible"
+      },
+      "quarters": 2688,
+      "seconds": 2419200,
+      "signed_activation_energy_mwh": 0.3613114583333336,
+      "within_quarter_absolute_deviation_mwh": 76.15508192361106,
+      "within_quarter_variance": 0.04116404689758547
+    },
+    {
+      "absolute_activation_energy_mwh": 195.88143020833326,
+      "file": "2026-03.npz",
+      "file_sha256": "1a4752af8435015ab4e4d2a929a843085753a2ad889361920dc14e7d748b8ba6",
+      "hours": 744.0,
+      "native_capacity_free_evaluated_dual_upper": {
+        "delta_vs_no_reserve_mwh": -9.840996349822632,
+        "dual_cost": 9.840997349822631,
+        "hydrogen_input_upper_mwh": 64.55900365017737,
+        "multiplier": 1.0400807279679931,
+        "numerical_margin_mwh": 1e-06,
+        "relaxed_inventory_residual": 0.052222052305156696
+      },
+      "no_reserve_hydrogen_input_mwh": 74.4,
+      "quarter_mean_exact_lp": {
+        "delta_vs_no_reserve_mwh": -7.593056192470186,
+        "hydrogen_input_mwh": 66.80694380752982,
+        "iterations": 5567,
+        "maximum_equation_residual": 2.0816681711721685e-16,
+        "maximum_replay_violation": 1.532107773982716e-14,
+        "status": "feasible"
+      },
+      "quarters": 2976,
+      "seconds": 2678400,
+      "signed_activation_energy_mwh": 1.207357291666658,
+      "within_quarter_absolute_deviation_mwh": 86.11211965972218,
+      "within_quarter_variance": 0.042421363346680806
+    },
+    {
+      "absolute_activation_energy_mwh": 196.9653416666666,
+      "file": "2026-04.npz",
+      "file_sha256": "2358665afb8fdc21cbcf9c370d0c72b7c808e1b87ca9be578a949d0100dfccb2",
+      "hours": 720.0,
+      "native_capacity_free_evaluated_dual_upper": {
+        "delta_vs_no_reserve_mwh": -10.778981303514712,
+        "dual_cost": 10.778982303514708,
+        "hydrogen_input_upper_mwh": 61.22101869648529,
+        "multiplier": 1.042617161330583,
+        "numerical_margin_mwh": 1e-06,
+        "relaxed_inventory_residual": -0.03319272384738736
+      },
+      "no_reserve_hydrogen_input_mwh": 72.0,
+      "quarter_mean_exact_lp": {
+        "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "status": "infeasible"
+      },
+      "quarters": 2880,
+      "seconds": 2592000,
+      "signed_activation_energy_mwh": 1.9616750000000043,
+      "within_quarter_absolute_deviation_mwh": 85.54685703009257,
+      "within_quarter_variance": 0.0451938777462491
+    },
+    {
+      "absolute_activation_energy_mwh": 205.44508854166656,
+      "file": "2026-05.npz",
+      "file_sha256": "c0decaf7b82426551001974c948fe59021b3ba67a60472757ed7e2953a6d58ca",
+      "hours": 744.0,
+      "native_capacity_free_evaluated_dual_upper": {
+        "delta_vs_no_reserve_mwh": -9.174695616361333,
+        "dual_cost": 9.17469661636133,
+        "hydrogen_input_upper_mwh": 65.22530438363867,
+        "multiplier": 1.0418698682367076,
+        "numerical_margin_mwh": 1e-06,
+        "relaxed_inventory_residual": -0.042000558510442265
+      },
+      "no_reserve_hydrogen_input_mwh": 74.4,
+      "quarter_mean_exact_lp": {
+        "delta_vs_no_reserve_mwh": -6.871771974498259,
+        "hydrogen_input_mwh": 67.52822802550175,
+        "iterations": 5599,
+        "maximum_equation_residual": 4.163336342344337e-16,
+        "maximum_replay_violation": 1.354472090042691e-14,
+        "status": "feasible"
+      },
+      "quarters": 2976,
+      "seconds": 2678400,
+      "signed_activation_energy_mwh": -0.03888645833332665,
+      "signed_energy_throughput_identity": {
+        "interpretation": "The one negative-net-energy month still has an evaluated capacity-free upper value below the no-reserve comparator.",
+        "kappa": 0.061796559779146346,
+        "positive_gain_requires_throughput_below_mwh": 0.6292657467066498,
+        "throughput_lower_bound_implied_by_native_upper_mwh": 149.0953882808836
+      },
+      "within_quarter_absolute_deviation_mwh": 89.20419357638883,
+      "within_quarter_variance": 0.04625326908561698
+    },
+    {
+      "absolute_activation_energy_mwh": 205.79367395833324,
+      "file": "2026-06.npz",
+      "file_sha256": "a4b366b92dc5c868f2dbb75d7777fc17c1d39486e4dd5dd8a1b7c88951e2f850",
+      "hours": 720.0,
+      "native_capacity_free_evaluated_dual_upper": {
+        "delta_vs_no_reserve_mwh": -11.014465476578607,
+        "dual_cost": 11.014466476578606,
+        "hydrogen_input_upper_mwh": 60.98553452342139,
+        "multiplier": 1.0451659960802573,
+        "numerical_margin_mwh": 1e-06,
+        "relaxed_inventory_residual": 0.07466136835126758
+      },
+      "no_reserve_hydrogen_input_mwh": 72.0,
+      "quarter_mean_exact_lp": {
+        "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+        "status": "infeasible"
+      },
+      "quarters": 2880,
+      "seconds": 2592000,
+      "signed_activation_energy_mwh": 1.650859374999993,
+      "within_quarter_absolute_deviation_mwh": 86.4543031944444,
+      "within_quarter_variance": 0.04734919665621779
+    },
+    {
+      "absolute_activation_energy_mwh": 188.16061979166656,
+      "file": "2026-07.npz",
+      "file_sha256": "4616880a7eee25d5d5da75b5519fb38926ca4c37dcd7c4bfbba82d8a62cbf75f",
+      "hours": 744.0,
+      "native_capacity_free_evaluated_dual_upper": {
+        "delta_vs_no_reserve_mwh": -8.905379503848494,
+        "dual_cost": 8.905380503848495,
+        "hydrogen_input_upper_mwh": 65.49462049615151,
+        "multiplier": 1.0381494139977725,
+        "numerical_margin_mwh": 1e-06,
+        "relaxed_inventory_residual": -0.017223439716170796
+      },
+      "no_reserve_hydrogen_input_mwh": 74.4,
+      "quarter_mean_exact_lp": {
+        "delta_vs_no_reserve_mwh": -6.63995702948165,
+        "hydrogen_input_mwh": 67.76004297051836,
+        "iterations": 5706,
+        "maximum_equation_residual": 4.40619762898109e-16,
+        "maximum_replay_violation": 1.2989609388114332e-14,
+        "status": "feasible"
+      },
+      "quarters": 2976,
+      "seconds": 2678400,
+      "signed_activation_energy_mwh": 0.745984375000001,
+      "within_quarter_absolute_deviation_mwh": 85.09157555787033,
+      "within_quarter_variance": 0.04165613982399313
+    }
+  ],
+  "reproducibility": {
+    "cache_dir": "D:\\MLWork\\06\\Applied_Sciences_energy_revision_20260923\\prepared_inputs\\gb_frequency",
+    "input_is_read_only": true,
+    "output_path": "D:\\MLWork\\06\\Applied_Sciences_screen_revision_20260923\\results\\gb_transfer_audit.json",
+    "output_policy": "C: and E: outputs are rejected by this script.",
+    "script": "D:\\MLWork\\06\\Applied_Sciences_screen_revision_20260923\\analysis\\gb_transfer_audit.py",
+    "script_sha256": "053b7ce3585a39007ae8ddd34a5e3d54c78ecd736d4c4c499e8c141827f3e3b6",
+    "source_dir": "D:\\MLWork\\06\\Applied_Sciences_energy_revision_20260923\\public_repository\\src"
+  },
+  "schema_version": "1.0",
+  "scope": "Great Britain transfer audit from seven permitted derived GB frequency caches. This is a model-input stress replay, not observed reserve dispatch or a national market-performance estimate.",
+  "summary": {
+    "all_feasible_quarter_mean_lp_values_below_no_reserve": true,
+    "months_audited": 7,
+    "native_capacity_free_upper_below_no_reserve_in_every_month": true,
+    "negative_signed_activation_energy_months": [
+      "2026-05"
+    ],
+    "quarter_mean_cyclic_lp_infeasible_months": [
+      "2026-04",
+      "2026-06"
+    ],
+    "safe_interpretation": "For these seven transformed GB input paths and this stated model configuration, the evaluated native capacity-free upper bound is below the no-reserve comparator in every month. The exact quarter-mean LP is also below that comparator in each month where it is cyclically feasible; it is infeasible in the listed months under quarter-fixed cyclic constraints. This is not a claim about GB market rules, assets, or dispatch."
+  }
+}

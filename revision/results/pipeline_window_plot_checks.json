@@ -1,0 +1,36 @@
+{
+  "mechanism": {
+    "population_points": 20348,
+    "original_points_each_selected_curve": 901,
+    "selected_zero_based_indices": [
+      10383,
+      18206,
+      9178,
+      11272
+    ],
+    "common_time_limits_min": [
+      0,
+      15
+    ],
+    "common_discrepancy_limits_kwh": [
+      -35.0,
+      75.0
+    ],
+    "all_signed_values_used": true,
+    "source_cache_redistributed": false
+  },
+  "cost": {
+    "all_three_runs_plotted": true,
+    "median_phase_seconds": {
+      "file_load": 0.028701000032015145,
+      "activation_prepare": 0.051279200008139014,
+      "rank_sort": 0.07856010005343705,
+      "summary_K3_and_K9": 0.022487500100396574,
+      "two_upper_queries": 0.06270459992811084,
+      "checksum_and_Jensen_checks": 0.8030083000194281
+    },
+    "median_total_screen_seconds": 1.0273031999822706,
+    "median_separate_witness_check_seconds": 0.02741290000267327,
+    "screen_output_includes_physical_schedule": false
+  }
+}

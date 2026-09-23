@@ -1,0 +1,12 @@
+{
+  "step_seconds": 900,
+  "adaptive_round": 1,
+  "policy": 1,
+  "policy_name": "track relaxed endpoint",
+  "hydrogen_lower_mwh": 502.73948445989134,
+  "end_inventory": 0.9999999999916961,
+  "min_inventory": -7.939079332364238e-12,
+  "max_inventory": 1.9999999999995663,
+  "maximum_violation": 7.939079332364238e-12,
+  "total_seconds": 3.1888128999853507
+}

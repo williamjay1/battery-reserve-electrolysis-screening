@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "test_purpose": "adversarial synthetic checks of constraints, not empirical evidence",
+  "seed": 3902309,
+  "search_draws": 48,
+  "prefix_fixture": {
+    "case": "prefix makes endpoint-feasible case physically infeasible",
+    "activation": [
+      0.8,
+      -0.8,
+      0.8,
+      -0.8
+    ],
+    "step": 4,
+    "capacity_mwh": 5e-05,
+    "physical_optimum_mwh": null,
+    "feasible_regions": 0,
+    "finite_cap_upper_mwh": 7.091340459168015e-05,
+    "capacity_free_upper_mwh": 7.091340459168014e-05,
+    "upper_bound_improvement_mwh": -1.3552527156068805e-20
+  },
+  "capacity_active_fixtures": [
+    {
+      "case": "capacity fixture seed3902309 draw16",
+      "activation": [
+        -0.1263129568876701,
+        -0.013486442500925039,
+        0.026101947337299952,
+        0.41495234037504525,
+        0.40451393198222174,
+        0.2486695153847351,
+        -0.4847339192576995,
+        -0.2008047967670237,
+        -0.295718035177986,
+        -0.4548600273537451,
+        0.12963808000589158,
+        0.11204036285985583
+      ],
+      "step": 3,
+      "capacity_mwh": 0.00015000000000000001,
+      "physical_optimum_mwh": 0.0003577779441718064,
+      "feasible_regions": 2,
+      "finite_cap_upper_mwh": 0.0003587779441718062,
+      "capacity_free_upper_mwh": 0.0003623441686243687,
+      "upper_bound_improvement_mwh": 3.5662244525625332e-06
+    },
+    {
+      "case": "capacity fixture seed3902309 draw48",
+      "activation": [
+        -0.32780695817164096,
+        0.3769614906116566,
+        -0.23687821980006687,
+        0.02795695380611432,
+        0.1356839530479426,
+        0.13334898115051777,
+        -0.1283485538512961,
+        -0.2644520887419122,
+        0.291265708845014,
+        -0.44239043501704334,
+        0.04807002473430291,
+        0.14658914338641085
+      ],
+      "step": 3,
+      "capacity_mwh": 0.00012,
+      "physical_optimum_mwh": 0.00035565625650327265,
+      "feasible_regions": 3,
+      "finite_cap_upper_mwh": 0.00035665625650327257,
+      "capacity_free_upper_mwh": 0.0003572409529832423,
+      "upper_bound_improvement_mwh": 5.846964799697055e-07
+    }
+  ]
+}

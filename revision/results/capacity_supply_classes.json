@@ -1,0 +1,182 @@
+[
+  {
+    "source": "Germany_seconds",
+    "E": 0.5,
+    "S": 0.05,
+    "classification": "X"
+  },
+  {
+    "source": "Germany_seconds",
+    "E": 0.5,
+    "S": 0.1,
+    "classification": "X"
+  },
+  {
+    "source": "Germany_seconds",
+    "E": 0.5,
+    "S": 0.2,
+    "classification": "X"
+  },
+  {
+    "source": "Germany_seconds",
+    "E": 1,
+    "S": 0.05,
+    "classification": "X"
+  },
+  {
+    "source": "Germany_seconds",
+    "E": 1,
+    "S": 0.1,
+    "classification": "X"
+  },
+  {
+    "source": "Germany_seconds",
+    "E": 1,
+    "S": 0.2,
+    "classification": "F"
+  },
+  {
+    "source": "Germany_seconds",
+    "E": 2,
+    "S": 0.05,
+    "classification": "X"
+  },
+  {
+    "source": "Germany_seconds",
+    "E": 2,
+    "S": 0.1,
+    "classification": "F"
+  },
+  {
+    "source": "Germany_seconds",
+    "E": 2,
+    "S": 0.2,
+    "classification": "F"
+  },
+  {
+    "source": "Germany_seconds",
+    "E": 4,
+    "S": 0.05,
+    "classification": "X"
+  },
+  {
+    "source": "Germany_seconds",
+    "E": 4,
+    "S": 0.1,
+    "classification": "F"
+  },
+  {
+    "source": "Germany_seconds",
+    "E": 4,
+    "S": 0.2,
+    "classification": "F"
+  },
+  {
+    "source": "Germany_seconds",
+    "E": 8,
+    "S": 0.05,
+    "classification": "L"
+  },
+  {
+    "source": "Germany_seconds",
+    "E": 8,
+    "S": 0.1,
+    "classification": "F"
+  },
+  {
+    "source": "Germany_seconds",
+    "E": 8,
+    "S": 0.2,
+    "classification": "F"
+  },
+  {
+    "source": "Belgium_quarters",
+    "E": 0.5,
+    "S": 0.05,
+    "classification": "X"
+  },
+  {
+    "source": "Belgium_quarters",
+    "E": 0.5,
+    "S": 0.1,
+    "classification": "X"
+  },
+  {
+    "source": "Belgium_quarters",
+    "E": 0.5,
+    "S": 0.2,
+    "classification": "X"
+  },
+  {
+    "source": "Belgium_quarters",
+    "E": 1,
+    "S": 0.05,
+    "classification": "X"
+  },
+  {
+    "source": "Belgium_quarters",
+    "E": 1,
+    "S": 0.1,
+    "classification": "X"
+  },
+  {
+    "source": "Belgium_quarters",
+    "E": 1,
+    "S": 0.2,
+    "classification": "X"
+  },
+  {
+    "source": "Belgium_quarters",
+    "E": 2,
+    "S": 0.05,
+    "classification": "X"
+  },
+  {
+    "source": "Belgium_quarters",
+    "E": 2,
+    "S": 0.1,
+    "classification": "X"
+  },
+  {
+    "source": "Belgium_quarters",
+    "E": 2,
+    "S": 0.2,
+    "classification": "X"
+  },
+  {
+    "source": "Belgium_quarters",
+    "E": 4,
+    "S": 0.05,
+    "classification": "X"
+  },
+  {
+    "source": "Belgium_quarters",
+    "E": 4,
+    "S": 0.1,
+    "classification": "X"
+  },
+  {
+    "source": "Belgium_quarters",
+    "E": 4,
+    "S": 0.2,
+    "classification": "G"
+  },
+  {
+    "source": "Belgium_quarters",
+    "E": 8,
+    "S": 0.05,
+    "classification": "X"
+  },
+  {
+    "source": "Belgium_quarters",
+    "E": 8,
+    "S": 0.1,
+    "classification": "G"
+  },
+  {
+    "source": "Belgium_quarters",
+    "E": 8,
+    "S": 0.2,
+    "classification": "G"
+  }
+]

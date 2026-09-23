@@ -1,0 +1,124 @@
+{
+  "mechanism": {
+    "quarter_index_zero_based": 11272,
+    "start_utc": "2026-04-28 09:00:00",
+    "native_samples_plotted": 900,
+    "inventory_points_plotted": 901,
+    "smoothing": false,
+    "path_simplification": false,
+    "all_values_inside_axes": true,
+    "mean_activation": -0.13924713477134035,
+    "quarter_baseline_mw": -0.10443535107850531,
+    "initial_inventory_mwh": 0.29506004840373995,
+    "native_end_inventory_mwh": 0.2877164121831575,
+    "native_minimum_inventory_mwh": 0.23197039015131393,
+    "native_increment_mwh": -0.007343636220582428,
+    "quarter_mean_increment_mwh": -1.1072703038149834e-17,
+    "positive_discharge_seconds": 502,
+    "source_native_sha256": "0a664312a5bdbb5b7bf3b12dc8e203c932f1b07b7e029abf887e9599efc91163",
+    "source_reference_solution_sha256": "7df7121bd811720ddc92140d3a6548c14055fc6ca443439776e7b0caead73455",
+    "source_cache_redistributed": false
+  },
+  "monthly": {
+    "status_counts": {
+      "feasible": 162,
+      "incomplete_calendar_month": 2,
+      "infeasible": 3
+    },
+    "feasible_points_plotted": {
+      "Germany_seconds": {
+        "2": 19,
+        "4": 19,
+        "8": 19
+      },
+      "Germany_quarters": {
+        "2": 19,
+        "4": 19,
+        "8": 19
+      },
+      "Belgium_quarters": {
+        "2": 14,
+        "4": 17,
+        "8": 17
+      }
+    },
+    "infeasible_months": [
+      "2026-04",
+      "2026-05",
+      "2026-06"
+    ],
+    "infeasible_marker_band_not_numeric": true,
+    "months": [
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02",
+      "2026-03",
+      "2026-04",
+      "2026-05",
+      "2026-06",
+      "2026-07"
+    ],
+    "missing_values_interpolated": false
+  },
+  "feasibility": {
+    "feedback_hours": 1,
+    "configurations_plotted": 90,
+    "classification_counts": {
+      "Germany_seconds": {
+        "physically_infeasible": 18,
+        "policy_avoidable": 4,
+        "causal_success": 8
+      },
+      "Germany_quarters": {
+        "physically_infeasible": 18,
+        "policy_avoidable": 4,
+        "causal_success": 8
+      },
+      "Belgium_quarters": {
+        "physically_infeasible": 25,
+        "policy_avoidable": 3,
+        "causal_success": 2
+      }
+    },
+    "capacity_mwh": [
+      0.5,
+      1.0,
+      2.0,
+      4.0,
+      8.0
+    ],
+    "supply_mw": [
+      0.0,
+      0.025,
+      0.05,
+      0.1,
+      0.2,
+      0.4
+    ]
+  },
+  "aggregate_sources": {
+    "monthly_oracle.csv": {
+      "sha256": "e2b3a4f5a021b5743fd37d57ca09f052973f993aa585583c54180c259cbe37c1"
+    },
+    "control_classification.csv": {
+      "sha256": "06290dd5bf534eecf8b298c588e879ffea987624702a7fa2585496522cbe41cf"
+    }
+  },
+  "status": "PASS",
+  "exports": [
+    "editable PDF",
+    "editable SVG",
+    "900 dpi PNG"
+  ]
+}

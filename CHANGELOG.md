@@ -1,3 +1,7 @@
+# Version 3.0.1 — 23 September 2026
+
+Tightened native optimization bracket; three baseline durations; saved dual certificates and independent replay; full screening timing; complete discrepancy distribution and quantile windows; GB feasibility correction; complete German reconstruction and synthetic demo; final-size vector figures. No raw provider data added.
+
 # Changelog
 
 ## 2.0.0 — release candidate

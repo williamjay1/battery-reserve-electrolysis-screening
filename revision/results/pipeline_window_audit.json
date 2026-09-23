@@ -1,0 +1,277 @@
+{
+  "created_utc": "2026-09-23T08:43:17.242706+00:00",
+  "environment": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "numpy": "2.5.1",
+    "numba": "0.67.0",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "cpu": "AMD Ryzen 9 8945HS w/ Radeon 780M Graphics",
+    "numerical_threads": 1,
+    "page_cache_state": "Warmed by provenance and array-checksum reads; no operating-system cache flush",
+    "system_load_isolated": false,
+    "other_known_solver_runs_during_measurements": false,
+    "timer": "time.perf_counter wall-clock seconds"
+  },
+  "input_files": {
+    "native_evaluation.npy": {
+      "sha256": "0a664312a5bdbb5b7bf3b12dc8e203c932f1b07b7e029abf887e9599efc91163",
+      "bytes": 146505728
+    },
+    "reference_quarter_solution.npz": {
+      "sha256": "7df7121bd811720ddc92140d3a6548c14055fc6ca443439776e7b0caead73455",
+      "bytes": 169486
+    },
+    "native_hydrogen_witness_2.0_0.1.npz": {
+      "sha256": "08c55ea68f1975d78caaf492a61ceaf667af5811aeb226f85376935da230d308",
+      "bytes": 227067
+    }
+  },
+  "frozen_algorithm_source": "distribution_screen.py; native replay equations independently restated",
+  "frozen_distribution_screen_sha256": "d2451f6edc18a5a148f5966ec3f0ff39fdce6f587a99e0ca134b39adb742b87c",
+  "excluded_from_timing": [
+    "network acquisition",
+    "source-provider parsing",
+    "software import",
+    "JIT warm-up",
+    "prior schedule optimization",
+    "plotting"
+  ],
+  "screen_outputs_schedule": false,
+  "runs": [
+    {
+      "run": 1,
+      "seconds": {
+        "file_load": 0.031117500038817525,
+        "activation_prepare": 0.051279200008139014,
+        "rank_sort": 0.07856010005343705,
+        "summary_K3_and_K9": 0.024213399970903993,
+        "two_upper_queries": 0.06270459992811084,
+        "checksum_and_Jensen_checks": 0.8198662000941113
+      },
+      "total_local_screen_seconds": 1.0677410000935197,
+      "queries": {
+        "3": {
+          "upper_mwh": 503.7803899237002,
+          "multiplier": 1.0190806591500434,
+          "outward_margin_mwh": 1e-06
+        },
+        "9": {
+          "upper_mwh": 503.50719980311254,
+          "multiplier": 1.0190806591500428,
+          "outward_margin_mwh": 1e-06
+        }
+      },
+      "verification": {
+        "array_payload_sha256": "31ce6d40303d4212909b6f88038f9ae119c8c734d2b4d7369806aca464361afa",
+        "maximum_mean_preservation_error_mw": 2.220446049250313e-16,
+        "minimum_Jensen_slack_mwh": {
+          "3": -1.1102230246251565e-16,
+          "9": -1.1102230246251565e-16
+        },
+        "Jensen_baselines_mw": [
+          -0.25,
+          0.0,
+          0.1
+        ],
+        "status": "PASS"
+      },
+      "saved_witness_load_seconds": 0.0014731999253854156,
+      "native_witness_replay_validation_seconds": 0.025939700077287853,
+      "physical_validation": {
+        "terminal_mwh": 0.9999999999432687,
+        "minimum_mwh": 0.6176437747538085,
+        "maximum_mwh": 1.999999999999341,
+        "electrolyzer_input_mwh": 496.72539079811526,
+        "maximum_violation": 0.0,
+        "terminal_residual_mwh": 5.672984304538886e-11,
+        "initial_mwh": 0.9999999999999986,
+        "status": "PASS"
+      }
+    },
+    {
+      "run": 2,
+      "seconds": {
+        "file_load": 0.028701000032015145,
+        "activation_prepare": 0.05231820000335574,
+        "rank_sort": 0.08486059994902462,
+        "summary_K3_and_K9": 0.022487500100396574,
+        "two_upper_queries": 0.06715439993422478,
+        "checksum_and_Jensen_checks": 0.7193646000232548
+      },
+      "total_local_screen_seconds": 0.9748863000422716,
+      "queries": {
+        "3": {
+          "upper_mwh": 503.7803899237002,
+          "multiplier": 1.0190806591500434,
+          "outward_margin_mwh": 1e-06
+        },
+        "9": {
+          "upper_mwh": 503.50719980311254,
+          "multiplier": 1.0190806591500428,
+          "outward_margin_mwh": 1e-06
+        }
+      },
+      "verification": {
+        "array_payload_sha256": "31ce6d40303d4212909b6f88038f9ae119c8c734d2b4d7369806aca464361afa",
+        "maximum_mean_preservation_error_mw": 2.220446049250313e-16,
+        "minimum_Jensen_slack_mwh": {
+          "3": -1.1102230246251565e-16,
+          "9": -1.1102230246251565e-16
+        },
+        "Jensen_baselines_mw": [
+          -0.25,
+          0.0,
+          0.1
+        ],
+        "status": "PASS"
+      },
+      "saved_witness_load_seconds": 0.001446699956431985,
+      "native_witness_replay_validation_seconds": 0.02577410009689629,
+      "physical_validation": {
+        "terminal_mwh": 0.9999999999432687,
+        "minimum_mwh": 0.6176437747538085,
+        "maximum_mwh": 1.999999999999341,
+        "electrolyzer_input_mwh": 496.72539079811526,
+        "maximum_violation": 0.0,
+        "terminal_residual_mwh": 5.672984304538886e-11,
+        "initial_mwh": 0.9999999999999986,
+        "status": "PASS"
+      }
+    },
+    {
+      "run": 3,
+      "seconds": {
+        "file_load": 0.028535100049339235,
+        "activation_prepare": 0.050228299922309816,
+        "rank_sort": 0.07554630003869534,
+        "summary_K3_and_K9": 0.019406800041906536,
+        "two_upper_queries": 0.05057839991059154,
+        "checksum_and_Jensen_checks": 0.8030083000194281
+      },
+      "total_local_screen_seconds": 1.0273031999822706,
+      "queries": {
+        "3": {
+          "upper_mwh": 503.7803899237002,
+          "multiplier": 1.0190806591500434,
+          "outward_margin_mwh": 1e-06
+        },
+        "9": {
+          "upper_mwh": 503.50719980311254,
+          "multiplier": 1.0190806591500428,
+          "outward_margin_mwh": 1e-06
+        }
+      },
+      "verification": {
+        "array_payload_sha256": "31ce6d40303d4212909b6f88038f9ae119c8c734d2b4d7369806aca464361afa",
+        "maximum_mean_preservation_error_mw": 2.220446049250313e-16,
+        "minimum_Jensen_slack_mwh": {
+          "3": -1.1102230246251565e-16,
+          "9": -1.1102230246251565e-16
+        },
+        "Jensen_baselines_mw": [
+          -0.25,
+          0.0,
+          0.1
+        ],
+        "status": "PASS"
+      },
+      "saved_witness_load_seconds": 0.0017772000283002853,
+      "native_witness_replay_validation_seconds": 0.026939300005324185,
+      "physical_validation": {
+        "terminal_mwh": 0.9999999999432687,
+        "minimum_mwh": 0.6176437747538085,
+        "maximum_mwh": 1.999999999999341,
+        "electrolyzer_input_mwh": 496.72539079811526,
+        "maximum_violation": 0.0,
+        "terminal_residual_mwh": 5.672984304538886e-11,
+        "initial_mwh": 0.9999999999999986,
+        "status": "PASS"
+      }
+    }
+  ],
+  "window_audit": {
+    "distribution": {
+      "n_quarters": 20348,
+      "zero_tolerance_mwh": 1e-12,
+      "positive_count": 18488,
+      "zero_within_tolerance_count": 1860,
+      "negative_count": 0,
+      "raw_negative_float_count": 580,
+      "minimum_signed_mwh": -4.163336342344337e-17,
+      "maximum_signed_mwh": 0.007343636220582409,
+      "mean_signed_mwh": 0.000642438325706356,
+      "sum_signed_mwh": 13.072335051472933,
+      "quantiles_all_mwh": {
+        "0": -4.163336342344337e-17,
+        "0.25": 0.00013716450393544443,
+        "0.5": 0.00044631510128698376,
+        "0.75": 0.0009260189309159713,
+        "0.9": 0.0015068918177391381,
+        "0.95": 0.0019477734414614768,
+        "0.99": 0.003196757697802677,
+        "1": 0.007343636220582409
+      },
+      "quantiles_positive_mwh": {
+        "0.5": 0.0005082602964493455,
+        "0.9": 0.0015673096149577503,
+        "0.99": 0.0032606975215890475
+      },
+      "definition": "quarter-mean increment minus native increment under each fixed quarter baseline",
+      "all_signed_values_retained": true
+    },
+    "selected_windows": [
+      {
+        "criterion": "Positive P50",
+        "quantile": 0.5,
+        "target_mwh": 0.0005082602964493455,
+        "quarter_index_zero_based": 10383,
+        "discrepancy_mwh": 0.0005082852687959481,
+        "native_increment_mwh": -0.0005082852687959481,
+        "coarse_increment_mwh": -0.0,
+        "baseline_mw": -0.04113875917203117,
+        "formerly_selected": false
+      },
+      {
+        "criterion": "Positive P90",
+        "quantile": 0.9,
+        "target_mwh": 0.0015673096149577503,
+        "quarter_index_zero_based": 18206,
+        "discrepancy_mwh": 0.0015672837844526613,
+        "native_increment_mwh": -0.0015672837844526515,
+        "coarse_increment_mwh": 9.783840404509191e-18,
+        "baseline_mw": -0.04356275080377394,
+        "formerly_selected": false
+      },
+      {
+        "criterion": "Positive P99",
+        "quantile": 0.99,
+        "target_mwh": 0.0032606975215890475,
+        "quarter_index_zero_based": 9178,
+        "discrepancy_mwh": 0.0032604802681270987,
+        "native_increment_mwh": 0.002352911476692646,
+        "coarse_increment_mwh": 0.005613391744819745,
+        "baseline_mw": -0.25,
+        "formerly_selected": false
+      },
+      {
+        "criterion": "Maximum",
+        "quantile": 1.0,
+        "target_mwh": 0.007343636220582409,
+        "quarter_index_zero_based": 11272,
+        "discrepancy_mwh": 0.007343636220582409,
+        "native_increment_mwh": -0.00734363622058242,
+        "coarse_increment_mwh": -1.1072703038149834e-17,
+        "baseline_mw": -0.10443535107850531,
+        "formerly_selected": true
+      }
+    ],
+    "selection_rule": "Protocol recorded before computation; linear positive quantiles, nearest observed discrepancy, earliest exact tie.",
+    "previously_selected_quarter": 11272,
+    "previously_selected_signed_discrepancy_mwh": 0.007343636220582409,
+    "source_activation_redistributed": false
+  },
+  "preliminary_timing_report": "pipeline_window_audit_preliminary.json",
+  "timing_revision_reason": "Repeat after other known optimization jobs stopped; preliminary concurrent timings retained.",
+  "analysis_script_sha256": "aa1c7c231685370f7c919fa679c7148a7eddc61c8645d2a0f597af35df9afd8f",
+  "protocol_sha256": "ddb28151335596de88241ceabbc2c5dfb479b213b2287f24e343131b6f0d9043"
+}

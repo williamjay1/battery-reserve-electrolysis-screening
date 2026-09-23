@@ -1,0 +1,23 @@
+{
+  "step_seconds": 900,
+  "capacity_mwh": 2.0,
+  "supply_mw": 0.1,
+  "intervals": 20348,
+  "supports_per_interval": 20,
+  "method": "highs-ipm",
+  "primal_objective": 5.888535297410644,
+  "dual_lower_objective": 5.888535295874171,
+  "duality_gap": 1.5364731709155421e-09,
+  "roundoff_margin_mwh": 1e-06,
+  "hydrogen_upper_mwh": 502.81146570412585,
+  "iterations": 1,
+  "seconds": 67.24638150003739,
+  "max_inequality_violation": 8.732120695964518e-08,
+  "max_full_stationarity_residual": 6.743339220349753e-11,
+  "max_positive_inequality_dual": 1.6825651982799172e-11,
+  "evaluated_inequality_dual_cost": 8.74444629381259,
+  "box_residual_correction_mwh": -2.8559109979384187,
+  "certificate_file": "upper_900s_round3_dual_certificate.npz",
+  "adaptive_round": 3,
+  "certificate_purpose": "Persist dual multipliers, supports and box bounds for independent reconstruction"
+}

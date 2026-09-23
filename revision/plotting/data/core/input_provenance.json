@@ -1,0 +1,32 @@
+[
+  {
+    "file": "data/core/energy_challenge.json",
+    "source": "D:\\MLWork\\06\\Applied_Sciences_energy_revision_20260923\\public_repository\\results\\energy_challenge.json",
+    "sha256": "6827427daab32ebf33b5d834d0b62fd873228fbdc549be88d97512b68d4a19e6"
+  },
+  {
+    "file": "data/core/native_hydrogen_bounds.json",
+    "source": "D:\\MLWork\\06\\Applied_Sciences_energy_revision_20260923\\public_repository\\results\\native_hydrogen_bounds.json",
+    "sha256": "b71f5e5e94a9fe15e5d69cbb700f99ed8f6314430bade0ad7b90be778ed3ef12"
+  },
+  {
+    "file": "data/core/finite_capacity_certificate.json",
+    "source": "D:\\MLWork\\06\\Applied_Sciences_energy_revision_20260923\\public_repository\\results\\dual_certificate_2.0_0.1_0.94_17_20348.json",
+    "sha256": "4fc8236b56859fe7efc58c6afccbae3beb05dea889d9b366fdea1bfecb997e3f"
+  },
+  {
+    "file": "data/core/revision_evidence_manifest.json",
+    "source": "D:\\MLWork\\06\\Applied_Sciences_energy_revision_20260923\\revision_results\\revision_evidence_manifest.json",
+    "sha256": "ccd0b322faa8406ac21b679453b3102349cbeb67ab81989f813f1aaf2dd53578"
+  },
+  {
+    "file": "data/core/parameter_decision_grid.csv",
+    "source": "D:\\MLWork\\06\\Applied_Sciences_energy_revision_20260923\\revision_results\\parameter_decision_grid.csv",
+    "sha256": "846325146f67c81fe7cd32b96e4dba2161acf8add645eb25f02a6c340186eb05"
+  },
+  {
+    "file": "data/core/distribution_screen.json",
+    "source": "D:\\MLWork\\06\\submission_revision_20260908\\results\\distribution_screen\\results.json",
+    "sha256": "6ddd5a46787818306770489600cf5eb73c48081074cae8bc3d090a6885ccbbc5"
+  }
+]

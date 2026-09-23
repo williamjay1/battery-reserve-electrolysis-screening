@@ -1,0 +1,31 @@
+# Refinement and native feasibility
+
+This revision preserves the physical model and the complete German input. It changes only the numerical tightness of the reference bracket and adds a decision-duration sensitivity.
+
+## Finite-capacity upper bound
+
+The inverse native endpoint inventory map is convex. The existing 17 baseline support locations are retained, including both admissible baseline endpoints. After each relaxed LP, the exact native endpoint map is inverted by bisection at every returned inventory increment. A support at that baseline is added to the same interval; earlier supports remain. Three rounds therefore give 20 support planes per interval. Each added plane is a valid global underestimator of the inverse map, so it can only restrict the relaxation and improve its charging-cost lower bound. Native prefix constraints remain omitted.
+
+For the minimization LP, nonpositive inequality dual multipliers are retained. With residual r = c - A' y and finite variable bounds l,u, the evaluated lower cost is b' y + l' max(r,0) + u' min(r,0). This compensates for stationarity residuals rather than treating the primal solver objective as a bound. Electrical allocation is bounded above by S*T minus that evaluated lower cost, plus the same 0.000001 MWh outward margin used in the earlier analysis. This is a floating-point evaluated bound, not a formally interval-certified result.
+
+## Feasible lower bound
+
+The relaxed LP guides a separate constructive search; its solution is never called a feasible native dispatch. Backward reachable inventory intervals are computed from the prescribed final inventory using the algebraically reversed native dynamics. Reversal negates and reverses activation, negates baseline bounds, and uses reciprocal eta solely for the backward map. This reciprocal is an algebraic inverse, not a physical charging efficiency.
+
+Forward reconstruction intersects the physical baseline interval (including every native inventory prefix) with the baseline interval whose endpoint lies in the remaining backward reachable set. Two fixed guidance policies are evaluated: clamp the relaxed baseline to that interval, or track the relaxed endpoint inventory. Their achieved values are feasible lower bounds rather than optimality claims. For final witnesses, the reachable inventory is restricted to [0.0000001, E-0.0000001] MWh, retaining E/2 endpoints, to avoid nominal boundary excursions from floating-point accumulation. Every resulting schedule is independently replayed over all 18,313,200 seconds and checked for power, load, inventory and terminal conditions.
+
+For the shorter decision durations, the same two guidance policies are also applied to (a) the exact coarse solution and (b) a cyclic common-shift repair of the evaluated capacity-free dual baselines. These guides can violate native finite-inventory conditions and are never counted as feasible before reconstruction and full replay. All successful and unsuccessful policy candidates are retained; choosing the largest validated lower value is numerical objective improvement, not selection of an empirical hypothesis. The 60 s capacity-free guide initially encountered a sub-picounit construction-coordinate boundary excursion. The repaired implementation projects only the feasibility-query coordinate when its excursion is at most 1e-12 MWh; it never clips the state accumulator or the independent physical replay. Final physical inventories retain the 1e-7 MWh inward margin.
+
+## Decision duration
+
+For 60, 300 and 900 s decisions, native dynamics remain at one second. Only the duration over which baseline is constant changes. The matched coarse driver is the mean of the original samples in that same duration and is optimized with duration/3600 h. Native capacity-free duals use the correct duration for the baseline cost. A valid 900 s witness is also explicitly repeated and audited at the shorter durations, in addition to their newly reconstructed schedules.
+
+The matched coarse LP is evaluated in an equivalent sparse flow form. Write each inventory increment as nonnegative charge minus nonnegative discharge flow, with increment bounds mapped from the admissible baseline endpoints. At a cyclic optimum, charging cost equals the signed activation energy plus (1/eta - eta) times the sum of positive inventory increments. Simultaneous charge and discharge can be reduced together without changing inventory and strictly decreases that objective. The flow formulation is therefore exact when no simultaneous flow remains. Saved solutions independently check this condition, reconstruct baseline from exact increments, replay inventory and evaluate a box-corrected equality-dual bound. It reproduced the existing 900 s exact optimum to the stored precision before the larger cases were evaluated.
+
+The generic inequality-form 300 s coarse LP was stopped for computational inefficiency after the equivalent network formulation was validated. This abandoned run produced no result used in the manuscript. It is preserved in coarse300.log. The final 300 s and 60 s results come from the smaller network LP. This is a solver reformulation of the same optimization problem, not a change in the scientific design.
+
+## Saved certificate and targeted audits
+
+upper_900s_round3_dual_certificate.npz stores all 20 supports per interval, their native endpoint values and inverse slopes, nonpositive inequality multipliers, finite variable bounds, objective coefficients and numerical margin. It contains derived numerical summaries and solver results, not the native activation record. Another implementation independently reconstructs the dual objective without using the LP builder, and checks every support using sorted samples and prefix sums. Targeted synthetic fixtures include a native-prefix-infeasible case with feasible endpoint relaxation and two finite-capacity-active feasible cases, complementing the 12 generic sign-region enumeration tests.
+
+All new analyses were added after the review request. The fixed 60/300/900 s grid and three support-refinement rounds were specified in PLAN.md before execution; this documentation is not a preregistration claim. The smaller-duration result does not establish an observed market dispatch policy.

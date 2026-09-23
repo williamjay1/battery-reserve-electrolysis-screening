@@ -1,3 +1,7 @@
+# Version 3 additions and authoritative results
+
+Use `revision/results/interval_bounds/final_manifest.json` for the tightened reference bounds and the new baseline-interval experiments. The original v2 files remain for provenance; their reference native bracket is superseded, not invalidated. The GB statement is corrected: April and June coarse cyclic LPs are infeasible. The v2 correctly directed endpoint-primal/mean-dual enclosure remains in force.
+
 # Version 2 scope and superseded materials
 
 Version 2 is a clean revision package for the manuscript titled **“Conservative Screening of Temporal Aggregation Bias in Battery-Electrolyzer Energy Allocation.”** It includes only the code, result ledgers, and figures used by the revised argument.

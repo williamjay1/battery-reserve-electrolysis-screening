@@ -1,52 +1,20 @@
-# Conservative screening of temporal aggregation bias in battery-electrolyzer energy allocation
+# Conservative screening of temporal aggregation bias
 
-This repository accompanies the manuscript **“Conservative Screening of Temporal Aggregation Bias in Battery-Electrolyzer Energy Allocation.”** It contains the analysis code, numerical ledgers, selected derived figures, and release instructions used to support the manuscript's revised energy-allocation results.
+This is version 3.0.1 of the code and derived-results archive for **Conservative Screening of Temporal Aggregation Bias in Battery–Electrolyzer Energy Allocation** by Junjie Zhang.
 
-The study asks a narrow engineering question: can replacing one-second reserve activation with matched 15-minute means reverse the sign of a cyclic electrical-input allocation comparison for a modeled battery-electrolyzer system? It reports an exact quarter-hour result, a feasible native lower value, and conservative native upper values. It does **not** estimate hydrogen mass, profitability, degradation, or realized asset dispatch.
+The authoritative new analyses are under [`revision/`](revision/README.md). The top-level `src/`, `results/` and older figures preserve the preceding v2 analysis; their reference native lower/upper values are superseded by the refined v3 bracket, although their correctly directed compression bounds remain valid. See `SUPERSEDED.md`.
 
-## Repository contents
+| German reference quantity | MWh |
+|---|---:|
+| No-reserve comparator | 508.700000 |
+| Exact 15-minute coarse optimum | 512.856678 |
+| Improved native feasible lower | 502.790566 |
+| Refined finite-capacity native upper | 502.811466 |
 
-- `src/` — the portable revision-evidence workflow and the physical/optimization routines it calls.
-- `results/` — machine-readable ledgers for the main finite-capacity bound, sensitivity challenge, parameter grid, selected monthly records, and independent small-instance check.
-- `figures/` — vector and PNG exports of the three figures produced or used by the revision-evidence workflow.
-- `data/` — documentation and a manifest template for the separately released prepared inputs. No raw provider data are stored in Git.
-- `provenance/` — source, processing, and licensing boundaries, including the documented German reconstruction chain and raw-file hashes without source records.
-- `SUPERSEDED.md` — scope of Version 2 and the earlier envelope outputs that must not be reused.
-- `CHANGELOG.md` — Version 2 changes and data-release boundary.
-- `MANIFEST.json` and `SHA256SUMS.txt` — file inventory and integrity hashes for this staged Version 2 tree.
-- `REPRODUCTION.md` and `RUN_REVISION_EVIDENCE.md` — installation, input placement, canonical-layout mapping, and run instructions.
+The remaining native gap is 0.020900 MWh (0.004157% of the upper). The native global optimum is not claimed exact. Matched sign reversals are also found at one- and five-minute baseline decisions; all native seconds are retained. The one-minute native upper is only 0.091626 MWh below the comparator, so its conditional margin must not be exaggerated.
 
-The source code and original documentation in this repository are released under the [MIT License](LICENSE). Provider data and any provider-derived cache retain the applicable source terms; see [provenance/DATA_SOURCES.md](provenance/DATA_SOURCES.md).
+## Access and licences
 
-## Main reference result
+Raw provider records and native source-derived caches are excluded. Rebuilding the empirical German values requires authorized provider inputs and hash checks. The package supplies an independent synthetic demo for users without those inputs. Original software and associated source documentation are MIT licensed (`LICENSE`); the archival metadata and original derived figures/results use CC BY 4.0. External data retain provider terms. See `provenance/DATA_SOURCES.md`.
 
-For the German January–July 2026 reference configuration (`E=2` MWh, `S=0.1` MW, `R=0.75` MW, one-way efficiency `eta=0.94`), the saved ledgers report:
-
-| Quantity | Value (MWh) | Interpretation |
-| --- | ---: | --- |
-| No-reserve comparator | 508.700 | Fixed supply over the 5,087-hour study period |
-| Exact quarter-mean optimum | 512.857 | Interval-constant physical LP |
-| Native feasible allocation | 496.725 | Sample-audited cyclic schedule |
-| Native finite-capacity upper value | 502.973 | Optimistic convex relaxation with a recorded dual audit |
-
-The comparison is a model-based bound statement. The finite-capacity upper value lies below the no-reserve comparator under the stated assumptions; it is not an implementable schedule or an exact native optimum.
-
-## Citation and archival DOI
-
-Use the citation metadata in [CITATION.cff](CITATION.cff). A DOI is intentionally absent from this staging tree. After a public GitHub Release has been archived by Zenodo, add the newly minted DOI to the repository metadata and the manuscript's data-availability statement only after verifying that the Zenodo record is public and points to this release.
-
-The earlier Zenodo record `10.5281/zenodo.22659529` is explicitly not the DOI for this revision.
-
-## Reproduce
-
-Install the pinned packages and reconstruct the required public-source inputs in `prepared_inputs/` as described in [REPRODUCTION.md](REPRODUCTION.md). Then run:
-
-```text
-python src/revision_evidence.py
-```
-
-The workflow writes figures and result ledgers under the repository root. It does not download, modify, or redistribute raw provider records.
-
-## Release procedure
-
-Before publishing, follow [release/RELEASE_CHECKLIST.md](release/RELEASE_CHECKLIST.md). Version 2 intentionally excludes German native records and their source-derived cache. Verify the Zenodo archive and DOI after the GitHub Release is published.
+Version 2 is archived at https://doi.org/10.5281/zenodo.22910726. A version 3 DOI may be cited only after the public GitHub Release has been archived and its version link verified; it is intentionally not guessed here.

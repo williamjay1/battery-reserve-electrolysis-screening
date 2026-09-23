@@ -1,0 +1,20 @@
+{
+  "step_seconds": 60,
+  "capacity_mwh": 2.0,
+  "supply_mw": 0.1,
+  "intervals": 305220,
+  "method": "exact network LP, highs-ipm",
+  "exact_coarse_mwh": 508.93029035222395,
+  "hydrogen_upper_mwh": 508.9302913522239,
+  "primal_objective": -0.23029035222460337,
+  "dual_lower_objective": -0.2302903522239248,
+  "duality_gap": -6.785683126508957e-13,
+  "maximum_equation_residual": 1.734723475976807e-18,
+  "maximum_replay_violation": 1.4210854715202004e-14,
+  "max_simultaneous_inventory_flow": 0.0,
+  "max_equality_residual": 1.1102230246251565e-16,
+  "max_full_stationarity_residual": 0.0,
+  "roundoff_margin_mwh": 1e-06,
+  "iterations": 30,
+  "total_seconds": 598.004069800023
+}
