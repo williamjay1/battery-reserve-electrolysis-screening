@@ -25,5 +25,5 @@ The GB audit was recomputed from the seven permitted derived 2026 cache files wi
 
 - GB audit script used for the recorded audit: 053b7ce3585a39007ae8ddd34a5e3d54c78ecd736d4c4c499e8c141827f3e3b6
 - German rebuild script used for the recorded rebuild: e78c9c75752fbdbb66d6fcd37340f61a909805906b34dc1f8387d1c2b46820bd
-- Packaged GB script after relative-default adjustment: 338bdfbcbec3ef6dcec7d7889b0e93fca5924b91a792b26cc919267fdb2f6b62
+- Packaged GB script after relative-default adjustment: 64a8b98a2b629c9d2eac49c6afb411bf358eb47af5b327103808142617d43ca0
 - Packaged German script after relative-default/summary adjustment: 638244f3bfdac96c66fdc2cd7c3d38892ebc16b62a78e55a0b572f3a1e41daef

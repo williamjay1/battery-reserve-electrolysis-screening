@@ -1,5 +1,5 @@
 {
-  "version": "3.0.1",
+  "version": "3.0.2",
   "provider_records_included": false,
   "files": [
     {
@@ -9,23 +9,23 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 269,
-      "sha256": "cebec53e2e2bac198fd950491227151b9cf90f84e57a958df26577826f8b285b"
+      "bytes": 382,
+      "sha256": "af96a8caabf0a799855beeb3375ee8dc7bd07e92d1f1dbf40658469cab282134"
     },
     {
       "path": ".zenodo.json",
       "bytes": 1346,
-      "sha256": "5642c8018821b86f594a1b111fcff39c7e063ebb72f82e80c3d04236a8917653"
+      "sha256": "bad4efb704890454413548138efe1e4cd8431f64719b6ef09a317119e4aaf41f"
     },
     {
       "path": "CHANGELOG.md",
       "bytes": 1542,
-      "sha256": "9b67f39547fb542e6a9c23d1b24ec6b4a8bc616f83200293e31a5a401674f0e2"
+      "sha256": "fc658abfc7bd0ad220b30a637c6ce75f5b40a5fb74f61eb7eb7f980d85bfe0fb"
     },
     {
       "path": "CITATION.cff",
       "bytes": 932,
-      "sha256": "1c5012c9ee15c084a838717846e42a17853cbee8b03352cd0c7b17268bfe2a4e"
+      "sha256": "5296bec9cf39563fedef42c1a93af472b8a16ae80df266b5c9dfa7d0ef767941"
     },
     {
       "path": "data/PREPARED_INPUTS.md",
@@ -125,7 +125,7 @@
     {
       "path": "README.md",
       "bytes": 1901,
-      "sha256": "760da445e7978d5f040971352d848ad5f2aec023b2559c97deb72c72fff4cd55"
+      "sha256": "bae23e076ccd6af25385bcc4af16b6d75e0e3aff99d66170daaf345d0e7ce75b"
     },
     {
       "path": "release/RELEASE_CHECKLIST.md",
@@ -565,7 +565,7 @@
     {
       "path": "revision/notes/repro_execution_record.md",
       "bytes": 2627,
-      "sha256": "d9e564842886bb2dcca1d89d1ad9c1f72c44cf1b0d1c2d3da4eb4a77e53cb731"
+      "sha256": "f3830384830ed09a161e477ec51759ab57ab7e34e525a3016e1300e52baddf56"
     },
     {
       "path": "revision/notes/repro_package_plan.md",

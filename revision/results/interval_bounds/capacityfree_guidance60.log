@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "D:\MLWork\06\Applied_Sciences_screen_revision_20260923\analysis\interval_bounds\capacityfree_guidance.py", line 35, in <module>
+    witness(a,step,0,'capacityfree')
+  File "D:\MLWork\06\Applied_Sciences_screen_revision_20260923\analysis\interval_bounds\run_interval_bounds.py", line 239, in witness
+    b,states=guided(a,step,sol['states']-guard,sol['baseline'],ls,us,policy,safe_cap)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\MLWork\06\Applied_Sciences_screen_revision_20260923\analysis\interval_bounds\reachability.py", line 21, in interval_step
+    if L>U or L<0 or U>cap or bl>bh:raise ValueError('Invalid initial interval or baseline bounds')
+ValueError: Invalid initial interval or baseline bounds

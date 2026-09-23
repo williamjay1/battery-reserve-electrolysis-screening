@@ -1,6 +1,6 @@
 # Conservative screening of temporal aggregation bias
 
-This is version 3.0.1 of the code and derived-results archive for **Conservative Screening of Temporal Aggregation Bias in Battery–Electrolyzer Energy Allocation** by Junjie Zhang.
+This is version 3.0.2 of the code and derived-results archive for **Conservative Screening of Temporal Aggregation Bias in Battery–Electrolyzer Energy Allocation** by Junjie Zhang.
 
 The authoritative new analyses are under [`revision/`](revision/README.md). The top-level `src/`, `results/` and older figures preserve the preceding v2 analysis; their reference native lower/upper values are superseded by the refined v3 bracket, although their correctly directed compression bounds remain valid. See `SUPERSEDED.md`.
 

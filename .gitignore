@@ -15,3 +15,6 @@ release_assets/
 .DS_Store
 Thumbs.db
 *.log
+
+# Auditable historical solver logs are intentional release evidence.
+!revision/results/interval_bounds/*.log
